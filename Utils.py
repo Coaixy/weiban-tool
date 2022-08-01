@@ -112,9 +112,11 @@ class main:
         print("start:"+courseId)
 
     def finish(self,finishId):
+        params = {
+            "callback":"",
+            "userCourseId":finishId,
+            "tenantCode":self.tenantCode
+        }
         url = "https://weiban.mycourse.cn/pharos/usercourse/finish.do"
-        url += "?callback=&userCourseId="
-        url += finishId
-        url += "&tenantCode="+str(self.tenantCode)
-        requests.get(url=url)
+        requests.get(url=url,params=params)
         print("finish:"+finishId)
