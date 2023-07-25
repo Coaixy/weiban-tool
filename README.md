@@ -4,8 +4,6 @@
 
 # 使用方法
 
-在main.py中填入tenantCode，userId，x_token，userProjectId四个参数
+1.使用Wrathion获取微办的参数
 
-可以通过f12的网络栏获取
-
-由于安全微伴有调试检测，将显示模式切换为手机模式即可
+2.打开软件
