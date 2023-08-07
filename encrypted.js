@@ -1,4 +1,4 @@
-const CryptoJS = require('crypto-js');
+const CryptoJS = require('./crypto-js.min.js');
 const initKey = 'xie2gg';
 const keySize = 128;
 
