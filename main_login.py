@@ -15,7 +15,7 @@ def get_project_id(user_id, tenant_code, token: str) -> str:
         "ContentType": "application/x-www-form-urlencoded; charset=UTF-8",
         "User-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82",
     }
-    data = {"tenantCode": tenant_code, "userId": user_id, "ended": 1}
+    data = {"tenantCode": tenant_code, "userId": user_id, "ended": 2}
     text = requests.post(url=url, headers=headers, data=data).text
     data = json.loads(text)["data"]
     if len(data) <= 0:
@@ -56,7 +56,7 @@ print(f"https://weiban.mycourse.cn/pharos/login/randLetterImage.do?time={now}")
 # 读取JS文件
 jsstr = read_js_file()
 # cwd需要替换为自己的Node modules目录
-JsObj = execjs.compile(jsstr, cwd="C:\\Users\\cyj\\node_modules\\crypto-js")  # 加载JS文件
+JsObj = execjs.compile(jsstr)  # 加载JS文件
 # 获取验证码
 verity_code = input("请输入验证码:")
 # 调用js方法
@@ -66,16 +66,16 @@ request_data = {"data": ret}
 text = requests.post(
     "https://weiban.mycourse.cn/pharos/login/login.do", data=request_data
 ).text
+print(text)
 json_data = json.loads(text)["data"]
 
 
-print(get_project_id(json_data["userId"], tenant_code, json_data["token"]))
 # 实例化对象
 main = Utils.main(
     tenant_code,
-    json_data["token"],
     json_data["userId"],
     json_data["token"],
+    get_project_id(json_data["userId"], tenant_code, json_data["token"]),
 )
 # 初始化
 main.init()
@@ -88,3 +88,4 @@ for i in main.getCourse():
     time.sleep(15)
     main.finish(i, finishIdList[i])
 print("刷课完成")
+input("按任意键结束")
