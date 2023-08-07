@@ -6,6 +6,7 @@ import json
 import execjs
 import requests
 import time
+from PIL import Image
 
 
 def get_project_id(user_id, tenant_code, token: str) -> str:
@@ -53,6 +54,12 @@ user_pwd = input("请输入密码:")
 now = time.time()
 print("验证码链接:")
 print(f"https://weiban.mycourse.cn/pharos/login/randLetterImage.do?time={now}")
+#打开验证码
+img_data = requests.get(f"https://weiban.mycourse.cn/pharos/login/randLetterImage.do?time={now}").content
+with open("code.jpg", "wb") as file:
+    file.write(img_data)
+file.close()
+Image.open("code.jpg").show()
 # 读取JS文件
 jsstr = read_js_file()
 # cwd需要替换为自己的Node modules目录
