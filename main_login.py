@@ -88,9 +88,12 @@ main = Utils.main(
 main.init()
 # 获取列表
 finishIdList = main.getFinishIdList()
+num = len(finishIdList)
+index = 1
 print("加群讨论:https://jcdn.lawliet.ren/qrcode.jpg")
 print("开始运行")
 for i in main.getCourse():
+    print(f"{index} / {num}")
     main.start(i)
     time.sleep(15)
     main.finish(i, finishIdList[i])
