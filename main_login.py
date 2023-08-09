@@ -54,7 +54,7 @@ user_pwd = input("请输入密码:")
 now = time.time()
 print("验证码链接:")
 print(f"https://weiban.mycourse.cn/pharos/login/randLetterImage.do?time={now}")
-#打开验证码
+# 打开验证码
 img_data = requests.get(f"https://weiban.mycourse.cn/pharos/login/randLetterImage.do?time={now}").content
 with open("code.jpg", "wb") as file:
     file.write(img_data)
@@ -76,7 +76,6 @@ text = requests.post(
 print(text)
 json_data = json.loads(text)["data"]
 
-
 # 实例化对象
 main = Utils.main(
     tenant_code,
@@ -97,5 +96,6 @@ for i in main.getCourse():
     main.start(i)
     time.sleep(15)
     main.finish(i, finishIdList[i])
+    index = index + 1
 print("刷课完成")
 input("按任意键结束")
