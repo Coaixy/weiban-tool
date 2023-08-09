@@ -1,9 +1,12 @@
-# weiban-tool
+# Weiban-Tool
 
 安全微伴自动刷课助手
 
-# 使用方法
+## Wrathion Version
+1. 用Wrathion登陆
+2. 运行[main.wrathion.py](./main_wrathion.py)
 
-1.使用Wrathion获取微办的参数
+## Login Version
+1. 安装Node.js
+2. 运行[main.login.py](./main_login.py)
 
-2.打开软件
