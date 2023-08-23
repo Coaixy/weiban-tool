@@ -1,6 +1,6 @@
 # From https://github.com/JefferyHcool/weibanbot/blob/main/enco.py
-from Crypto.Cipher import AES
-from Crypto.Util.Padding import pad
+from Cryptodome.Cipher import AES
+from Cryptodome.Util.Padding import pad
 import base64
 
 
