@@ -1,3 +1,4 @@
 requests~=2.28.2
 DateTime~=5.1
 Pillow~=9.5.0
+crypto~=1.4.1

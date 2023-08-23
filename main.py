@@ -1,12 +1,12 @@
 # @Author : Coaixy
 # @repo : https://www.github.com/coaixy/weiban-tool
 import Utils
-import time
 import json
-import execjs
 import requests
 import time
 from PIL import Image
+
+import enco
 
 
 def get_project_id(user_id, tenant_code, token: str) -> str:
@@ -24,16 +24,6 @@ def get_project_id(user_id, tenant_code, token: str) -> str:
         exit(1)
     else:
         return data[0]["userProjectId"]
-
-
-def read_js_file() -> str:
-    f = open("encrypted.js", "r", encoding="utf-8")  # 打开JS文件
-    line = f.readline()
-    htmlstr = ""
-    while line:
-        htmlstr = htmlstr + line
-        line = f.readline()
-    return htmlstr
 
 
 def get_tenant_code(school_name: str) -> str:
@@ -60,14 +50,17 @@ with open("code.jpg", "wb") as file:
     file.write(img_data)
 file.close()
 Image.open("code.jpg").show()
-# 读取JS文件
-jsstr = read_js_file()
-# cwd需要替换为自己的Node modules目录
-JsObj = execjs.compile(jsstr)  # 加载JS文件
 # 获取验证码
 verity_code = input("请输入验证码:")
 # 调用js方法
-ret = JsObj.call("getKey", user_key, user_pwd, tenant_code, now, verity_code)
+payload = {
+    "userName": user_key,
+    "password": user_pwd,
+    "tenantCode": tenant_code,
+    "timestamp": now,
+    "verificationCode": verity_code
+}
+ret = enco.login(payload)
 request_data = {"data": ret}
 
 text = requests.post(
