@@ -37,58 +37,59 @@ def get_tenant_code(school_name: str) -> str:
                 return j["code"]
 
 
-school_name = input("请输入学校名:")
-tenant_code = get_tenant_code(school_name=school_name)
-user_key = input("请输入账号:")
-user_pwd = input("请输入密码:")
-now = time.time()
-print("验证码链接:")
-print(f"https://weiban.mycourse.cn/pharos/login/randLetterImage.do?time={now}")
-# 打开验证码
-img_data = requests.get(f"https://weiban.mycourse.cn/pharos/login/randLetterImage.do?time={now}").content
-with open("code.jpg", "wb") as file:
-    file.write(img_data)
-file.close()
-Image.open("code.jpg").show()
-# 获取验证码
-verity_code = input("请输入验证码:")
-# 调用js方法
-payload = {
-    "userName": user_key,
-    "password": user_pwd,
-    "tenantCode": tenant_code,
-    "timestamp": now,
-    "verificationCode": verity_code
-}
-ret = enco.login(payload)
-request_data = {"data": ret}
+if __name__ == '__main__':
+    school_name = input("请输入学校名:")
+    tenant_code = get_tenant_code(school_name=school_name)
+    user_key = input("请输入账号:")
+    user_pwd = input("请输入密码:")
+    now = time.time()
+    print("验证码链接:")
+    print(f"https://weiban.mycourse.cn/pharos/login/randLetterImage.do?time={now}")
+    # 打开验证码
+    img_data = requests.get(f"https://weiban.mycourse.cn/pharos/login/randLetterImage.do?time={now}").content
+    with open("code.jpg", "wb") as file:
+        file.write(img_data)
+    file.close()
+    Image.open("code.jpg").show()
+    # 获取验证码
+    verity_code = input("请输入验证码:")
+    # 调用js方法
+    payload = {
+        "userName": user_key,
+        "password": user_pwd,
+        "tenantCode": tenant_code,
+        "timestamp": now,
+        "verificationCode": verity_code
+    }
+    ret = enco.login(payload)
+    request_data = {"data": ret}
 
-text = requests.post(
-    "https://weiban.mycourse.cn/pharos/login/login.do", data=request_data
-).text
-print(text)
-json_data = json.loads(text)["data"]
+    text = requests.post(
+        "https://weiban.mycourse.cn/pharos/login/login.do", data=request_data
+    ).text
+    print(text)
+    json_data = json.loads(text)["data"]
 
-# 实例化对象
-main = Utils.main(
-    tenant_code,
-    json_data["userId"],
-    json_data["token"],
-    get_project_id(json_data["userId"], tenant_code, json_data["token"]),
-)
-# 初始化
-main.init()
-# 获取列表
-finishIdList = main.getFinishIdList()
-num = len(finishIdList)
-index = 1
-print("加群讨论:https://jcdn.lawliet.ren/qrcode.jpg")
-print("开始运行")
-for i in main.getCourse():
-    print(f"{index} / {num}")
-    main.start(i)
-    time.sleep(15)
-    main.finish(i, finishIdList[i])
-    index = index + 1
-print("刷课完成")
-input("按任意键结束")
+    # 实例化对象
+    main = Utils.main(
+        tenant_code,
+        json_data["userId"],
+        json_data["token"],
+        get_project_id(json_data["userId"], tenant_code, json_data["token"]),
+    )
+    # 初始化
+    main.init()
+    # 获取列表
+    finishIdList = main.getFinishIdList()
+    num = len(finishIdList)
+    index = 1
+    print("加群讨论:https://jcdn.lawliet.ren/qrcode.jpg")
+    print("开始运行")
+    for i in main.getCourse():
+        print(f"{index} / {num}")
+        main.start(i)
+        time.sleep(15)
+        main.finish(i, finishIdList[i])
+        index = index + 1
+    print("刷课完成")
+    input("按任意键结束")
