@@ -16,6 +16,8 @@ class main:
         "User-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82",
     }
 
+    tempUserCourseId = ""
+
     def __init__(self, code, id, token, projectId):
         self.tenantCode = code
         self.userId = id
@@ -50,33 +52,33 @@ class main:
         data = json.loads(text)
         return data["data"]["progressPet"]
 
-    def getCategory(self):
+    def getCategory(self, chooseType):
+        result = []
         url = "https://weiban.mycourse.cn/pharos/usercourse/listCategory.do"
         data = {
             "userProjectId": self.userProjectId,
             "tenantCode": self.tenantCode,
             "userId": self.userId,
-            "chooseType": 3,
+            "chooseType": chooseType,
         }
         response = requests.post(url, data=data, headers=self.headers)
         text = response.text
         data = json.loads(text)
         list = data["data"]
-        result = []
         for i in list:
             if i["totalNum"] > i["finishedNum"]:
                 result.append(i["categoryCode"])
         return result
 
-    def getCourse(self):
+    def getCourse(self, chooseType):
         url = "https://weiban.mycourse.cn/pharos/usercourse/listCourse.do"
         result = []
-        for i in self.getCategory():
+        for i in self.getCategory(chooseType):
             data = {
                 "userProjectId": self.userProjectId,
                 "tenantCode": self.tenantCode,
                 "userId": self.userId,
-                "chooseType": 3,
+                "chooseType": chooseType,
                 "name": "",
                 "categoryCode": i,
             }
@@ -88,16 +90,15 @@ class main:
                     result.append(i["resourceId"])
         return result
 
-    def getFinishIdList(self):
+    def getFinishIdList(self, chooseType):
         url = "https://weiban.mycourse.cn/pharos/usercourse/listCourse.do"
         result = {}
-        for i in self.getCategory():
+        for i in self.getCategory(chooseType):
             data = {
                 "userProjectId": self.userProjectId,
                 "tenantCode": self.tenantCode,
                 "userId": self.userId,
-                "chooseType": 3,
-                "name": "",
+                "chooseType": chooseType,
                 "categoryCode": i,
             }
             response = requests.post(url, data=data, headers=self.headers)
@@ -105,7 +106,12 @@ class main:
             data = json.loads(text)["data"]
             for i in data:
                 if i["finished"] == 2:
-                    result[i["resourceId"]] = i["userCourseId"]
+                    if "userCourseId" in i:
+                        result[i["resourceId"]] = i["userCourseId"]
+                        print(i['resourceName'])
+                        self.tempUserCourseId = i["userCourseId"]
+                    else:
+                        result[i["resourceId"]] = self.tempUserCourseId
         return result
 
     def start(self, courseId):
@@ -143,7 +149,7 @@ class main:
         }
         raw_data = requests.post(get_url_url, data=data, headers=self.headers)
         url = json.loads(raw_data.text.encode().decode("unicode-escape"))["data"]
-        token = url[url.find("methodToken=") : url.find("&csCom")].replace(
+        token = url[url.find("methodToken="): url.find("&csCom")].replace(
             "methodToken=", ""
         )
         # print(token)
@@ -155,6 +161,6 @@ class main:
             "tenantCode": self.tenantCode,
             "_": str(int(ts) + 1),
         }
-        requests.get(finish_url, params=param, headers=self.headers).text
+        print(requests.get(finish_url, params=param, headers=self.headers).text)
         print("Finish:" + courseId)
         print("")

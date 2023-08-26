@@ -77,19 +77,20 @@ if __name__ == '__main__':
         json_data["token"],
         get_project_id(json_data["userId"], tenant_code, json_data["token"]),
     )
+    print("加群讨论:https://jcdn.lawliet.ren/qrcode.jpg")
+    print("开始运行")
     # 初始化
     main.init()
     # 获取列表
-    finishIdList = main.getFinishIdList()
-    num = len(finishIdList)
-    index = 1
-    print("加群讨论:https://jcdn.lawliet.ren/qrcode.jpg")
-    print("开始运行")
-    for i in main.getCourse():
-        print(f"{index} / {num}")
-        main.start(i)
-        time.sleep(15)
-        main.finish(i, finishIdList[i])
-        index = index + 1
+    for chooseType in [2,3]:
+        finishIdList = main.getFinishIdList(chooseType)
+        num = len(finishIdList)
+        index = 1
+        for i in main.getCourse(chooseType):
+            print(f"{index} / {num}")
+            main.start(i)
+            time.sleep(15)
+            main.finish(i, finishIdList[i])
+            index = index + 1
     print("刷课完成")
     input("按任意键结束")
