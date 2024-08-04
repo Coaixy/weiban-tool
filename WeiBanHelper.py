@@ -162,3 +162,31 @@ class WeibanHelper:
         }
         text = requests.get(finish_url, params=param, headers=self.headers).text
         return text
+
+    @staticmethod
+    def get_project_id(user_id, tenant_code, token: str) -> str:
+        url = "https://weiban.mycourse.cn/pharos/index/listMyProject.do"
+        headers = {
+            "X-Token": token,
+            "ContentType": "application/x-www-form-urlencoded; charset=UTF-8",
+            "User-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82",
+        }
+        data = {"tenantCode": tenant_code, "userId": user_id, "ended": 2}
+        text = requests.post(url=url, headers=headers, data=data).text
+        data = json.loads(text)["data"]
+        if len(data) <= 0:
+            print("已完成全部")
+            exit(1)
+        else:
+            return data
+
+    @staticmethod
+    def get_tenant_code(school_name: str) -> str:
+        tenant_list = requests.get(
+            "https://weiban.mycourse.cn/pharos/login/getTenantListWithLetter.do"
+        ).text
+        data = json.loads(tenant_list)["data"]
+        for i in data:
+            for j in i["list"]:
+                if j["name"] == school_name:
+                    return j["code"]
