@@ -5,7 +5,7 @@ import datetime
 import random
 
 
-class main:
+class WeibanHelper:
     tenantCode = 0
     userId = ""
     x_token = ""
@@ -134,7 +134,6 @@ class main:
                 data=data,
                 headers=headers,
             )
-        print("Start:" + courseId)
 
     # 感谢以下项目的思路
     # https://github.com/Sustech-yx/WeiBanCourseMaster
@@ -161,6 +160,5 @@ class main:
             "tenantCode": self.tenantCode,
             "_": str(int(ts) + 1),
         }
-        print(requests.get(finish_url, params=param, headers=self.headers).text)
-        print("Finish:" + courseId)
-        print("")
+        text = requests.get(finish_url, params=param, headers=self.headers).text
+        return text

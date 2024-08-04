@@ -1,12 +1,12 @@
 # @Author : Coaixy
 # @repo : https://www.github.com/coaixy/weiban-tool
-import Utils
+import WeiBanHelper
 import json
 import requests
 import time
 from PIL import Image
 
-import enco
+import encrypted
 
 
 def get_project_id(user_id, tenant_code, token: str) -> str:
@@ -83,7 +83,7 @@ if __name__ == "__main__":
     project_index = int(input("请输入要刷的课程编号:"))
     project_id = project_list[project_index]["userProjectId"]
     # 实例化对象
-    main = Utils.main(
+    main = Utils.WeibanHelper(
         tenant_code,
         json_data["userId"],
         json_data["token"],
