@@ -40,7 +40,10 @@ if __name__ == "__main__":
     text = requests.post(
         "https://weiban.mycourse.cn/pharos/login/login.do", data=request_data
     ).text
-    print(text + "\n")
+    print(text)
+    if json.loads(text)['code'] == '-1':
+        print("登录失败")
+        exit(1)
     json_data = json.loads(text)["data"]
 
     # 获取所有课的实例
