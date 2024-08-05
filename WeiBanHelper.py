@@ -52,6 +52,51 @@ class WeibanHelper:
         data = json.loads(text)
         return data["data"]["progressPet"]
 
+    def getAnswerList(self):
+        answer_list = []
+        url = "https://weiban.mycourse.cn/pharos/exam/reviewPaper.do?timestamp=" + self.__get_timestamp()
+        exam_id_list = self.listHistory()
+        for exam_id in exam_id_list:
+            data = {
+                "tenantCode": self.tenantCode,
+                "userId": self.userId,
+                "userExamId": exam_id,
+                "isRetake": "2"
+            }
+            response = requests.post(url, data=data, headers=self.headers)
+            answer_list.append(response.text)
+        return answer_list
+
+    def listHistory(self):
+        dataList = {}
+        result = []
+        url = "https://weiban.mycourse.cn/pharos/exam/listHistory.do?timestamp=" + self.__get_timestamp()
+        exam_plan_id_list = self.listExamPlan()
+        for exam_plan_id in exam_plan_id_list:
+            dataList = {
+                "tenantCode": self.tenantCode,
+                "userId": self.userId,
+                "examPlanId": exam_plan_id
+            }
+            response = requests.post(url, headers=self.headers, data=dataList)
+            dataList = json.loads(response.text)['data']
+        for data in dataList:
+            result.append(data['id'])
+        return result
+
+    def listExamPlan(self):
+        url = "https://weiban.mycourse.cn/pharos/record/project/listExamPlanStat.do?timestamp=" + self.__get_timestamp()
+        data = {
+            "tenantCode": self.tenantCode,
+            "userId": self.userId,
+            "userProjectId": self.userProjectId
+        }
+        response = requests.post(url, headers=self.headers, data=data)
+        exam_plan_id_list = []
+        for exam_plan in json.loads(response.text)['data']:
+            exam_plan_id_list.append(exam_plan['examPlanId'])
+        return exam_plan_id_list
+
     def getCategory(self, chooseType):
         result = []
         url = "https://weiban.mycourse.cn/pharos/usercourse/listCategory.do"
