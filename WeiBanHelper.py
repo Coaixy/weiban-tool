@@ -184,19 +184,15 @@ class WeibanHelper:
     # https://github.com/Sustech-yx/WeiBanCourseMaster
     def finish(self, courseId, finishId):
         get_url_url = "https://weiban.mycourse.cn/pharos/usercourse/getCourseUrl.do"
-        finish_url = "https://weiban.mycourse.cn/pharos/usercourse/v1/{}.do"
+        finish_url = "https://weiban.mycourse.cn/pharos/usercourse/v2/{}.do"
         data = {
             "userProjectId": self.userProjectId,
             "tenantCode": self.tenantCode,
             "userId": self.userId,
             "courseId": courseId,
         }
-        raw_data = requests.post(get_url_url, data=data, headers=self.headers)
-        url = json.loads(raw_data.text.encode().decode("unicode-escape"))["data"]
-        token = url[url.find("methodToken="): url.find("&csCom")].replace(
-            "methodToken=", ""
-        )
-        # print(token)
+        requests.post(get_url_url, data=data, headers=self.headers)
+        token = self.get_method_token(finishId)
         finish_url = finish_url.format(token)
         ts = self.__get_timestamp().replace(".", "")
         param = {
@@ -206,7 +202,32 @@ class WeibanHelper:
             "_": str(int(ts) + 1),
         }
         text = requests.get(finish_url, params=param, headers=self.headers).text
+        print(text)
         return text
+
+    def get_method_token(self, course_id):
+        url = "https://weiban.mycourse.cn/pharos/usercourse/getCaptcha.do"
+        params = {
+            "userCourseId": course_id,
+            "userProjectId": self.userProjectId,
+            "userId": self.userId,
+            "tenantCode": "32101701"
+        }
+        text = requests.get(url, headers=self.headers, params=params).text
+        question_id = json.loads(text)['captcha']['questionId']
+        url = "https://weiban.mycourse.cn/pharos/usercourse/checkCaptcha.do"
+        params = {
+            "userCourseId": course_id,
+            "userProjectId": self.userProjectId,
+            "userId": self.userId,
+            "tenantCode": self.tenantCode,
+            "questionId": question_id
+        }
+        data = {
+            "coordinateXYs": "[{\"x\":199,\"y\":448},{\"x\":241,\"y\":466},{\"x\":144,\"y\":429}]"
+        }
+        text = requests.post(url, headers=self.headers, params=params, data=data).text
+        return json.loads(text)['data']['methodToken']
 
     @staticmethod
     def get_project_id(user_id, tenant_code, token: str) -> str:
