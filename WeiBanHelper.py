@@ -211,7 +211,7 @@ class WeibanHelper:
             "userCourseId": course_id,
             "userProjectId": self.userProjectId,
             "userId": self.userId,
-            "tenantCode": "32101701"
+            "tenantCode": self.tenantCode
         }
         text = requests.get(url, headers=self.headers, params=params).text
         question_id = json.loads(text)['captcha']['questionId']
