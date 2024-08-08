@@ -1,8 +1,12 @@
 import time
+import uuid
+
 import requests
 import json
 import datetime
 import random
+
+from PIL import Image
 
 
 class WeibanHelper:
@@ -18,13 +22,24 @@ class WeibanHelper:
 
     tempUserCourseId = ""
 
-    def __init__(self, code, id, token, projectId):
+    def __init__(self, account, password, school_name, auto_verify=False):
+        tenant_code = self.get_tenant_code(school_name=school_name)
+
+        img_file_uuid = self.download_verify_code()
+
+        # 验证码处理
+        if not auto_verify:
+            Image.open("code.jpg").show()
+
+        else:
+            pass
+
+
+    def init(self, code, id, token, projectId):
         self.tenantCode = code
         self.userId = id
         self.x_token = token
         self.userProjectId = projectId
-
-    def init(self):
         self.headers["X-Token"] = self.x_token
 
     # 以下俩个方法来自https://github.com/Sustech-yx/WeiBanCourseMaster
@@ -256,3 +271,15 @@ class WeibanHelper:
             for j in i["list"]:
                 if j["name"] == school_name:
                     return j["code"]
+
+    @staticmethod
+    def download_verify_code():
+        img_uuid = uuid.uuid4()
+        now = time.time()
+        img_data = requests.get(
+            f"https://weiban.mycourse.cn/pharos/login/randLetterImage.do?time={now}"
+        ).content
+        with open(f"code/{img_uuid}.jpg", "wb") as file:
+            file.write(img_data)
+        file.close()
+        return img_uuid
