@@ -1,3 +1,4 @@
+import os.path
 import time
 import uuid
 
@@ -7,6 +8,8 @@ import datetime
 import random
 
 from PIL import Image
+
+import encrypted
 
 
 class WeibanHelper:
