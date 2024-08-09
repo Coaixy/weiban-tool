@@ -4,3 +4,4 @@ Pillow~=9.5.0
 pycryptodomex
 fastapi
 uvicorn
+ddddocr
