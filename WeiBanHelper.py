@@ -293,6 +293,12 @@ class WeibanHelper:
         img_data = requests.get(
             f"https://weiban.mycourse.cn/pharos/login/randLetterImage.do?time={now}"
         ).content
+        if img_data is None:
+            print("验证码获取失败")
+            exit(1)
+        # 如果code目录不存在则创建
+        if not os.path.exists("code"):
+            os.mkdir("code")
         with open(f"code/{img_uuid}.jpg", "wb") as file:
             file.write(img_data)
         file.close()
