@@ -1,8 +1,15 @@
+import os.path
 import time
+import uuid
+
 import requests
 import json
 import datetime
 import random
+
+from PIL import Image
+
+import encrypted
 
 
 class WeibanHelper:
@@ -18,14 +25,45 @@ class WeibanHelper:
 
     tempUserCourseId = ""
 
-    def __init__(self, code, id, token, projectId):
+    def __init__(self, account, password, school_name, auto_verify=False, class_index=0):
+        tenant_code = self.get_tenant_code(school_name=school_name)
+
+        img_file_uuid, verify_time = self.download_verify_code()
+
+        # 验证码处理
+        verify_code = ""
+        if not auto_verify:
+            Image.open(f"code/{img_file_uuid}.jpg").show()
+            verify_code = input("请输入验证码: ")
+        else:
+            pass
+
+        login_data = self.login(account, password, tenant_code, verify_code,verify_time)
+        project_list = WeibanHelper.get_project_id(login_data["userId"], tenant_code, login_data["token"])
+        project_id = project_list[class_index]["userProjectId"]
+        self.init(tenant_code, login_data["userId"], login_data["token"], project_id)
+        self.run()
+
+    def init(self, code, id, token, projectId):
         self.tenantCode = code
         self.userId = id
         self.x_token = token
         self.userProjectId = projectId
-
-    def init(self):
         self.headers["X-Token"] = self.x_token
+
+    def run(self):
+        for chooseType in [2, 3]:
+            finishIdList = self.getFinishIdList(chooseType)
+        num = len(finishIdList)
+        index = 1
+        for i in self.getCourse(chooseType):
+            print(f"{index} / {num}")
+            self.start(i)
+            time.sleep(15)
+            self.finish(i, finishIdList[i])
+            index = index + 1
+        print("刷课完成")
+        input("按任意键结束")
 
     # 以下俩个方法来自https://github.com/Sustech-yx/WeiBanCourseMaster
 
@@ -256,3 +294,38 @@ class WeibanHelper:
             for j in i["list"]:
                 if j["name"] == school_name:
                     return j["code"]
+
+    @staticmethod
+    def download_verify_code():
+        img_uuid = uuid.uuid4()
+        now = time.time()
+        img_data = requests.get(
+            f"https://weiban.mycourse.cn/pharos/login/randLetterImage.do?time={now}"
+        ).content
+        if img_data is None:
+            print("验证码获取失败")
+            exit(1)
+        # 如果code目录不存在则创建
+        if not os.path.exists("code"):
+            os.mkdir("code")
+        with open(f"code/{img_uuid}.jpg", "wb") as file:
+            file.write(img_data)
+        file.close()
+        return img_uuid, now
+
+    @staticmethod
+    def login(account, password, tenant_code, verify_code,verify_time):
+        url = "https://weiban.mycourse.cn/pharos/login/login.do"
+        payload = {
+            "userName": account,
+            "password": password,
+            "tenantCode": tenant_code,
+            "timestamp": verify_time,
+            "verificationCode": verify_code,
+        }
+        ret = encrypted.login(payload)
+        response = requests.post(url, data={"data": ret})
+        text = response.text
+        print(text)
+        data = json.loads(text)['data']
+        return data
