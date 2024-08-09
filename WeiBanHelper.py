@@ -2,6 +2,7 @@ import os.path
 import time
 import uuid
 
+import ddddocr
 import requests
 import json
 import datetime
@@ -27,19 +28,31 @@ class WeibanHelper:
     tempUserCourseId = ""
 
     def __init__(self, account, password, school_name, auto_verify=False, project_index=0):
+        ocr = ddddocr.DdddOcr(show_ad=False)
         tenant_code = self.get_tenant_code(school_name=school_name)
 
         img_file_uuid, verify_time = self.download_verify_code()
 
+        login_data = {}
         # 验证码处理
         verify_code = ""
         if not auto_verify:
             Image.open(f"code/{img_file_uuid}.jpg").show()
             verify_code = input("请输入验证码: ")
         else:
-            pass
+            img_file = open(f"code/{img_file_uuid}.jpg", 'rb')
+            verify_code = ocr.classification(img_file.read())
+            img_file.close()
 
-        login_data = self.login(account, password, tenant_code, verify_code,verify_time)
+        login_data = self.login(account, password, tenant_code, verify_code, verify_time)
+        if not auto_verify:
+            while login_data['code'] == "-1":
+                img_file = open(f"code/{img_file_uuid}.jpg", 'rb')
+                verify_code = ocr.classification(img_file.read())
+                img_file.close()
+                login_data = self.login(account, password, tenant_code, verify_code, verify_time)
+                time.sleep(5)
+
         self.project_list = WeibanHelper.get_project_id(login_data["userId"], tenant_code, login_data["token"])
 
         project_id = self.project_list[project_index]["userProjectId"]
@@ -317,7 +330,7 @@ class WeibanHelper:
         return img_uuid, now
 
     @staticmethod
-    def login(account, password, tenant_code, verify_code,verify_time):
+    def login(account, password, tenant_code, verify_code, verify_time):
         url = "https://weiban.mycourse.cn/pharos/login/login.do"
         payload = {
             "userName": account,
