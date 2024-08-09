@@ -43,8 +43,9 @@ class WeibanHelper:
         else:
             verify_code = ocr.classification(self.get_verify_code(get_time=verify_time, download=False))
         login_data = self.login(account, password, tenant_code, verify_code, verify_time)
+
         if auto_verify:
-            while login_data['code'] == "-1":
+            while login_data['code'] == '-1' and str(login_data['msg']).find("验证码") != -1:
                 verify_time = time.time()
                 verify_code = ocr.classification(self.get_verify_code(get_time=verify_time, download=False))
                 login_data = self.login(account, password, tenant_code, verify_code, verify_time)
@@ -74,7 +75,6 @@ class WeibanHelper:
             self.finish(i, finishIdList[i])
             index = index + 1
         print("刷课完成")
-        input("按任意键结束")
 
     # 以下俩个方法来自https://github.com/Sustech-yx/WeiBanCourseMaster
 
@@ -342,4 +342,7 @@ class WeibanHelper:
         text = response.text
         data = json.loads(text)
         print(data)
+        if data['code'] == '-1':
+            if str(data['msg']).find("不匹配") != -1:
+                exit(1)
         return data
