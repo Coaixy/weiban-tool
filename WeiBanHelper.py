@@ -22,18 +22,24 @@ class WeibanHelper:
 
     tempUserCourseId = ""
 
-    def __init__(self, account, password, school_name, auto_verify=False):
+    def __init__(self, account, password, school_name, auto_verify=False, class_index=0):
         tenant_code = self.get_tenant_code(school_name=school_name)
 
         img_file_uuid = self.download_verify_code()
 
         # 验证码处理
+        verify_code = ""
         if not auto_verify:
             Image.open("code.jpg").show()
-
+            verify_code = input("请输入验证码: ")
         else:
             pass
 
+        login_data = self.login(account, password, tenant_code, verify_code)
+        project_list = WeibanHelper.get_project_id(login_data["userId"], tenant_code, login_data["token"])
+        project_id = project_list[class_index]["userProjectId"]
+        self.init(tenant_code, login_data["userId"], login_data["token"], project_id)
+        self.run()
 
     def init(self, code, id, token, projectId):
         self.tenantCode = code
@@ -303,3 +309,19 @@ class WeibanHelper:
             file.write(img_data)
         file.close()
         return img_uuid
+
+    @staticmethod
+    def login(account, password, tenant_code, verify_code):
+        url = "https://weiban.mycourse.cn/pharos/login/login.do"
+        payload = {
+            "userName": account,
+            "password": password,
+            "tenantCode": tenant_code,
+            "timestamp": time.time(),
+            "verificationCode": verify_code,
+        }
+        ret = encrypted.login(payload)
+        response = requests.post(url, data={"data": ret})
+        text = response.text
+        data = json.loads(text)['data']
+        return data
