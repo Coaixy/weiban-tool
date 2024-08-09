@@ -17,6 +17,7 @@ class WeibanHelper:
     userId = ""
     x_token = ""
     userProjectId = ""
+    project_list = {}
     headers = {
         "X-Token": "",
         "ContentType": "application/x-www-form-urlencoded; charset=UTF-8",
@@ -25,7 +26,7 @@ class WeibanHelper:
 
     tempUserCourseId = ""
 
-    def __init__(self, account, password, school_name, auto_verify=False, class_index=0):
+    def __init__(self, account, password, school_name, auto_verify=False, project_index=0):
         tenant_code = self.get_tenant_code(school_name=school_name)
 
         img_file_uuid, verify_time = self.download_verify_code()
@@ -39,10 +40,10 @@ class WeibanHelper:
             pass
 
         login_data = self.login(account, password, tenant_code, verify_code,verify_time)
-        project_list = WeibanHelper.get_project_id(login_data["userId"], tenant_code, login_data["token"])
-        project_id = project_list[class_index]["userProjectId"]
+        self.project_list = WeibanHelper.get_project_id(login_data["userId"], tenant_code, login_data["token"])
+
+        project_id = self.project_list[project_index]["userProjectId"]
         self.init(tenant_code, login_data["userId"], login_data["token"], project_id)
-        self.run()
 
     def init(self, code, id, token, projectId):
         self.tenantCode = code
@@ -191,10 +192,12 @@ class WeibanHelper:
                 if i["finished"] == 2:
                     if "userCourseId" in i:
                         result[i["resourceId"]] = i["userCourseId"]
-                        print(i['resourceName'])
+                        # print(i['resourceName'])
                         self.tempUserCourseId = i["userCourseId"]
                     else:
                         result[i["resourceId"]] = self.tempUserCourseId
+            print(f"加载章节 : {i['categoryName']}")
+        print("\n资源加载完成")
         return result
 
     def start(self, courseId):
