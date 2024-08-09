@@ -42,6 +42,20 @@ class WeibanHelper:
         self.userProjectId = projectId
         self.headers["X-Token"] = self.x_token
 
+    def run(self):
+        for chooseType in [2, 3]:
+            finishIdList = self.getFinishIdList(chooseType)
+        num = len(finishIdList)
+        index = 1
+        for i in self.getCourse(chooseType):
+            print(f"{index} / {num}")
+            self.start(i)
+            time.sleep(15)
+            self.finish(i, finishIdList[i])
+            index = index + 1
+        print("刷课完成")
+        input("按任意键结束")
+
     # 以下俩个方法来自https://github.com/Sustech-yx/WeiBanCourseMaster
 
     # js里的时间戳似乎都是保留了三位小数的.
