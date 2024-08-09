@@ -33,7 +33,7 @@ class WeibanHelper:
         # 验证码处理
         verify_code = ""
         if not auto_verify:
-            Image.open("code.jpg").show()
+            Image.open(f"code/{img_file_uuid}.jpg").show()
             verify_code = input("请输入验证码: ")
         else:
             pass
