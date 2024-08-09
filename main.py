@@ -16,7 +16,15 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
                                                                                                          
                                                                                                          
     """)
-    exit(1)
+    if len(sys.argv) == 2 and sys.argv[1] == "help":
+        print("使用方法: python main.py [account] [password] [school_name] [auto_verify] [project_index]")
+        print("使用方法: python main.py 进入纯手动输入模式")
+        print("account: 账号")
+        print("password: 密码")
+        print("school_name: 学校名称")
+        print("auto_verify: 是否自动验证, 0: 不自动验证, 1: 自动验证")
+        print("project_index: 课程编号")
+        print()
     # 基础信息
     account = ""
     password = ""
