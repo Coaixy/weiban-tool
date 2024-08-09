@@ -32,6 +32,5 @@ def login(payload):
     #     key
     # )
 
-    print(encrypted)
     return encrypted
     # You can add logic for different payload.entry values here

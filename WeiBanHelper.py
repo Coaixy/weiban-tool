@@ -30,29 +30,26 @@ class WeibanHelper:
     def __init__(self, account, password, school_name, auto_verify=False, project_index=0):
         ocr = ddddocr.DdddOcr(show_ad=False)
         tenant_code = self.get_tenant_code(school_name=school_name)
-
-        img_file_uuid, verify_time = self.download_verify_code()
+        img_file_uuid = ""
+        verify_time = time.time()
 
         login_data = {}
         # 验证码处理
-        verify_code = ""
+        verify_code = ''
         if not auto_verify:
+            img_file_uuid, verify_time = self.get_verify_code(get_time=verify_time, download=True)
             Image.open(f"code/{img_file_uuid}.jpg").show()
             verify_code = input("请输入验证码: ")
         else:
-            img_file = open(f"code/{img_file_uuid}.jpg", 'rb')
-            verify_code = ocr.classification(img_file.read())
-            img_file.close()
-
+            verify_code = ocr.classification(self.get_verify_code(get_time=verify_time, download=False))
         login_data = self.login(account, password, tenant_code, verify_code, verify_time)
-        if not auto_verify:
+        if auto_verify:
             while login_data['code'] == "-1":
-                img_file = open(f"code/{img_file_uuid}.jpg", 'rb')
-                verify_code = ocr.classification(img_file.read())
-                img_file.close()
+                verify_time = time.time()
+                verify_code = ocr.classification(self.get_verify_code(get_time=verify_time, download=False))
                 login_data = self.login(account, password, tenant_code, verify_code, verify_time)
                 time.sleep(5)
-
+        login_data = login_data['data']
         self.project_list = WeibanHelper.get_project_id(login_data["userId"], tenant_code, login_data["token"])
 
         project_id = self.project_list[project_index]["userProjectId"]
@@ -312,22 +309,23 @@ class WeibanHelper:
                     return j["code"]
 
     @staticmethod
-    def download_verify_code():
+    def get_verify_code(get_time, download=False):
         img_uuid = uuid.uuid4()
-        now = time.time()
         img_data = requests.get(
-            f"https://weiban.mycourse.cn/pharos/login/randLetterImage.do?time={now}"
+            f"https://weiban.mycourse.cn/pharos/login/randLetterImage.do?time={get_time}"
         ).content
         if img_data is None:
             print("验证码获取失败")
             exit(1)
         # 如果code目录不存在则创建
-        if not os.path.exists("code"):
-            os.mkdir("code")
-        with open(f"code/{img_uuid}.jpg", "wb") as file:
-            file.write(img_data)
-        file.close()
-        return img_uuid, now
+        if download:
+            if not os.path.exists("code"):
+                os.mkdir("code")
+            with open(f"code/{img_uuid}.jpg", "wb") as file:
+                file.write(img_data)
+            return img_uuid
+        else:
+            return img_data
 
     @staticmethod
     def login(account, password, tenant_code, verify_code, verify_time):
@@ -342,6 +340,6 @@ class WeibanHelper:
         ret = encrypted.login(payload)
         response = requests.post(url, data={"data": ret})
         text = response.text
-        print(text)
-        data = json.loads(text)['data']
+        data = json.loads(text)
+        print(data)
         return data
