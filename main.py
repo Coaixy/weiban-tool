@@ -2,6 +2,7 @@
 # @repo : https://www.github.com/coaixy/weiban-tool
 import json
 import sys
+import uuid
 
 import WeiBanHelper
 
@@ -56,3 +57,6 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
         Instance.userProjectId = Instance.project_list[project_index]['userProjectId']
     print("当前项目名称: ", Instance.project_list[project_index]['projectName'])
     Instance.run()
+    for answer in Instance.getAnswerList():
+        with open(f"QuestionBank/{uuid.uuid4()}.json", 'w') as f:
+            f.write(answer)
