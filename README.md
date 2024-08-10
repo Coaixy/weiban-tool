@@ -2,6 +2,8 @@
 
 安全微伴自动刷课助手
 
+[![仓库访问次数](https://badges.toozhao.com/badges/01J4X431GX8JJ8F43S0ES0ANXY/green.svg)]( "")
+
 ## 使用方法
 
 1. 安装Python
