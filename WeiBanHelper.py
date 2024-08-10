@@ -21,6 +21,7 @@ class WeibanHelper:
     userProjectId = ""
     project_list = {}
     ocr = None
+    finish_exam_time = 0
     headers = {
         "X-Token": "",
         "ContentType": "application/x-www-form-urlencoded; charset=UTF-8",
@@ -292,6 +293,7 @@ class WeibanHelper:
             "userId": self.userId,
             "userExamPlanId": plan_id,
         }
+        time.sleep(self.finish_exam_time)
         print(requests.post(submit_url + str(int(time.time()) + 600), headers=self.headers, data=submit_data).text)
 
     def getFinishIdList(self, chooseType):

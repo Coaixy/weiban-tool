@@ -27,7 +27,7 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
         print("school_name: 学校名称")
         print("auto_verify: 是否自动验证, 0: 不自动验证, 1: 自动验证")
         print("project_index: 课程编号")
-        print("auto_exam: 是否自动考试 0: 不自动考试, 1: 自动考试")
+        print("auto_exam: 是否自动考试 0: 不自动考试, >0 : 考试时间(单位秒)")
         print()
     # 基础信息
     account = ""
@@ -56,17 +56,18 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
     if len(arguments) == 0:
         project_index = int(input("请输入项目编号: "))
         Instance.userProjectId = Instance.project_list[project_index]['userProjectId']
-        auto_exam = True if int(input("是否自动考试: 0: 不自动考试, 1: 自动考试")) == 1 else False
+        auto_exam = int(input("是否自动考试: 0: 不自动考试, 1: 自动考试"))
     if len(arguments) == 5:
         project_index = int(arguments[4])
         Instance.userProjectId = Instance.project_list[project_index]['userProjectId']
     if len(arguments) == 6:
-        auto_exam = True if int(arguments[5]) == 1 else False
+        auto_exam = int(arguments[5])
     print("当前项目名称: ", Instance.project_list[project_index]['projectName'])
     Instance.run()
     # for answer in Instance.getAnswerList():
     #     with open(f"QuestionBank/{uuid.uuid4()}.json", 'w') as f:
     #         f.write(answer)
-    if auto_exam:
+    if auto_exam > 0:
         print("开始自动考试")
+        Instance.finish_exam_time = auto_exam
         Instance.autoExam()
