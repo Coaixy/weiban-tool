@@ -27,3 +27,7 @@
 - [ ] 网页版
 ## 注意事项
 仅供学习，请在下载后24h内删除。
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=coaixy/weiban-tool&type=Date)](https://star-history.com/#coaixy/weiban-tool&Date)
