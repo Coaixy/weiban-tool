@@ -1,3 +1,4 @@
+import difflib
 import os.path
 import time
 import uuid
@@ -19,6 +20,7 @@ class WeibanHelper:
     x_token = ""
     userProjectId = ""
     project_list = {}
+    ocr = None
     headers = {
         "X-Token": "",
         "ContentType": "application/x-www-form-urlencoded; charset=UTF-8",
@@ -28,7 +30,7 @@ class WeibanHelper:
     tempUserCourseId = ""
 
     def __init__(self, account, password, school_name, auto_verify=False, project_index=0):
-        ocr = ddddocr.DdddOcr(show_ad=False)
+        self.ocr = ddddocr.DdddOcr(show_ad=False)
         tenant_code = self.get_tenant_code(school_name=school_name)
         img_file_uuid = ""
         verify_time = time.time()
@@ -37,17 +39,17 @@ class WeibanHelper:
         # 验证码处理
         verify_code = ''
         if not auto_verify:
-            img_file_uuid, verify_time = self.get_verify_code(get_time=verify_time, download=True)
+            img_file_uuid = self.get_verify_code(get_time=verify_time, download=True)
             Image.open(f"code/{img_file_uuid}.jpg").show()
             verify_code = input("请输入验证码: ")
         else:
-            verify_code = ocr.classification(self.get_verify_code(get_time=verify_time, download=False))
+            verify_code = self.ocr.classification(self.get_verify_code(get_time=verify_time, download=False))
         login_data = self.login(account, password, tenant_code, verify_code, verify_time)
 
         if auto_verify:
             while login_data['code'] == '-1' and str(login_data['msg']).find("验证码") != -1:
                 verify_time = time.time()
-                verify_code = ocr.classification(self.get_verify_code(get_time=verify_time, download=False))
+                verify_code = self.ocr.classification(self.get_verify_code(get_time=verify_time, download=False))
                 login_data = self.login(account, password, tenant_code, verify_code, verify_time)
                 time.sleep(5)
         login_data = login_data['data']
@@ -183,6 +185,114 @@ class WeibanHelper:
                 if i["finished"] == 2:
                     result.append(i["resourceId"])
         return result
+
+    def autoExam(self):
+
+        list_plan_url = f"https://weiban.mycourse.cn/pharos/exam/listPlan.do"
+        before_paper_url = f"https://weiban.mycourse.cn/pharos/exam/beforePaper.do"
+        get_verify_code_url = f"https://weiban.mycourse.cn/pharos/login/randLetterImage.do?time="
+        check_verify_code_url = f" https://weiban.mycourse.cn/pharos/exam/checkVerifyCode.do?timestamp"
+        start_paper_url = f"https://weiban.mycourse.cn/pharos/exam/startPaper.do?"
+        submit_url = f"https://weiban.mycourse.cn/pharos/exam/submitPaper.do?timestamp="
+        answer_data = None
+        with open("QuestionBank/result.json", 'r') as f:
+            answer_data = json.loads(f.read())
+
+        def get_answer_list(question_title):
+            closest_match = difflib.get_close_matches(question_title, answer_data.keys(), n=1, cutoff=0.6)
+            answer_list = []
+            if closest_match:
+                data = answer_data[closest_match[0]]
+                for i in data['optionList']:
+                    if i['isCorrect'] == 1:
+                        answer_list.append(i['content'])
+            return answer_list, True
+
+        def get_verify_code():
+            now = time.time()
+            content = requests.get(get_verify_code_url + str(now), headers=self.headers).content
+            return self.ocr.classification(content), now
+
+        # 获取考试计划
+        plan_data = requests.post(list_plan_url, headers=self.headers, data={
+            "tenantCode": self.tenantCode,
+            "userId": self.userId,
+            "userProjectId": self.userProjectId
+        }).json()
+        if plan_data['code'] != '0':
+            print("获取考试计划失败")
+            return
+        plan_id = plan_data['data'][0]['id']
+        exam_plan_id = plan_data['data'][0]['examPlanId']
+        # Before
+        print(requests.post(before_paper_url, headers=self.headers, data={
+            "tenantCode": self.tenantCode,
+            "userId": self.userId,
+            "userExamPlanId": plan_id
+        }).text)
+        # Prepare
+        print(requests.post(f" https://weiban.mycourse.cn/pharos/exam/preparePaper.do?timestamp",
+                            headers=self.headers, data={
+                "tenantCode": self.tenantCode,
+                "userId": self.userId,
+                "userExamPlanId": plan_id,
+            }).text)
+        # Check
+        verify_count = 0
+        while True:
+            verify_code, verify_time = get_verify_code()
+            verify_data = requests.post(check_verify_code_url, headers=self.headers, data={
+                "tenantCode": self.tenantCode,
+                "time": verify_time,
+                "userId": self.userId,
+                "verifyCode": verify_code,
+                "userExamPlanId": plan_id
+            }).json()
+            if verify_data['code'] == '0':
+                break
+            verify_count += 1
+            if verify_count > 3:
+                print("验证码识别失败")
+                return
+        # Start
+        paper_data = requests.post(start_paper_url, headers=self.headers, data={
+            "tenantCode": self.tenantCode,
+            "userId": self.userId,
+            "userExamPlanId": plan_id,
+        }).json()['data']
+        question_list = paper_data['questionList']
+        for question in question_list:
+            question_title = question['title']
+            option_list = question['optionList']
+            submit_answer_id_list = []
+            answer_list, is_match = get_answer_list(question_title)
+            print(f"题目: {question_title}")
+            if is_match:
+                for answer in answer_list:
+                    for option in option_list:
+                        if option['content'] == answer:
+                            submit_answer_id_list.append(option['id'])
+                            print(f"答案: {answer}")
+            print()
+            # Record
+            record_data = {
+                "answerIds": ",".join(submit_answer_id_list),
+                "questionId": question['id'],
+                "tenantCode": self.tenantCode,
+                "userId": self.userId,
+                "userExamPlanId": plan_id,
+                "examPlanId": exam_plan_id,
+                "useTime": random.randint(60, 90)
+            }
+            requests.post(f"https://weiban.mycourse.cn/pharos/exam/recordQuestion.do?timestamp={time.time()}",
+                          headers=self.headers, data=record_data)
+        # SubMit
+        submit_data = {
+            "tenantCode": self.tenantCode,
+            "userId": self.userId,
+            "userExamPlanId": plan_id,
+        }
+        print(requests.post(submit_url + str(int(time.time()) + 600), headers=self.headers, data=submit_data).text)
 
     def getFinishIdList(self, chooseType):
         url = "https://weiban.mycourse.cn/pharos/usercourse/listCourse.do"
