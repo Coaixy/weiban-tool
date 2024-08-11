@@ -28,6 +28,8 @@
 ## 注意事项
 仅供学习，请在下载后24h内删除。
 
+![Cow2](https://github.com/Coaixy/weiban-tool/blob/master/QRCODE.JPG "Cow2")
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=coaixy/weiban-tool&type=Date)](https://star-history.com/#coaixy/weiban-tool&Date)
