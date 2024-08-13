@@ -196,7 +196,7 @@ class WeibanHelper:
         start_paper_url = f"https://weiban.mycourse.cn/pharos/exam/startPaper.do?"
         submit_url = f"https://weiban.mycourse.cn/pharos/exam/submitPaper.do?timestamp="
         answer_data = None
-        with open("QuestionBank/result.json", 'r') as f:
+        with open("QuestionBank/result.json", 'r',encoding='utf8') as f:
             answer_data = json.loads(f.read())
 
         def get_answer_list(question_title):
