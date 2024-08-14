@@ -1,11 +1,13 @@
 # @Author : Coaixy
 # @repo : https://www.github.com/coaixy/weiban-tool
 import json
+import os
 import sys
 import uuid
 
 import requests
 
+import QuestionBank.QuestionBank as QuestionBank
 import WeiBanHelper
 
 if __name__ == "__main__":
@@ -64,10 +66,14 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
         auto_exam = int(arguments[5])
     print("当前项目名称: ", Instance.project_list[project_index]['projectName'])
     Instance.run()
-    # for answer in Instance.getAnswerList():
-    #     with open(f"QuestionBank/{uuid.uuid4()}.json", 'w') as f:
-    #         f.write(answer)
     if auto_exam > 0:
+        index = 0
+        tenant_code = Instance.get_tenant_code(school_name)
+        for answer in Instance.getAnswerList():
+            index = index + 1
+            with open(f"QuestionBank/{tenant_code + "-" + account + "-" + str(index)}.json", 'w') as f:
+                f.write(answer)
+        QuestionBank.generate_bank(directory=os.getcwd() + "/QuestionBank")
         print("开始自动考试")
         Instance.finish_exam_time = auto_exam
         Instance.autoExam()

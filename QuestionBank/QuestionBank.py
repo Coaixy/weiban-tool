@@ -30,9 +30,8 @@ def get_all_json_files_content(directory):
     return json_files_content
 
 
-def generate_bank():
+def generate_bank(directory='.'):
     final_result = {}
-    directory = '.'  # 当前目录
     json_contents = get_all_json_files_content(directory)
     json_data_list = {}
     for filename, content in json_contents.items():
@@ -47,7 +46,7 @@ def generate_bank():
                     'optionList': item['optionList']
                 }
         print()
-    with open("result.json", 'w') as f:
+    with open(f"{directory}/result.json", 'w') as f:
         f.write(json.dumps(final_result, indent=4, ensure_ascii=False))
     # return json.dumps(final_result, indent=4, ensure_ascii=False)
     print(final_result)
