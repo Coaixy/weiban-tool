@@ -23,6 +23,7 @@ def get_all_json_files_content(directory):
         if filename.endswith(".json") and filename != "result.json":
             file_path = os.path.join(directory, filename)
             try:
+                print(file_path)
                 with open(file_path, 'r', encoding='utf-8') as file:
                     json_files_content[filename] = json.load(file)
             except Exception as e:
@@ -46,10 +47,9 @@ def generate_bank(directory='.'):
                     'optionList': item['optionList']
                 }
         print()
-    with open(f"{directory}/result.json", 'w',encoding='utf-8') as f:
+    with open(f"{directory}/result.json", 'w', encoding='utf-8') as f:
         f.write(json.dumps(final_result, indent=4, ensure_ascii=False))
     # return json.dumps(final_result, indent=4, ensure_ascii=False)
-    print(final_result)
 
 
 bank_obj = {}
