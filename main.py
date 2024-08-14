@@ -70,7 +70,7 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
         index = 0
         tenant_code = Instance.get_tenant_code(school_name)
         answer_list = Instance.getAnswerList()
-        if len(answer_list) == 0 or answer_list == None:
+        if len(answer_list) == 0 or answer_list is None:
             print("未获取到答案")
         else:
             for answer in answer_list:
