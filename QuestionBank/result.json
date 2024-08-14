@@ -4858,6 +4858,887 @@
             }
         ]
     },
+    "发生高危行为后（共用针具吸毒/不安全性行为等），应主动寻求艾滋病检测与咨询吗？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "是。",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "否。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "不知道。",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "以下说法错误的是：": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "吃了紧急避孕药后，72小时内都可以发生无保护性行为了。",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "避孕套能以极高几率防性病。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "以下哪个选项不能体现盲人点灯的“三不伤害”原则？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "坐车系安全带",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "感冒了戴口罩",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "电动车进电梯",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "夜间行车开尾灯",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "电源总闸的开关如何使用？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "上开下关。",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "下开上关。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "对所爱者不负道德责任，轻易更换恋爱对象属于哪种类型的爱情？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "浪漫式爱情",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "游戏式爱情",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "占有式爱情",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "伴侣式爱情",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "奉献式爱情",
+                "sequence": 5,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "现实式爱情",
+                "sequence": 6,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "浙江境内最大的河流是？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "钱塘江",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "曹娥江",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "瓯江",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "富春江",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "俗话说：兵马未动，粮草先行。与这种想法相近的成语是哪个？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "井然有序",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "深谋远虑",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "未雨绸缪",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "高瞻远瞩",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "如果患者还有意识和反应，不要实施CPR，不要挪动被施救人员，应立刻拨打120。": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "正确",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "错误",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "火车上有人以自己的银行卡丢了为借口，要你拿出银行卡并说出你的银行卡密码，让他查看你是不是小偷。你该怎么办？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "不做亏心事，不怕鬼叫门。把卡和密码给他，让他查",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "坚决不能把银行卡和密码告诉他人，找乘警来帮忙",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "成语“长治久安”是什么意思？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "国家需要长久的治理才能获得长久的安宁",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "国家长期安定、巩固",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "有一个叫长治的地区很和平",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "普通人奔跑的速度是每秒6——8米，而大潮汛时潮水的速度会达到（     ）。": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "每秒5米",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "每秒12米",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "每秒20米",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "当你微笑、真诚、热情地去和大家相处，仍然有人不喜欢你，应该怎么办呢？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "非常沮丧，心情受影响，觉得自己很失败。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "不强求他人的喜爱，自尊自爱，去和喜欢自己的人交往。",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "防范挖矿病毒，下列做法不正确的是？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "定期修改密码，避免多个设备使用相同的密码",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "已经不再使用的电脑也每天打开做备用机",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "使用杀毒软件定期全盘扫描",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "不随意接入他人的光盘、U盘、移动硬盘",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "骑普通自行车时，速度多少比较安全？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "10-12公里每小时。",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "15-18公里每小时。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "20-25公里每小时。",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "如果电器、插线板着火了，要怎么灭火？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "立刻用灭火器灭火。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "先断电，再灭火。",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "你的好朋友给你打电话聊天，突然对你说：“做我的女（男）朋友吧！”你想拒绝ta，该如何回答呢？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "我很喜欢和你做朋友的，让我们保持这样的愉快交往吧。如果这样会造成你的困扰，我会减少和你联系的。",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "不好，我从来没想过要和你成为恋人！别说了，再见！",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "长治久安对我们自身而言有什么意义？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "个人的生活离不开长治久安的环境",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "个人的言行会影响国家的长治久安",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "长治久安是国家的事情，和个人无关",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "爱情可分为哪些类型？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "浪漫式爱情",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "游戏式爱情",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "占有式爱情",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "伴侣式爱情",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "奉献式爱情",
+                "sequence": 5,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "现实式爱情",
+                "sequence": 6,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "谣言的类型有？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "政治谣言",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "灾害谣言",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "犯罪谣言",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "食品及产品谣言",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "个人事件谣言",
+                "sequence": 5,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "《反有组织犯罪法》“打财断血”，铲除黑恶势力经济基础，表现在：": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "对涉黑恶犯罪财产全面调查、冻结、追缴、没收",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "加强反洗钱力度",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "刑满释放后的个人财产及日常活动报告制度，以及相关行业主管部门对有关人员开办企业等加强监管",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "对于定罪量刑事实清楚、证据确实充分，不能说明财产合法来源的，应当依法予以追缴、没收",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "“恶势力”特点有哪些？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "一般为3人以上，相对固定",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "经常纠集在一起",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "多次为非作恶、欺压百姓",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "使用暴力、威胁或其他手段",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "机动车和非机动车的不同规定有（）。": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "管理和通行规则不一样",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "行走的车道不一样",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "在发生交通事故的时候所承担的责任不一样",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "以下哪个选项和“盲人点灯”这个故事的思想是一致的？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "安人助己",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "居安思危",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "换位思考",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "助人为乐",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "“学妹学弟，电话卡我来帮你们办，包在我身上！来，大家先来把相关信息填好给我。”——这种情况，可能涉及？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "电话卡诈骗",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "帮信罪",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "兼职诈骗",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "刷单诈骗",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "如何做到不传谣、不造谣？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "提高辨别谣言的能力",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "树立正确的三观",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "知法守法",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "保持健康的心理状态",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "情绪ABC理论告诉我们？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "对事情不同的看法，能引起自身不同的情绪",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "态度决定一切",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "决定我们情绪的是我们对事情的信念",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "以下哪些行为属于妨碍安全疏散的违法行为？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "将杂物堆在楼梯处",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "学生宿舍楼安装防盗窗网",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "在家门口楼道里堆放物品",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "安全通道门上锁",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "在江边玩耍，看到潮水来了就赶紧跑回大坝避难，这样做可以吗？为什么？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "可以的，潮水比较远，我们离大坝近，来的及",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "不可以，很危险。潮水的速度很快，是普通人的两倍",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "不可以，潮水有很多种，暗潮会突然出现，让人来不及逃跑",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "不可以，潮水的力量非常大，会把人吞噬，难以逃跑",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "面对失恋，我们应当做到？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "失恋不失志",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "失恋不失态",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "失恋不失智",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "失恋不失情",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "失恋不轻生",
+                "sequence": 5,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
     "“你好！我是广州大学的招生办，我们有一批学校招生的机动名额，主要是留给那些想来我们学校但是分数又不够的同学，费用是5万。”接到这样的招生信息，你会怎么做呢？": {
         "typeLabel": "单选题",
         "right": 1,
@@ -6795,47 +7676,6 @@
             }
         ]
     },
-    "谣言的类型有？": {
-        "typeLabel": "多选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "政治谣言",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "灾害谣言",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "犯罪谣言",
-                "sequence": 3,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "食品及产品谣言",
-                "sequence": 4,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "个人事件谣言",
-                "sequence": 5,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            }
-        ]
-    },
     "宪法的地位是（）。": {
         "typeLabel": "多选题",
         "right": 1,
@@ -7254,33 +8094,6 @@
             }
         ]
     },
-    "骑普通自行车时，速度多少比较安全？": {
-        "typeLabel": "单选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "10-12公里每小时。",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "15-18公里每小时。",
-                "sequence": 2,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            },
-            {
-                "content": "20-25公里每小时。",
-                "sequence": 3,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            }
-        ]
-    },
     "有算命师称需要“阴阳结合”才能去除小玲的“霉运”，于是小玲被该算命师强奸。对于这个案例，下面说法正确的是：": {
         "typeLabel": "单选题",
         "right": 1,
@@ -7566,6 +8379,1661 @@
             }
         ]
     },
+    "收到“贷款”类的不明短信时，正确的做法是？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "不轻信、不理睬",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "如果有需要就看看",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "在野外遭遇地震，下面较为安全的地方是：": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "河岸边。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "山谷里。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "开阔的平地。",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "陡峭的悬崖下。",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "下面的选项中哪个是药片变质后出现的现象呢？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "有花斑、发黄、发霉、松散或出现结晶。",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "有变色、混浊、沉淀或结晶析出等现象。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "为了加强安全生产工作，防止和减少生产安全事故，（），促进经济社会持续健康发展，制定《中华人民共和安全生产法》": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "从事生产经营活动的单位的安全生产",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "依法获得安全生产保障的权利",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "保障人民群众生命和财产安全",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "防止生产安全事故",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "灭火器的压力阀，正常状态时应该指向：": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "黄色区域",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "绿色区域",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "红色区域",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "《刑法》 规定：诈骗公私财物，数额较大的，处三年以下有期徒刑、拘役或者管制，并处或者单处罚金；数额巨大或者有其他严重情节的，处三年以上十年以下有期徒刑，并处罚金；数额特别巨大或者有其他特别严重情节的，处十年以上有期徒刑或者无期徒刑，并处罚金或者没收财产。": {
+        "typeLabel": "单选题",
+        "right": 2,
+        "optionList": [
+            {
+                "content": "正确",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "错误",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "请问我国目前与国家安全相关的法律法规有多少部？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "90多部",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "190多部",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "290多部",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "关于结核病，下列说法正确的是：": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "结核病是急性传染病",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "结核病是慢性传染病",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "“刷单”打工靠谱吗？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "不靠谱，绝大多数都是骗子平台，并没有刷单工作，反而是变相传销。",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "靠谱的，只不过挣得少。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "下面关于网络安全，说法正确的是：": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "网络安全与政治安全、经济安全、军事安全等领域相互交融",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "网络安全指的是国家机关防网络泄密，与个人无关",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "自我认知的核心是？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "我是一个什么样的人",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "我将如何改变自己",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "“运动导致的猝死案例很多，只要我们坐着不动就能避免猝死！”这样的说法正确吗？为什么？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "正确。只要坐着不动，就不会发生心血管缺氧的症状。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "错误。不是运动导致猝死，是运动引发了死者本身就有的心血管疾病。久坐不动反而可能患肺栓塞，还会发生胸疼和急性缺氧，导致猝死。",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "你失恋了，觉得特别苦闷难熬，甚至想自杀：": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "有人邀请你用毒品，你觉得反正生不如死，爱怎样怎样吧，就接受了",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "时间会抚平一切。你去寻求朋友、家人或心理老师的帮助",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "如何从根本上规避裸聊诈骗陷阱？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "不裸聊",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "不给钱",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "报警",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "如果被网络诈骗，下列说法正确的是：": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "无论被骗金额多少，首先保留相关证据（可以证明自己被骗的）",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "被骗金额超过3000元才可能立案，才需要保留证据",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "接到“有内幕消息，邀请你投资”的电话时，正确的做法是？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "不信、不理睬",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "投点试试",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "对于关节处流血，应选用（）止血。": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "环形包扎法",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "螺旋包扎法",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "螺旋反折式包扎法",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "8字环绕包扎法",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "依据《刑法》规定，在安全事故发生后，负有报告职责的人员不报或者谎报事故情况，贻误事故抢救的行为，构成（）罪。": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "危险物品肇事",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "玩忽职守",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "以危险方法危害公共安全",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "不报、谎报安全事故",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "信用卡有密码，在场所消费时：": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "只需要等服务员让自己输入密码就可以了。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "要一直不让视线离开卡片，防止卡片被复制。",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "“水痘”有传染性吗？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "有",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "没有",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "“全”字下面的“王”代表：": {
+        "typeLabel": "单选题",
+        "right": 2,
+        "optionList": [
+            {
+                "content": "玉，指财产财富",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "王，指人的重要性",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "王，指家里要有一家之主",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "玉，指祭奠法器",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "在火灾中，以下没有巧妙使用毛巾的是？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "结绳自救时，手掌缠湿毛巾。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "火灾逃生时，用双手捂住口鼻。",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "在窗口挥动鲜艳毛巾，来作求救信号。",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "用湿毛巾或床单等物堵塞缝隙或孔洞。",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "行政行为以行为的对象不同为标准可以划分为（）。": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "内部行政行为",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "外部行政行为",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "抽象行政行为",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "具体行政行为",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "迷信的心理是怎么造成的？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "不会独立思考。",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "将希望寄托在外部事物上。",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "不会辨别是非。",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "不相信自己的力量。",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "识别药品的真假都需要看哪些方面呢？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "看包装。",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "看期限。",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "看说明书。",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "看文号。",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "“腮腺炎”的传播途径有？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "呼吸道传播",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "接触传播",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "垂直传播",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "怎样预防流行性感冒？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "每天卧床休息12小时以上",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "注意室内空气流通",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "可适当受凉、淋雨提高抵抗力",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "注射流感疫苗",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "使用ATM时需要检查哪些部位？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "卡槽",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "键盘",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "键盘上方是否有摄像头",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "烧烫伤一般分为（）。": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "轻度",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "中度",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "重度",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "严重",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "为什么国家要制定《国家安全法》？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "制定《国家安全法》是新时期维护国家安全的客观要求",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "制定《国家安全法》是依法全面保障国家安全的重大举措",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "灭火器的厂家钢印和生产日期，一般在哪里？": {
+        "typeLabel": "多选题",
+        "right": 2,
+        "optionList": [
+            {
+                "content": "灭火器的底圈",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "灭火器的颈圈",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "灭火器喷嘴处",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "灭火器瓶身正中间",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "请问以下哪些法律与国家安全有关？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "《专属经济区和大陆架法》",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "《人民防空法》",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "《保守国家秘密法》",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "《反分裂法》",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "大学生应如何避免成为网络安全的受害人或危害者？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "学习网络安全知识",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "了解法律常识",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "树立网络安全意识",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "树立正确的网络道德观念",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "正确认识自我的方法有哪些？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "通过自我观察认识自我",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "通过他人评价认识自我",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "通过社会比较认识自我",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "通过社会实践认识自我",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "独自出游途中，你发现包裹有被翻动的迹象，接下来该怎么办？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "看看有无丢失的东西，没丢就好。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "立刻报警，并与车上、机上工作人员取得联系。",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "信用卡欠款不全额偿还时，产生的利息是：": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "循环利息",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "贷款利息。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "防震减灾工作的方针是（）。": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "防御和减轻地震灾害",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "保护人民生命和财产安全",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "预防为主、防御与救助相结合",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "促进经济社会的可持续发展",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "对目标的管理计划包括：": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "明确的期限。",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "可量化的步骤。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "细分的指标。",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "“流行性腮腺炎”会传染吗？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "会",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "不会",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "购物平台的客服会让用户提供银行卡信息和转账吗？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "不会",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "会",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "冒充熟人诈骗的骗局里，骗子会用什么社交软件联系你？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "QQ",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "淘宝",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "微博",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "任何有社交功能的软件都有可能",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "小刘收到了手机短信，说自己订购机票的航班取消了，如需退票或改签可拨打电话：01085678752。小刘应该怎么做？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "不予理睬。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "马上回复一条短信。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "马上打留下的电话。",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "拨打官方订票电话核实情况。",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "随着人流前进时，什么位置更安全？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "被夹在人群的正中间。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "贴着墙、扶梯、电线杆、汽车、雕像等稳定物。",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "通过网络可以认识许多志同道合的朋友，这种心理属于？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "从众心理",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "虚荣心理",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "叛逆心理",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "交往心理",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "关于肺结核，下列说法正确的是：": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "免疫力高相对来说不容易感染结核病",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "吸入少量结核菌就会致病",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "校园招贴的招聘小广告，可以去吗？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "最好不去，可信度低，需要辨别。",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "当然可以去。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "网络安全的重要意义体现在哪里？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "网络安全事关国家安全和国家发展",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "网络安全事关人民群众工作生活",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "导致热水器事故的常见原因有哪些？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "产品质量差",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "安装不科学",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "使用不得法",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "下面可以用来当作漂浮工具的是：": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "门板",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "床板",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "大盆",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "空油桶",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "气管梗阻迹象有哪些？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "双手紧握喉咙，无法咳嗽",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "说不出话",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "严重呼吸困难，且喘息声音大",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "嘴唇和皮肤出现青紫色",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "为什么被压力困扰，要先了解自己的压力从哪里来呢？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "压力的来源有很多可能性",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "可以针对性的解决压力",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "压力让人焦虑",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "压力有正面作用也有反面作用",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "木桶原理也被称为？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "短板理论",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "木桶定律",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "认同中华文化，我们要做到：": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "相互尊重和理解",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "情感互通",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "共同融合发展",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "兼容并包",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "“黑社会性质组织”特点有哪些？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "稳定的犯罪组织，人较多",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "获取经济利益，具有一定的经济实力",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "有组织的多次进行违法犯罪活动",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "严重破坏社会和经济秩序",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "防震减灾法适用于以下哪些事项、情况？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "地震监测预报",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "地震灾害预防",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "地震应急救援",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "地震灾后过渡性安置和恢复重建等防震减灾活动",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "在宿舍，要想做到预防火灾，应该：": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "禁止吸烟，禁止使用明火。",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "禁止使用大功率电器。",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "避免电器长时间使用或超时充电。",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "做到人走灯灭，人走断电。",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "避免人身伤害的基础是：": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "不去危险的地方",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "不做危险的事",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "远离危险的人",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "对任何人都信任和友善",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "当今大学生死亡的三大杀手主要指（）。": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "自杀",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "疾病",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "意外",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "伤害",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "收到银行卡资金变动的短信，但自己没有任何消费时，正确的做法是？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "到银行查询",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "不轻信任何不明身份的客服电话",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "过度的消极情绪会造成？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "破坏人际关系",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "影响学习和工作效率",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "引发心理疾病",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "引发生理疾病",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
     "小王将电动自行车放到室内充电，充电过程中，电池爆炸，引燃室内物品，索性扑救及时没有造成严重损失。请问小王的行为会受到法律惩罚吗？": {
         "typeLabel": "单选题",
         "right": 1,
@@ -7694,26 +10162,6 @@
             }
         ]
     },
-    "收到“贷款”类的不明短信时，正确的做法是？": {
-        "typeLabel": "单选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "不轻信、不理睬",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "如果有需要就看看",
-                "sequence": 2,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            }
-        ]
-    },
     "跑步时，步子应该尽量迈大。——这句话是正确的还是错误的？": {
         "typeLabel": "单选题",
         "right": 1,
@@ -7730,73 +10178,6 @@
                 "sequence": 2,
                 "selected": 1,
                 "isCorrect": 1,
-                "attachmentList": []
-            }
-        ]
-    },
-    "如果电器、插线板着火了，要怎么灭火？": {
-        "typeLabel": "单选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "立刻用灭火器灭火。",
-                "sequence": 1,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            },
-            {
-                "content": "先断电，再灭火。",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            }
-        ]
-    },
-    "当你微笑、真诚、热情地去和大家相处，仍然有人不喜欢你，应该怎么办呢？": {
-        "typeLabel": "单选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "非常沮丧，心情受影响，觉得自己很失败。",
-                "sequence": 1,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            },
-            {
-                "content": "不强求他人的喜爱，自尊自爱，去和喜欢自己的人交往。",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            }
-        ]
-    },
-    "对目标的管理计划包括：": {
-        "typeLabel": "单选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "明确的期限。",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "可量化的步骤。",
-                "sequence": 2,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            },
-            {
-                "content": "细分的指标。",
-                "sequence": 3,
-                "selected": 2,
-                "isCorrect": 2,
                 "attachmentList": []
             }
         ]
@@ -7923,26 +10304,6 @@
             {
                 "content": "权利和义务的一致性",
                 "sequence": 4,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            }
-        ]
-    },
-    "收到银行卡资金变动的短信，但自己没有任何消费时，正确的做法是？": {
-        "typeLabel": "多选题",
-        "right": 2,
-        "optionList": [
-            {
-                "content": "到银行查询",
-                "sequence": 1,
-                "selected": 2,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "不轻信任何不明身份的客服电话",
-                "sequence": 2,
                 "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
@@ -8220,40 +10581,6 @@
             }
         ]
     },
-    "以下哪个选项不能体现盲人点灯的“三不伤害”原则？": {
-        "typeLabel": "单选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "坐车系安全带",
-                "sequence": 1,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            },
-            {
-                "content": "感冒了戴口罩",
-                "sequence": 2,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            },
-            {
-                "content": "电动车进电梯",
-                "sequence": 3,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "夜间行车开尾灯",
-                "sequence": 4,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            }
-        ]
-    },
     "小A在网络上认识了一位未成年人，见未成年人对性不了解，骗对方给自己拍私密照片，并视频聊天自慰。你认为小A：": {
         "typeLabel": "单选题",
         "right": 1,
@@ -8341,26 +10668,6 @@
             },
             {
                 "content": "不可信",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            }
-        ]
-    },
-    "独自出游途中，你发现包裹有被翻动的迹象，接下来该怎么办？": {
-        "typeLabel": "单选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "看看有无丢失的东西，没丢就好。",
-                "sequence": 1,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            },
-            {
-                "content": "立刻报警，并与车上、机上工作人员取得联系。",
                 "sequence": 2,
                 "selected": 1,
                 "isCorrect": 1,
@@ -8496,40 +10803,6 @@
             }
         ]
     },
-    "“学妹学弟，电话卡我来帮你们办，包在我身上！来，大家先来把相关信息填好给我。”——这种情况，可能涉及？": {
-        "typeLabel": "多选题",
-        "right": 2,
-        "optionList": [
-            {
-                "content": "电话卡诈骗",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "帮信罪",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "兼职诈骗",
-                "sequence": 3,
-                "selected": 1,
-                "isCorrect": 2,
-                "attachmentList": []
-            },
-            {
-                "content": "刷单诈骗",
-                "sequence": 4,
-                "selected": 1,
-                "isCorrect": 2,
-                "attachmentList": []
-            }
-        ]
-    },
     "面对AI诈骗，我们应该？": {
         "typeLabel": "多选题",
         "right": 1,
@@ -8557,40 +10830,6 @@
             }
         ]
     },
-    "灭火器的厂家钢印和生产日期，一般在哪里？": {
-        "typeLabel": "多选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "灭火器的底圈",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "灭火器的颈圈",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "灭火器喷嘴处",
-                "sequence": 3,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            },
-            {
-                "content": "灭火器瓶身正中间",
-                "sequence": 4,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            }
-        ]
-    },
     "以下哪些使用吹风机的方法不当？": {
         "typeLabel": "多选题",
         "right": 1,
@@ -8614,40 +10853,6 @@
                 "sequence": 3,
                 "selected": 2,
                 "isCorrect": 2,
-                "attachmentList": []
-            }
-        ]
-    },
-    "以下哪个选项和“盲人点灯”这个故事的思想是一致的？": {
-        "typeLabel": "多选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "安人助己",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "居安思危",
-                "sequence": 2,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            },
-            {
-                "content": "换位思考",
-                "sequence": 3,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "助人为乐",
-                "sequence": 4,
-                "selected": 1,
-                "isCorrect": 1,
                 "attachmentList": []
             }
         ]
@@ -8849,40 +11054,6 @@
             }
         ]
     },
-    "避免人身伤害的基础是：": {
-        "typeLabel": "多选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "不去危险的地方",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "不做危险的事",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "远离危险的人",
-                "sequence": 3,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "对任何人都信任和友善",
-                "sequence": 4,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            }
-        ]
-    },
     "如果孩子发消息说要报名某个学习班，需要缴纳报名费，作为父母应该怎么做？": {
         "typeLabel": "多选题",
         "right": 2,
@@ -9035,33 +11206,6 @@
                 "sequence": 2,
                 "selected": 1,
                 "isCorrect": 1,
-                "attachmentList": []
-            }
-        ]
-    },
-    "请问我国目前与国家安全相关的法律法规有多少部？": {
-        "typeLabel": "单选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "90多部",
-                "sequence": 1,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            },
-            {
-                "content": "190多部",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "290多部",
-                "sequence": 3,
-                "selected": 2,
-                "isCorrect": 2,
                 "attachmentList": []
             }
         ]
@@ -9375,40 +11519,6 @@
             }
         ]
     },
-    "下面可以用来当作漂浮工具的是：": {
-        "typeLabel": "多选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "门板",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "床板",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "大盆",
-                "sequence": 3,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "空油桶",
-                "sequence": 4,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            }
-        ]
-    },
     "容易发生校园盗窃案的地点有哪些？": {
         "typeLabel": "多选题",
         "right": 1,
@@ -9613,40 +11723,6 @@
             }
         ]
     },
-    "大学生应如何避免成为网络安全的受害人或危害者？": {
-        "typeLabel": "多选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "学习网络安全知识",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "了解法律常识",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "树立网络安全意识",
-                "sequence": 3,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "树立正确的网络道德观念",
-                "sequence": 4,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            }
-        ]
-    },
     "《反有组织犯罪法》防范黑恶势力侵害未成年人、保护举报人、依法从宽等方面，表现在：": {
         "typeLabel": "多选题",
         "right": 1,
@@ -9715,40 +11791,6 @@
             }
         ]
     },
-    "如何做到不传谣、不造谣？": {
-        "typeLabel": "多选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "提高辨别谣言的能力",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "树立正确的三观",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "知法守法",
-                "sequence": 3,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "保持健康的心理状态",
-                "sequence": 4,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            }
-        ]
-    },
     "传销的特点是：": {
         "typeLabel": "多选题",
         "right": 1,
@@ -9776,74 +11818,6 @@
             },
             {
                 "content": "往往没有实际产品。",
-                "sequence": 4,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            }
-        ]
-    },
-    "“黑社会性质组织”特点有哪些？": {
-        "typeLabel": "多选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "稳定的犯罪组织，人较多",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "获取经济利益，具有一定的经济实力",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "有组织的多次进行违法犯罪活动",
-                "sequence": 3,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "严重破坏社会和经济秩序",
-                "sequence": 4,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            }
-        ]
-    },
-    "在宿舍，要想做到预防火灾，应该：": {
-        "typeLabel": "多选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "禁止吸烟，禁止使用明火。",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "禁止使用大功率电器。",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "避免电器长时间使用或超时充电。",
-                "sequence": 3,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "做到人走灯灭，人走断电。",
                 "sequence": 4,
                 "selected": 1,
                 "isCorrect": 1,
@@ -10325,30 +12299,6 @@
                 "id": "ff52f6fb-8fdc-11ed-a45a-6805cab01fc0",
                 "questionId": "6062c4bf-9545-4fa4-b5bc-25648e23b665",
                 "content": "好呀。我要交钱！我要去！",
-                "sequence": 2,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            }
-        ]
-    },
-    "“刷单”打工靠谱吗？": {
-        "typeLabel": "单选题",
-        "right": 1,
-        "optionList": [
-            {
-                "id": "ff2993ed-8fdc-11ed-a45a-6805cab01fc0",
-                "questionId": "b803e79f-1c6a-4bdf-aa5d-84356cc51830",
-                "content": "不靠谱，绝大多数都是骗子平台，并没有刷单工作，反而是变相传销。",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "id": "ff3018b5-8fdc-11ed-a45a-6805cab01fc0",
-                "questionId": "b803e79f-1c6a-4bdf-aa5d-84356cc51830",
-                "content": "靠谱的，只不过挣得少。",
                 "sequence": 2,
                 "selected": 2,
                 "isCorrect": 2,
@@ -11003,6 +12953,573 @@
                 "id": "ff5814a2-8fdc-11ed-a45a-6805cab01fc0",
                 "questionId": "2ca500b5-3721-4e04-8570-7921f0cb7653",
                 "content": "冒险心理",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "如果看到有人被潮水卷走，你应该？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "及时报警，寻求专业救援",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "下水救人",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "在二手网站上购买东西时，对方给你发送了一个不明链接让你点开，你应该？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "拒绝点开",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "点开看看",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "甲与乙因小事大打出手，乙的朋友一直在旁边叫好，甲一气之下扭头捅了乙的朋友一刀。甲的行为属于（）。": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "正当防卫",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "故意犯罪",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "假想防卫",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "局外防卫",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "你高中的好友，平时经常用视频聊天。突然有一天，好友在视频聊天中说遇到紧急情况，管你借钱。你应该：": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "视频聊天不会有假的，好朋友遇难还不帮忙吗？当然借。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "凡是涉及到钱都要谨慎，马上打电话给他问清情况比较靠谱。",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "下面哪些例子不属于“挂羊头卖狗肉”？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "理发店说充值办卡后剪发更便宜，办卡后发现“便宜”档次的理发师总是不在店里",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "拖延症，给自己找一个借口拖着不做",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "“我这牛肉可是纯进口的，我卖贵点很正常吧？”其实这牛肉的产地很一般，价格低廉，口感还不如国内的普通牛肉",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "安全的密码是什么样的？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "随机的数字和字母，对自己有意义，但是别人不知道的数字和字母组合。",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "键盘上按顺序的字母或者自己生日。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "如果接到“金融客服”帮你注销贷款账号的电话时，正确的做法是？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "不信、不理睬",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "按对方的提示操作",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "你和小伙伴来到了郊外准备爬山，该怎么做呢？": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "第二天睡懒觉到中午，下午去爬山。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "晚上休息好，第二天一早就起来去爬山。",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "在公众场合看到有人吵架时，应当：": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "看紧自己的贵重物品。",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "津津有味看热闹。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "无论你是否会做海姆立克急救法，都要拨打120急救电话。": {
+        "typeLabel": "单选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "对",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "错",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "观潮事故频发的原因有？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "不了解潮水的危险",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "侥幸心理",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "观潮地点不安全",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "在人员异常拥挤的场所，如何才能避免遭遇踩踏：": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "提前观察环境，了解哪里便于逃跑。",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "选择有坚固依靠的位置，如墙边。",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "时刻留心脚下有无绊脚处。",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "前方突发不明情况时，立即逆着人群往外挤。",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "大学开学时，可能出现以下哪些诈骗？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "新生群诈骗",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "辅导员收费诈骗",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "助学金诈骗",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "推销诈骗",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "如果想要购买二手手机，你需要注意哪些安全事项？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "选择正规平台",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "拒绝货到付款、先付款后发货",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "警惕低价机",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "网购退款骗局中，骗子一般的手段有？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "冒充购物网站客服",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "添加微信、QQ好友",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "发送木马网站",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "迷信信息带来的危害有哪些？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "诱发违法犯罪",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "损害生命财产安全",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "阻碍科学进步和文明发展",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "浙江也被称为？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "丝绸之府",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "鱼米之乡",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "天府之国",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "选购和使用充电宝时有哪些注意事项？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "充电宝样式美不美观",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "充电宝要放在通风、干燥的环境",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "避免过充或过放",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "充电宝有无合格证",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "正当防卫必须满足哪些要点？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "必须是正在进行的不法侵害行为",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "只能针对不法侵害实施",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "必须针对不法侵害者本人实施",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "防卫程度不能超过必要的限度",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "防卫目的要是正当防卫意图，即为保护合法权益",
+                "sequence": 5,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "下面哪些话，一听到就可以挂断电话了（公检法诈骗）？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "给你网传通缉令或冻结书",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "安全账户",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "去一个没有人的独立空间",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "电话办案",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "古代诈骗和现在诈骗方式虽有不同，但是本质未改变，你认为骗子们能成功的本质原因有什么？": {
+        "typeLabel": "多选题",
+        "right": 1,
+        "optionList": [
+            {
+                "content": "人性中的贪婪",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "骗子智商高",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "人性中的恐惧",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "骗子们有耐心",
                 "sequence": 4,
                 "selected": 2,
                 "isCorrect": 2,
@@ -12960,30 +15477,6 @@
             }
         ]
     },
-    "如果接到“金融客服”帮你注销贷款账号的电话时，正确的做法是？": {
-        "typeLabel": "单选题",
-        "right": 1,
-        "optionList": [
-            {
-                "id": "ff6dd363-8fdc-11ed-a45a-6805cab01fc0",
-                "questionId": "7c9b1b65-06ed-44fb-8071-e4162bd3bd7f",
-                "content": "不信、不理睬",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "id": "ff529907-8fdc-11ed-a45a-6805cab01fc0",
-                "questionId": "7c9b1b65-06ed-44fb-8071-e4162bd3bd7f",
-                "content": "按对方的提示操作",
-                "sequence": 2,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            }
-        ]
-    },
     "俗话说：粮草未动，兵马先行。与这种想法相近的成语是哪个？": {
         "typeLabel": "单选题",
         "right": 1,
@@ -13110,48 +15603,6 @@
             }
         ]
     },
-    "当今大学生死亡的三大杀手主要指（）。": {
-        "typeLabel": "多选题",
-        "right": 1,
-        "optionList": [
-            {
-                "id": "ff70908a-8fdc-11ed-a45a-6805cab01fc0",
-                "questionId": "afaf58ef-fb82-4baa-9f5b-2f87db582fda",
-                "content": "自杀",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "id": "ff759995-8fdc-11ed-a45a-6805cab01fc0",
-                "questionId": "afaf58ef-fb82-4baa-9f5b-2f87db582fda",
-                "content": "疾病",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "id": "ff716257-8fdc-11ed-a45a-6805cab01fc0",
-                "questionId": "afaf58ef-fb82-4baa-9f5b-2f87db582fda",
-                "content": "意外",
-                "sequence": 3,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "id": "ff33d205-8fdc-11ed-a45a-6805cab01fc0",
-                "questionId": "afaf58ef-fb82-4baa-9f5b-2f87db582fda",
-                "content": "伤害",
-                "sequence": 4,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            }
-        ]
-    },
     "做好时间管理为什么可以帮助我们缓解压力？": {
         "typeLabel": "多选题",
         "right": 1,
@@ -13223,48 +15674,6 @@
                 "sequence": 3,
                 "selected": 1,
                 "isCorrect": 1,
-                "attachmentList": []
-            }
-        ]
-    },
-    "古代诈骗和现在诈骗方式虽有不同，但是本质未改变，你认为骗子们能成功的本质原因有什么？": {
-        "typeLabel": "多选题",
-        "right": 1,
-        "optionList": [
-            {
-                "id": "ca9e133a-a441-482c-9053-e150c50f2d71",
-                "questionId": "6813faf8-f8ff-4867-b68a-1d930de2518f",
-                "content": "人性中的贪婪",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "id": "8322c3e0-0e29-4386-bd44-154ad07f56c5",
-                "questionId": "6813faf8-f8ff-4867-b68a-1d930de2518f",
-                "content": "骗子智商高",
-                "sequence": 2,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            },
-            {
-                "id": "f04b4f8b-2005-41d7-bc93-1cf8d05aa2d3",
-                "questionId": "6813faf8-f8ff-4867-b68a-1d930de2518f",
-                "content": "人性中的恐惧",
-                "sequence": 3,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "id": "3bfaf352-a589-4f75-b850-6696fb5a0c09",
-                "questionId": "6813faf8-f8ff-4867-b68a-1d930de2518f",
-                "content": "骗子们有耐心",
-                "sequence": 4,
-                "selected": 2,
-                "isCorrect": 2,
                 "attachmentList": []
             }
         ]
@@ -13846,26 +16255,6 @@
             }
         ]
     },
-    "购物平台的客服会让用户提供银行卡信息和转账吗？": {
-        "typeLabel": "单选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "不会",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "会",
-                "sequence": 2,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            }
-        ]
-    },
     "帮骗子发送病毒文件，是违法犯罪行为吗？": {
         "typeLabel": "单选题",
         "right": 1,
@@ -14102,40 +16491,6 @@
             }
         ]
     },
-    "在火灾中，以下没有巧妙使用毛巾的是？": {
-        "typeLabel": "单选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "结绳自救时，手掌缠湿毛巾。",
-                "sequence": 1,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            },
-            {
-                "content": "火灾逃生时，用双手捂住口鼻。",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "在窗口挥动鲜艳毛巾，来作求救信号。",
-                "sequence": 3,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            },
-            {
-                "content": "用湿毛巾或床单等物堵塞缝隙或孔洞。",
-                "sequence": 4,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            }
-        ]
-    },
     "早上上课，小川来到教室，发现这么冷的天居然还开着窗户，就关上了，并跟班里的人说，怕大家感冒窗户就不要开了。这样的想法对吗？为什么？": {
         "typeLabel": "单选题",
         "right": 1,
@@ -14152,40 +16507,6 @@
                 "sequence": 2,
                 "selected": 2,
                 "isCorrect": 2,
-                "attachmentList": []
-            }
-        ]
-    },
-    "以下哪些行为属于妨碍安全疏散的违法行为？": {
-        "typeLabel": "多选题",
-        "right": 2,
-        "optionList": [
-            {
-                "content": "将杂物堆在楼梯处",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "学生宿舍楼安装防盗窗网",
-                "sequence": 2,
-                "selected": 2,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "在家门口楼道里堆放物品",
-                "sequence": 3,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "安全通道门上锁",
-                "sequence": 4,
-                "selected": 1,
-                "isCorrect": 1,
                 "attachmentList": []
             }
         ]
@@ -14577,100 +16898,6 @@
             }
         ]
     },
-    "网购退款骗局中，骗子一般的手段有？": {
-        "typeLabel": "多选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "冒充购物网站客服",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "添加微信、QQ好友",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "发送木马网站",
-                "sequence": 3,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            }
-        ]
-    },
-    "如果患者还有意识和反应，不要实施CPR，不要挪动被施救人员，应立刻拨打120。": {
-        "typeLabel": "单选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "正确",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "错误",
-                "sequence": 2,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            }
-        ]
-    },
-    "无论你是否会做海姆立克急救法，都要拨打120急救电话。": {
-        "typeLabel": "单选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "对",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "错",
-                "sequence": 2,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            }
-        ]
-    },
-    "灭火器的压力阀，正常状态时应该指向：": {
-        "typeLabel": "单选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "黄色区域",
-                "sequence": 1,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            },
-            {
-                "content": "绿色区域",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "红色区域",
-                "sequence": 3,
-                "selected": 2,
-                "isCorrect": 2,
-                "attachmentList": []
-            }
-        ]
-    },
     "压力是把双刃剑。": {
         "typeLabel": "单选题",
         "right": 1,
@@ -14859,33 +17086,6 @@
             }
         ]
     },
-    "机动车和非机动车的不同规定有（）。": {
-        "typeLabel": "多选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "管理和通行规则不一样",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "行走的车道不一样",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "在发生交通事故的时候所承担的责任不一样",
-                "sequence": 3,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            }
-        ]
-    },
     "研究生学业可能遇到的难题包括：": {
         "typeLabel": "多选题",
         "right": 1,
@@ -14921,40 +17121,6 @@
             {
                 "content": "论文投稿总是被拒绝",
                 "sequence": 5,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            }
-        ]
-    },
-    "过度的消极情绪会造成？": {
-        "typeLabel": "多选题",
-        "right": 1,
-        "optionList": [
-            {
-                "content": "破坏人际关系",
-                "sequence": 1,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "影响学习和工作效率",
-                "sequence": 2,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "引发心理疾病",
-                "sequence": 3,
-                "selected": 1,
-                "isCorrect": 1,
-                "attachmentList": []
-            },
-            {
-                "content": "引发生理疾病",
-                "sequence": 4,
                 "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []

@@ -50,6 +50,7 @@ def generate_bank(directory='.'):
     with open(f"{directory}/result.json", 'w', encoding='utf-8') as f:
         f.write(json.dumps(final_result, indent=4, ensure_ascii=False))
     # return json.dumps(final_result, indent=4, ensure_ascii=False)
+    print(f"当前题库总数:{len(final_result)}\n")
 
 
 bank_obj = {}
