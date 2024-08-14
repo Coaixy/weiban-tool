@@ -73,12 +73,13 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
         if len(answer_list) == 0 or answer_list == None:
             print("未获取到答案")
         else:
-            for answer in Instance.getAnswerList():
+            for answer in answer_list:
                 index = index + 1
-                with open(f"QuestionBank/{tenant_code + "-" + account + "-" + str(index)}.json", 'w',encoding='utf-8') as f:
+                with open(f"QuestionBank/{tenant_code + "-" + account + "-" + str(index)}.json", 'w',
+                          encoding='utf-8') as f:
                     f.write(answer)
             print("答案已保存到QuestionBank文件夹")
-            QuestionBank.generate_bank(directory=os.getcwd() + "/QuestionBank")
+        QuestionBank.generate_bank(directory=os.getcwd() + "/QuestionBank")
         print("开始自动考试")
         Instance.finish_exam_time = auto_exam
         Instance.autoExam()
