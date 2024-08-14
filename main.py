@@ -71,7 +71,7 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
         tenant_code = Instance.get_tenant_code(school_name)
         for answer in Instance.getAnswerList():
             index = index + 1
-            with open(f"QuestionBank/{tenant_code + "-" + account + "-" + str(index)}.json", 'w') as f:
+            with open(f"QuestionBank/{tenant_code + "-" + account + "-" + str(index)}.json", 'w',encoding='utf-8') as f:
                 f.write(answer)
         QuestionBank.generate_bank(directory=os.getcwd() + "/QuestionBank")
         print("开始自动考试")
