@@ -1,0 +1,2173 @@
+{
+	"code": "0",
+	"data": {
+		"submitTime": "2024-03-26 10:36:22",
+		"score": 94,
+		"useTime": 1696,
+		"questions": [
+			{
+				"id": "b1be8744-c8c0-44e8-8c1e-c4ab64e0b4d1",
+				"title": "国家鼓励公民、组织开展公益性的禁毒宣传活动。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 1,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "bfdeffb4-52ef-4160-bf98-bdd668b0ac73",
+						"questionId": "b1be8744-c8c0-44e8-8c1e-c4ab64e0b4d1",
+						"content": "正确",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "a7876ea8-b119-4697-99a4-827cc7c90528",
+						"questionId": "b1be8744-c8c0-44e8-8c1e-c4ab64e0b4d1",
+						"content": "错误",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "2f7da069-6fae-4bc4-937b-eacb425a081c",
+				"title": "行人遇有道路隔离设施时，应当：",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 2,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "4a7f56aa-cced-4db8-b6de-cce94b7f8b73",
+						"questionId": "2f7da069-6fae-4bc4-937b-eacb425a081c",
+						"content": "直接跨越",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "9867fccf-ab6f-4a73-ac65-2665bc1e4d12",
+						"questionId": "2f7da069-6fae-4bc4-937b-eacb425a081c",
+						"content": "等没有车辆通过时跨越",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "75319ec8-fb98-4151-8e75-0cca8d943c02",
+						"questionId": "2f7da069-6fae-4bc4-937b-eacb425a081c",
+						"content": "只有白天才能够跨越",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "d6ceb4aa-9822-49c7-8fcc-a903be735be0",
+						"questionId": "2f7da069-6fae-4bc4-937b-eacb425a081c",
+						"content": "从有人行横道的路段通过",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "df21fd54-1535-4cd4-ad15-14804f5fbbc1",
+				"title": "在交通事故现场抢救脊柱骨折的伤员时，下列做法错误的是：",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 3,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "d17b0c6e-de46-42fb-87a7-54b90102b1bf",
+						"questionId": "df21fd54-1535-4cd4-ad15-14804f5fbbc1",
+						"content": "不乱加搬动",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "cb9ef71b-6bb8-45e5-9f19-0c2c4859325e",
+						"questionId": "df21fd54-1535-4cd4-ad15-14804f5fbbc1",
+						"content": "保持脊柱安定",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "a0031a45-6bd5-48b0-89f5-a68060270e58",
+						"questionId": "df21fd54-1535-4cd4-ad15-14804f5fbbc1",
+						"content": "使用软担架运送",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "8fe2147c-a3c6-4a6b-be5e-4cd571dc9f17",
+				"title": "发现车辆发生交通事故后逃逸的，你应当：",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 4,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "34d7db54-7eb0-42cd-88e3-037b1c23cf8a",
+						"questionId": "8fe2147c-a3c6-4a6b-be5e-4cd571dc9f17",
+						"content": "尽量记住肇事车辆的车牌号、车身颜色、车型、车辆用途、逃逸方向等情况，并立即报警",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "749888ce-12b5-4a73-bc47-2e5e5d0c636e",
+						"questionId": "8fe2147c-a3c6-4a6b-be5e-4cd571dc9f17",
+						"content": "赶快离开现场以免不必要的麻烦",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "c8c45344-41c5-402c-8ece-172172e35a05",
+						"questionId": "8fe2147c-a3c6-4a6b-be5e-4cd571dc9f17",
+						"content": "在无急救知识的情况下自行抢救受伤人员",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "6e8d6b50-15e3-470b-9110-8aa8af56da2a",
+						"questionId": "8fe2147c-a3c6-4a6b-be5e-4cd571dc9f17",
+						"content": "自行追赶肇事车辆",
+						"sequence": 4,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "55c52e7c-6d0f-4acd-9ce1-b2b94853102b",
+				"title": "电器起火时，要先(    )。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 5,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "b4f51801-b5dc-4df7-9281-84235f37ef93",
+						"questionId": "55c52e7c-6d0f-4acd-9ce1-b2b94853102b",
+						"content": "打家里电话报警",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "1dd71181-37f4-4cb8-a2a2-b19d8178987f",
+						"questionId": "55c52e7c-6d0f-4acd-9ce1-b2b94853102b",
+						"content": "切断电源",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "76d69925-f1bf-4cac-af1d-43c64af56070",
+						"questionId": "55c52e7c-6d0f-4acd-9ce1-b2b94853102b",
+						"content": "用灭火器灭火",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "65531f1e-b456-4c46-b20f-08b4527f2c98",
+				"title": "吸毒人员身体消瘦是一种常态，而非病态，所以吸食毒品能有效减肥。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 6,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "896b1c9a-1270-4405-be6e-19b76af64b3b",
+						"questionId": "65531f1e-b456-4c46-b20f-08b4527f2c98",
+						"content": "正确",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "bbec890b-82b6-4f9f-be81-b6e2a3de37d7",
+						"questionId": "65531f1e-b456-4c46-b20f-08b4527f2c98",
+						"content": "错误",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "71d28afe-c20d-427d-8a03-e4641a29de64",
+				"title": "摩托车载物，高度从地面起不得超过1.5米，长度不得超出车身（  ）米。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 7,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "3b70a3d4-3ccf-4463-ad42-9861981e3bc0",
+						"questionId": "71d28afe-c20d-427d-8a03-e4641a29de64",
+						"content": "0.15   ",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "5d2a74bd-2ab3-46da-b21f-114caff23f6f",
+						"questionId": "71d28afe-c20d-427d-8a03-e4641a29de64",
+						"content": "0.2",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "41b45fe7-8114-4a40-bb80-8a4efb0c0865",
+						"questionId": "71d28afe-c20d-427d-8a03-e4641a29de64",
+						"content": "0.25",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "de702b60-151c-4767-8681-18d2f66aea87",
+				"title": "身处高楼被困火灾，你会选择如何逃生呢？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 8,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "62f940db-07fb-446e-bec0-bf1eaa77eb40",
+						"questionId": "de702b60-151c-4767-8681-18d2f66aea87",
+						"content": "迅速坐电梯逃生",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "ca3caa1d-eaed-4a69-9669-0603b0b7bc90",
+						"questionId": "de702b60-151c-4767-8681-18d2f66aea87",
+						"content": "寻找安全通道，快速撤离",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "5b57407f-b0ba-4876-b9c3-01813c156048",
+				"title": "96110电话一定要接，因为这个电话骗子无法冒充。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 9,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "094316b9-b969-4626-9eb4-060501a1d9fc",
+						"questionId": "5b57407f-b0ba-4876-b9c3-01813c156048",
+						"content": "正确",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "b2003dc6-4723-43c0-b0c6-80cef4ba7c2a",
+						"questionId": "5b57407f-b0ba-4876-b9c3-01813c156048",
+						"content": "错误",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "a51a2eb7-2b3d-4292-92cd-f8ada68d6065",
+				"title": "骑车人转弯前应当(   )，伸手示意，不得突然猛拐，超越前车时不得妨碍被超越的车辆行驶。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 10,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "fba1c22d-72e1-4839-9605-a74a5eeb36ad",
+						"questionId": "a51a2eb7-2b3d-4292-92cd-f8ada68d6065",
+						"content": "减速慢行   ",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "a52dc87e-c34e-4fd7-b744-0b6bfbc4b1e2",
+						"questionId": "a51a2eb7-2b3d-4292-92cd-f8ada68d6065",
+						"content": "匀速行驶     ",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "9bc61f81-cda7-45c2-98d7-605e4b3c5d26",
+						"questionId": "a51a2eb7-2b3d-4292-92cd-f8ada68d6065",
+						"content": "加速快行",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "a365f0c0-f02f-48a4-907b-f3f8794a3863",
+				"title": "我们常说的“杀猪盘”指的是：",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 11,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "70063007-1a1f-4e23-8b50-876b3e708033",
+						"questionId": "a365f0c0-f02f-48a4-907b-f3f8794a3863",
+						"content": "屠夫用的餐盘",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "f74b2436-5b24-4c3f-b5bd-2e1a996f0978",
+						"questionId": "a365f0c0-f02f-48a4-907b-f3f8794a3863",
+						"content": "杀猪之前先盘一下猪",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "ef221000-adc9-4139-87b4-7a71a30b4ba6",
+						"questionId": "a365f0c0-f02f-48a4-907b-f3f8794a3863",
+						"content": "婚恋投资类诈骗",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "71809b1b-c58d-4200-9a52-9327c931d5a6",
+				"title": "行人不得在(   )上拦乘机动车。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 12,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "08e215ad-7b66-4cd1-9e07-579cca3a5f9d",
+						"questionId": "71809b1b-c58d-4200-9a52-9327c931d5a6",
+						"content": "人行道 ",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "30594af8-47df-4fe1-be46-d7b68d2b083d",
+						"questionId": "71809b1b-c58d-4200-9a52-9327c931d5a6",
+						"content": "非机动车道 ",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "79a79303-6163-4343-964d-37bcabb50e2a",
+						"questionId": "71809b1b-c58d-4200-9a52-9327c931d5a6",
+						"content": "机动车道",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "ce63a5ad-3bab-456c-b01f-950cccd04077",
+				"title": "表达国家具有主权或某种治权的国陆、国水、国空、国底、国天等生存发展空间的不受侵害和威胁的客观状态的恰当概念是：",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 13,
+				"analysis": "",
+				"isRight": 2,
+				"optionList": [
+					{
+						"id": "1acc8da5-0cc1-4b12-8599-2a1d43c98948",
+						"questionId": "ce63a5ad-3bab-456c-b01f-950cccd04077",
+						"content": "国域安全",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "112d6dab-7837-4ea5-a925-bbe4047bc5e9",
+						"questionId": "ce63a5ad-3bab-456c-b01f-950cccd04077",
+						"content": "领土安全",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "a0f0d325-9a3b-4a8a-a551-d36d1d0e0ae9",
+						"questionId": "ce63a5ad-3bab-456c-b01f-950cccd04077",
+						"content": "国土安全",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "34ed0747-147e-467c-8049-1fc99e38485a",
+						"questionId": "ce63a5ad-3bab-456c-b01f-950cccd04077",
+						"content": "空间安全",
+						"sequence": 4,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "f81049f1-8ce9-4f5d-b6a5-9ce47fe66a81",
+				"title": "国家鼓励、支持(    )开展消防公益活动。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 14,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "8c081071-e93b-482f-a585-fa8721f8795d",
+						"questionId": "f81049f1-8ce9-4f5d-b6a5-9ce47fe66a81",
+						"content": "个人、团体",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "700b0caa-67d5-47a1-a9c0-fd32e9a29d9e",
+						"questionId": "f81049f1-8ce9-4f5d-b6a5-9ce47fe66a81",
+						"content": "社会力量",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "fa81961f-9645-4af3-90f9-d960c495819e",
+						"questionId": "f81049f1-8ce9-4f5d-b6a5-9ce47fe66a81",
+						"content": "企业",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "9283842b-5e9f-4378-a322-c659f16dd50b",
+				"title": "在用银行卡支付的同时，不属于具有安全意识和防范能力的行为是：",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 15,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "9e21ce7b-b65b-4a8b-9a7b-5c65540f0a33",
+						"questionId": "9283842b-5e9f-4378-a322-c659f16dd50b",
+						"content": "妥善保管信用卡",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "ed29e5b5-e3df-4d31-a13b-a5c9c38bf6de",
+						"questionId": "9283842b-5e9f-4378-a322-c659f16dd50b",
+						"content": "身份证号不轻易泄露",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "eccb179a-4e25-4ebf-877c-4ddcd7d5df05",
+						"questionId": "9283842b-5e9f-4378-a322-c659f16dd50b",
+						"content": "刷卡凭证、签购单谨慎保管或销毁",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "ad7fd9b5-3e63-4fa3-ba90-c82136e38d2e",
+						"questionId": "9283842b-5e9f-4378-a322-c659f16dd50b",
+						"content": "身份证和银行卡一起存放",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "9c7659c9-86f5-47ce-b762-00e73a482190",
+				"title": "任何个人和组织使用网络应当遵守宪法法律，遵守公共秩序，尊重社会公德，不得危害网络安全，不得利用网络从事危害国家安全、荣誉和利益的活动.",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 16,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "68a99529-d66c-4583-abb7-65aa6f66e7be",
+						"questionId": "9c7659c9-86f5-47ce-b762-00e73a482190",
+						"content": "正确",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "2459d99a-f216-462d-9f75-e022e59eab81",
+						"questionId": "9c7659c9-86f5-47ce-b762-00e73a482190",
+						"content": "错误",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "690cd1ec-7024-48e5-a94b-500827f51e37",
+				"title": "《中华人民共和国道路交通安全法实施条例》，第五十五条第三款规定“摩托车后座不得乘坐未满12周岁的未成年人，轻便摩托车不得载人”。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 17,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "d792a566-ecdb-46ca-8205-b450bf7b0780",
+						"questionId": "690cd1ec-7024-48e5-a94b-500827f51e37",
+						"content": "正确",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "f8f1352c-f5a3-4231-abe0-e900dce373b5",
+						"questionId": "690cd1ec-7024-48e5-a94b-500827f51e37",
+						"content": "错误",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "5909657d-e225-4f37-9fe7-029f5e41330b",
+				"title": "口令攻击的主要目的是：",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 18,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "5eeb46e2-bf3b-4554-b1b3-8d0099a784ee",
+						"questionId": "5909657d-e225-4f37-9fe7-029f5e41330b",
+						"content": "获取口令破坏系统",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "a98d0df6-bd2c-4ce2-9fbf-5a4af8b40840",
+						"questionId": "5909657d-e225-4f37-9fe7-029f5e41330b",
+						"content": "获取口令进入系统",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "fc1e0cc1-fcab-4358-a2be-7cb8268299f3",
+						"questionId": "5909657d-e225-4f37-9fe7-029f5e41330b",
+						"content": "仅获取口令没有用途",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "9c784fd2-c6db-4794-87e3-850929160337",
+				"title": "不能作为硝化棉火灾灭火剂的是(    )。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 19,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "19adad66-a436-4f42-b67d-e19fd96766f6",
+						"questionId": "9c784fd2-c6db-4794-87e3-850929160337",
+						"content": "水",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "3742dd2f-4897-4b73-952c-8633903eb1af",
+						"questionId": "9c784fd2-c6db-4794-87e3-850929160337",
+						"content": "泡沫",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "98082906-3ca3-4709-b0b5-9c0f4e1ef420",
+						"questionId": "9c784fd2-c6db-4794-87e3-850929160337",
+						"content": "二氧化碳",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "bc498ddc-0095-40c9-b88f-3fc97d3b00d5",
+						"questionId": "9c784fd2-c6db-4794-87e3-850929160337",
+						"content": "干粉",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "8b691421-66a1-4bc9-ad9f-0a7ba069fffd",
+				"title": "穿高跟鞋驾驶摩托车，不利于安全行车。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 20,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "fc80f20c-8981-4df3-8848-652157042013",
+						"questionId": "8b691421-66a1-4bc9-ad9f-0a7ba069fffd",
+						"content": "正确",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "ea6ce251-45e7-45fb-bad0-dff570a1bf50",
+						"questionId": "8b691421-66a1-4bc9-ad9f-0a7ba069fffd",
+						"content": "错误",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "a1227334-d754-4177-9805-f9ca44d0c02b",
+				"title": "某国不明身份的人员戴某，结识了我某国家机关机要员黄某。戴某谎称来华投资建厂需了解政策动向，让黄某借工作之便为其搞到密级为“机密”的《内参报告》四份。戴某拿到文件后送给黄某一部手提电脑，并为其子前往某国留学提供了六万元资金。同在该国家机关的同事赵某发现其行迹后，决定写信揭发黄某。经某机关立案侦查，掌握并取得了戴某、黄某的犯罪证据，案件顺利告破。对黄某的行为，应定何罪？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 21,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "bf031b35-1c7d-4f8b-9b3a-c05029bda828",
+						"questionId": "a1227334-d754-4177-9805-f9ca44d0c02b",
+						"content": "资助危害国家安全活动罪",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "8dbba002-e15e-4c77-b299-5ca07f52bddd",
+						"questionId": "a1227334-d754-4177-9805-f9ca44d0c02b",
+						"content": "为境外窃取、刺探、收买、非法提供国家秘密、情报罪",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "d98e635c-47ea-4a7a-ad5b-930f8732c86a",
+						"questionId": "a1227334-d754-4177-9805-f9ca44d0c02b",
+						"content": "非法获取国家秘密罪",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "3de05c9c-6ac9-4de1-8ff9-f115cc2dd1a8",
+						"questionId": "a1227334-d754-4177-9805-f9ca44d0c02b",
+						"content": "故意泄露国家秘密罪",
+						"sequence": 4,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "a8fbddd7-07a4-482e-ba62-f550696fabdc",
+				"title": "新闻媒体应当(    )宣传消防法律、法规和消防知识，定期发布消防公益⼴告。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 22,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "6a86108f-7ff2-42f9-ae7b-a6a600b7bcea",
+						"questionId": "a8fbddd7-07a4-482e-ba62-f550696fabdc",
+						"content": "有偿",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "fea298b6-ac63-48b6-8fe4-b4ffa2c95cf1",
+						"questionId": "a8fbddd7-07a4-482e-ba62-f550696fabdc",
+						"content": "免费",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "d14e0fac-09cd-486d-95ec-742881ca861f",
+						"questionId": "a8fbddd7-07a4-482e-ba62-f550696fabdc",
+						"content": "有条件",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "bd697427-8f84-4736-9c0f-11f34a2803ad",
+				"title": "如果你是被骗的受害者，提供哪一个线索效率是最低的？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 23,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "9f84eaae-fec2-441b-b52d-b832c9a43c44",
+						"questionId": "bd697427-8f84-4736-9c0f-11f34a2803ad",
+						"content": "提供对方的银行账户，以便警方查询交易明细",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "0543de0d-0a62-439b-a255-5cb5633f41d3",
+						"questionId": "bd697427-8f84-4736-9c0f-11f34a2803ad",
+						"content": "提供对方的姓名，以便警方在人口库中寻找",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "0765b22d-6277-472a-8ed7-3379ba1101c6",
+						"questionId": "bd697427-8f84-4736-9c0f-11f34a2803ad",
+						"content": "提供对方的联系电话，以便警方查询机主信息",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "5d15d388-cee9-4e0b-afab-704cd75cf450",
+				"title": "下列有关四川省所辖的某藏族自治州的表述，正确的是（ ）。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 24,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "73cc04b8-25ae-4845-b458-9e0794f34733",
+						"questionId": "5d15d388-cee9-4e0b-afab-704cd75cf450",
+						"content": "该州人民代表大会有权制定自治条例",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "98f65a62-a964-43ee-b982-26c47b09df52",
+						"questionId": "5d15d388-cee9-4e0b-afab-704cd75cf450",
+						"content": "该州人民法院院长应由藏族公民担任",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "cc8f0ce6-a539-4f08-982e-3c257434362b",
+						"questionId": "5d15d388-cee9-4e0b-afab-704cd75cf450",
+						"content": "该州人民政府副州长应由藏族公民担任",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "41ab4e95-b346-4b46-9fc6-e8f605f679cc",
+						"questionId": "5d15d388-cee9-4e0b-afab-704cd75cf450",
+						"content": "该州制定的单行条例由全国人大常委会批准后生效",
+						"sequence": 4,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "0f4e8e1b-3bc6-4984-ba1b-7c8f0113931c",
+				"title": "国家根据经济社会发展和（   ）的需要，不断完善维护国家安全的任务。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 25,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "c86e4658-dc4f-4fe8-ae7b-3e04721c603c",
+						"questionId": "0f4e8e1b-3bc6-4984-ba1b-7c8f0113931c",
+						"content": "社会稳定大局",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "616acfd8-8720-4d9d-b09a-f1c76f8fca39",
+						"questionId": "0f4e8e1b-3bc6-4984-ba1b-7c8f0113931c",
+						"content": "国家安全",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "84846307-db64-45b3-ac7b-2b2f0340ca0f",
+						"questionId": "0f4e8e1b-3bc6-4984-ba1b-7c8f0113931c",
+						"content": "经济增长",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "d20f49ef-e923-47f6-9910-c180c5ff343f",
+						"questionId": "0f4e8e1b-3bc6-4984-ba1b-7c8f0113931c",
+						"content": "国家发展利益",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "6330a979-286d-4498-91d0-1251c8420871",
+				"title": "一位妈妈去接放学的孩子，恰好看见孩子站在公路另一侧准备横过，这时有机动车驶来，为避免交通事故，最安全的做法是：",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 26,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "a30549fd-cb6c-4c42-be59-40a21cafe600",
+						"questionId": "6330a979-286d-4498-91d0-1251c8420871",
+						"content": "妈妈跑向孩子一侧",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "d38f23aa-eff7-4fbb-a9ad-1684dc42b1b9",
+						"questionId": "6330a979-286d-4498-91d0-1251c8420871",
+						"content": "孩子奔向妈妈一侧",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "4788f950-de40-4346-9e06-c798e8b54752",
+						"questionId": "6330a979-286d-4498-91d0-1251c8420871",
+						"content": "妈妈大声喊孩子快过来",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "ffe2a91b-780e-4857-b8bc-f94536fd57cc",
+						"questionId": "6330a979-286d-4498-91d0-1251c8420871",
+						"content": "妈妈大声喊孩子站在原地等待",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "ea7600f9-44f3-4e2b-b4f3-cf15ca04a050",
+				"title": "凡是能引起可燃物着火或爆炸的热源统称为点火源。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 27,
+				"analysis": "",
+				"isRight": 2,
+				"optionList": [
+					{
+						"id": "55497559-8f60-4b1a-9848-c1fb3dd69604",
+						"questionId": "ea7600f9-44f3-4e2b-b4f3-cf15ca04a050",
+						"content": "正确",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "41e2ad79-bd19-4be6-adaa-9f8b1890e4f3",
+						"questionId": "ea7600f9-44f3-4e2b-b4f3-cf15ca04a050",
+						"content": "错误",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "284327e4-6897-4bcb-8d98-2829eec946b3",
+				"title": "接到要求转账和索要密码的电话，下列哪个做法正确？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 28,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "c6118ef1-3c81-42bf-9ef4-90dad7597e76",
+						"questionId": "284327e4-6897-4bcb-8d98-2829eec946b3",
+						"content": "及时与发卡银行客户服务专线联系，鉴别通知真伪",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "5b19c2ad-4b1d-4613-ac09-f75117c41d83",
+						"questionId": "284327e4-6897-4bcb-8d98-2829eec946b3",
+						"content": "先谨慎核对其身份和账户名",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "aea9a222-c81c-480e-ab6e-c32770f0214c",
+						"questionId": "284327e4-6897-4bcb-8d98-2829eec946b3",
+						"content": "“宁可信其有，不可信其无”",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "893a4d12-3c61-493e-bbd3-75e48574f8c4",
+						"questionId": "284327e4-6897-4bcb-8d98-2829eec946b3",
+						"content": "按电话指示做",
+						"sequence": 4,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "727de6ec-a6c3-4c06-a689-652798d24e9c",
+				"title": "在安装新的APP时，弹窗提示隐私政策后，正确的做法是：",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 29,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "7ab885c3-ff19-4668-81ec-35c443875e10",
+						"questionId": "727de6ec-a6c3-4c06-a689-652798d24e9c",
+						"content": "跳过阅读尽快完成安装",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "495edd85-496f-473a-9e33-596e32bd52e2",
+						"questionId": "727de6ec-a6c3-4c06-a689-652798d24e9c",
+						"content": "粗略浏览，看过就行",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "3280c771-f660-4eab-b31e-484d5a35ef4b",
+						"questionId": "727de6ec-a6c3-4c06-a689-652798d24e9c",
+						"content": "仔细逐条阅读后，再进行判断是否继续安装该APP",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "d2fe902e-0d77-41eb-a7f8-dc96958f2136",
+						"questionId": "727de6ec-a6c3-4c06-a689-652798d24e9c",
+						"content": "以上说法都对",
+						"sequence": 4,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "c9c14331-edfc-46fa-b64c-e93dd55c56ad",
+				"title": "全国人民代表大会会议每年举行（   ）次。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 30,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "75a09450-42e7-4b9e-9933-dab108aa156d",
+						"questionId": "c9c14331-edfc-46fa-b64c-e93dd55c56ad",
+						"content": "1",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "86e98354-1c02-4390-87c3-c3f63a5c993e",
+						"questionId": "c9c14331-edfc-46fa-b64c-e93dd55c56ad",
+						"content": "2",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "4599d30e-c347-4413-91d9-a5e1fa8730c2",
+						"questionId": "c9c14331-edfc-46fa-b64c-e93dd55c56ad",
+						"content": "3",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "dc0eeb24-b7e9-429e-bd6a-3d15f9656375",
+						"questionId": "c9c14331-edfc-46fa-b64c-e93dd55c56ad",
+						"content": "4",
+						"sequence": 4,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "33a5a89b-4072-4054-ad72-c64607a35b5b",
+				"title": "当打开房门闻到燃气气味时，要迅速(    )， 以防止引起火灾。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 31,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "6dfe750a-98b2-48e7-bc29-b8226d3b2553",
+						"questionId": "33a5a89b-4072-4054-ad72-c64607a35b5b",
+						"content": "打开燃气灶具查找漏气部位",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "b4205ca4-3db0-4cba-9324-29bedbdc5d68",
+						"questionId": "33a5a89b-4072-4054-ad72-c64607a35b5b",
+						"content": "打开门窗通风",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "63465887-f78d-402c-8890-d6830d1578df",
+						"questionId": "33a5a89b-4072-4054-ad72-c64607a35b5b",
+						"content": "打电话报警",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "1e2d0a27-a4ab-4576-83a6-53edf49e0e7a",
+				"title": "干粉灭火器使用不当，可能会冻伤手指。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 32,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "f69c0992-969e-4eed-9d4d-9110bdaa9db6",
+						"questionId": "1e2d0a27-a4ab-4576-83a6-53edf49e0e7a",
+						"content": "正确",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "ae70dd2f-9116-4cdb-b597-6ab5488aa1d7",
+						"questionId": "1e2d0a27-a4ab-4576-83a6-53edf49e0e7a",
+						"content": "错误",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "b452eb52-73ed-4643-b36e-6ed96216bb56",
+				"title": "大学生小吴在网上以一个知名作家的名义写博客，但事先没有征得该作家同意。小吴应当承担(    ) 。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 33,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "42fd730d-c3b5-4253-8427-9dbc81dfe250",
+						"questionId": "b452eb52-73ed-4643-b36e-6ed96216bb56",
+						"content": "侵权责任",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "060b1ae4-5e99-468e-9163-a19a1dd2c052",
+						"questionId": "b452eb52-73ed-4643-b36e-6ed96216bb56",
+						"content": "违约责任",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "d0fcbb34-15d7-4066-bc21-da0a1d7d9c38",
+						"questionId": "b452eb52-73ed-4643-b36e-6ed96216bb56",
+						"content": "刑事责任",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "398aa475-62a5-47ee-859e-d16d3b1807d2",
+						"questionId": "b452eb52-73ed-4643-b36e-6ed96216bb56",
+						"content": "行政责任",
+						"sequence": 4,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "7a0759a3-dae4-4815-85da-d7c321bb0c4f",
+				"title": "吸毒会损害人的呼吸系统、消化系统、心血管系统、免疫系统和神经系统，感染各种疾病。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 34,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "d5836765-ff81-470c-a9ab-8ade8f521f56",
+						"questionId": "7a0759a3-dae4-4815-85da-d7c321bb0c4f",
+						"content": "正确",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "8ec36ebd-e78f-44a0-938b-b180589896df",
+						"questionId": "7a0759a3-dae4-4815-85da-d7c321bb0c4f",
+						"content": "错误",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "7811238b-7eed-4516-9cc4-bc778df2c12a",
+				"title": "转弯时速度过快，摩托车容易冲出弯道或侧滑。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 35,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "b599306c-6e2f-4d45-a4e9-7450e031b00d",
+						"questionId": "7811238b-7eed-4516-9cc4-bc778df2c12a",
+						"content": "正确",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "fb7cfef3-cc21-4697-bd2c-e8be7fd72d23",
+						"questionId": "7811238b-7eed-4516-9cc4-bc778df2c12a",
+						"content": "错误",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "9dc4f195-00d2-468f-b495-2e1e137cbb10",
+				"title": "《中华人民共和国禁毒法》自（   ）起施行。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 36,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "175ccb08-fe0f-4038-bd7b-7ea3702606a7",
+						"questionId": "9dc4f195-00d2-468f-b495-2e1e137cbb10",
+						"content": "2007年12月29日",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "3215541d-161f-4d85-8611-83cecb939b25",
+						"questionId": "9dc4f195-00d2-468f-b495-2e1e137cbb10",
+						"content": "2008年1月1日",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "eed610e5-da15-45bf-a096-0f1178479c6e",
+						"questionId": "9dc4f195-00d2-468f-b495-2e1e137cbb10",
+						"content": "2008年6月1日",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "83c8a2ef-629b-47c3-bcf1-6f796b01fee5",
+						"questionId": "9dc4f195-00d2-468f-b495-2e1e137cbb10",
+						"content": "2008年6月26日",
+						"sequence": 4,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "b1240f64-697b-4981-a452-3ea9f0e7c364",
+				"title": "收到商家发来的新的网络链接，并承诺很多的优惠，这时应该怎么做？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 37,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "b8e0ef52-1ffe-4dfd-ba0e-7dd2e76afd92",
+						"questionId": "b1240f64-697b-4981-a452-3ea9f0e7c364",
+						"content": "和商家协商一下，可以线下支付",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "f56a8f72-b861-4ab2-ac75-e2d606e85899",
+						"questionId": "b1240f64-697b-4981-a452-3ea9f0e7c364",
+						"content": "赶紧打开链接",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "c267e220-39fc-4a4a-83a0-f01228a816f9",
+						"questionId": "b1240f64-697b-4981-a452-3ea9f0e7c364",
+						"content": "坚决不能打开链接",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "684955f4-1c17-4b37-becc-d44e4174c107",
+						"questionId": "b1240f64-697b-4981-a452-3ea9f0e7c364",
+						"content": "我的电脑有防病毒的软件，可以直接打开",
+						"sequence": 4,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "b5ed96bf-3f40-47d8-a86e-6ef46cc36aed",
+				"title": "教学楼起火应如何脱险？(    )",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 1,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "7388fe44-dab4-4b35-b3cd-b4b3527f5b8d",
+						"questionId": "b5ed96bf-3f40-47d8-a86e-6ef46cc36aed",
+						"content": "当发现楼内起火时，确定风向快速离开火灾区域",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "92610902-946e-4956-ae49-0d1e6573fc38",
+						"questionId": "b5ed96bf-3f40-47d8-a86e-6ef46cc36aed",
+						"content": "起火时如果楼道被烟火封死，应该立即关闭房门和室内通风孔，防止进烟",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "6b7983fd-9eb8-427c-945d-8225a5f251a7",
+						"questionId": "b5ed96bf-3f40-47d8-a86e-6ef46cc36aed",
+						"content": "高楼层起火时千万不要从窗口往下跳",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "83fa4e63-8c33-4ba0-9fd3-88ba863eed1a",
+						"questionId": "b5ed96bf-3f40-47d8-a86e-6ef46cc36aed",
+						"content": "发生火灾时，不能乘坐电梯，应沿防火安全通道朝底楼跑。如果中途防火楼梯被堵死，则应当向顶楼跑，向外高声呼救，让救援人员知道你的确切位置，以便营救",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "50827943-2632-46b0-9315-37f68497e43c",
+				"title": "（    ）有防范、制止间谍行为，维护国家安全的义务。",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 2,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "9b76c824-d2da-431b-abaf-9f377935f2ac",
+						"questionId": "50827943-2632-46b0-9315-37f68497e43c",
+						"content": "一切国家机关",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "00de4286-ad4a-4d95-921f-24ac41ec909d",
+						"questionId": "50827943-2632-46b0-9315-37f68497e43c",
+						"content": "武装力量",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "32aa4695-d5f2-4c7a-82a3-5c90e7f46053",
+						"questionId": "50827943-2632-46b0-9315-37f68497e43c",
+						"content": "各政党和各社会团体",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "8abdfc1a-6bb6-4b3b-abe5-b9c468261361",
+						"questionId": "50827943-2632-46b0-9315-37f68497e43c",
+						"content": "各企业事业组织",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "0d8e117b-7a4d-4882-be63-e83b1d9dd4f0",
+				"title": "近期，某地出现一宗案件，小偷在盗窃事主的手机后，迅速通过一系列操作盗刷事主数万元资金，有网友评价：现在智能手机就好像家里保险柜的钥匙，丢失手机就等于丢了自己的保险柜。为了避免这种情况发生，我们在现实生活中应该做到：",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 3,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "b2445785-820f-4c41-9eea-714b3fe8fec0",
+						"questionId": "0d8e117b-7a4d-4882-be63-e83b1d9dd4f0",
+						"content": "给手机设置锁屏密码，避免丢失后被人轻易打开",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "abec562d-badd-41b5-a629-dd58d011c594",
+						"questionId": "0d8e117b-7a4d-4882-be63-e83b1d9dd4f0",
+						"content": "给手机SIM卡设置密码，避免有人将手机卡拔出后放到别的手机，接收验证码",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "222c8f14-0723-4439-87ca-96985be334d8",
+						"questionId": "0d8e117b-7a4d-4882-be63-e83b1d9dd4f0",
+						"content": "与手机支付绑定的银行卡金额不要过大，并设置每日转账限额",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "f9f6c339-6324-4a10-98d5-71eecce43728",
+						"questionId": "0d8e117b-7a4d-4882-be63-e83b1d9dd4f0",
+						"content": "不用智能手机",
+						"sequence": 4,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "70c9a507-9c12-4533-b075-342274e4d27b",
+				"title": "机关、团体、企业、事业等单位应当履行的消防平安职责包括：",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 4,
+				"analysis": "",
+				"isRight": 2,
+				"optionList": [
+					{
+						"id": "c1b215c3-916e-43ba-a529-9e55cd66cf54",
+						"questionId": "70c9a507-9c12-4533-b075-342274e4d27b",
+						"content": "落实消防平安责任制，制定本单位的消防平安制度、消防平安操作规程，制定灭火和应急疏散预案 ",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "d336f668-598c-4648-b22a-aa6dda1f138d",
+						"questionId": "70c9a507-9c12-4533-b075-342274e4d27b",
+						"content": "托付消防设施检测机构对建筑消防设施每年至少进行一次全面检测",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "a9b08855-e217-46df-ad6c-bd1c949912f3",
+						"questionId": "70c9a507-9c12-4533-b075-342274e4d27b",
+						"content": "保障疏散通道、平安出口、消防车通道畅通，保证防火防烟分区、防火间距符合消防技术标准 ",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "45318733-6bee-45af-b03f-bb2767503828",
+						"questionId": "70c9a507-9c12-4533-b075-342274e4d27b",
+						"content": "根据国家标准、行业标准配置消防设施、器材，设置消防平安标志，并定期组织检验、修理，确保完好有效",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "9909a296-af87-4dae-82b7-9f7242c0e1fa",
+				"title": "新修订的《消防法》包括的章节有：",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 5,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "6dcb1396-e00d-41cd-afce-97e96baa4b67",
+						"questionId": "9909a296-af87-4dae-82b7-9f7242c0e1fa",
+						"content": "火灾预防",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "dda752af-7d4d-46f6-bc3f-ed5af63934b0",
+						"questionId": "9909a296-af87-4dae-82b7-9f7242c0e1fa",
+						"content": "消防组织",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "320c6f76-ece5-4196-a4ed-a651d1545f06",
+						"questionId": "9909a296-af87-4dae-82b7-9f7242c0e1fa",
+						"content": "灭火救援",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "6abb2dae-ecd7-49f7-aa41-82224ff8523f",
+						"questionId": "9909a296-af87-4dae-82b7-9f7242c0e1fa",
+						"content": "监督检查",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "c8650655-d7b7-4f30-8f49-1ab5667c1317",
+				"title": "出入境证件签发机关、出入境边防检查机关对恐怖活动人员和恐怖活动嫌疑人员，有权决定：",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 6,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "29c17f35-0e2b-4d1a-a879-26561127a528",
+						"questionId": "c8650655-d7b7-4f30-8f49-1ab5667c1317",
+						"content": "不准其出境入境",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "5def731f-4272-488e-b8ad-2333fc5dcf98",
+						"questionId": "c8650655-d7b7-4f30-8f49-1ab5667c1317",
+						"content": "不予签发出境入境证件",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "d24474df-3b01-4d84-87d3-326373942f94",
+						"questionId": "c8650655-d7b7-4f30-8f49-1ab5667c1317",
+						"content": "宣布其出境入境证件作废",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "d2d81a55-4ab5-42c6-8dad-788ab3fb7c31",
+						"questionId": "c8650655-d7b7-4f30-8f49-1ab5667c1317",
+						"content": "驱逐出境",
+						"sequence": 4,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "f1958b9e-8524-4820-8906-8dae0dadf411",
+				"title": "下列哪些体液含有足够的艾滋病病毒，能够传播病毒？",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 7,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "9bd0666d-fa31-4a54-949b-4fcaffb021c2",
+						"questionId": "f1958b9e-8524-4820-8906-8dae0dadf411",
+						"content": "血液",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "b07c93de-350c-489c-aae5-ab9bf8b4d306",
+						"questionId": "f1958b9e-8524-4820-8906-8dae0dadf411",
+						"content": "精液",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "3678be42-85c5-46fc-b16e-ed82159f1dea",
+						"questionId": "f1958b9e-8524-4820-8906-8dae0dadf411",
+						"content": "乳汁",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "d57277b2-5bc8-44a7-b86a-3e2d620e8ec5",
+						"questionId": "f1958b9e-8524-4820-8906-8dae0dadf411",
+						"content": "阴道分泌物",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "69f2dc42-446e-4fd8-a89b-e31e7f1d38c3",
+				"title": "下列（   ）情形属于《反间谍法》第七条所称“重大贡献”。",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 8,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "0751d53e-1e31-4ed7-8492-0601ec8778a9",
+						"questionId": "69f2dc42-446e-4fd8-a89b-e31e7f1d38c3",
+						"content": "为国家安全机关提供重要线索，发现、破获严重危害国家安全的犯罪案件的",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "b1d69dd0-13bd-41b8-9a4d-67e8d25fe623",
+						"questionId": "69f2dc42-446e-4fd8-a89b-e31e7f1d38c3",
+						"content": "为国家安全机关提供重要情况，防范、制止严重危害国家安全的行为发生的",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "1caf9c93-36a7-4351-887e-2ae98b037bc3",
+						"questionId": "69f2dc42-446e-4fd8-a89b-e31e7f1d38c3",
+						"content": "密切配合国家安全机关执行国家安全工作任务，表现突出的",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "b93820bd-8769-409f-984a-49e9d511cf27",
+						"questionId": "69f2dc42-446e-4fd8-a89b-e31e7f1d38c3",
+						"content": "为维护国家安全，与危害国家安全的犯罪分子进行斗争，表现突出的",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "d67d0666-bded-41ee-8472-f5285c19439d",
+						"questionId": "69f2dc42-446e-4fd8-a89b-e31e7f1d38c3",
+						"content": "在教育、动员、组织本单位的人员防范、制止危害国家安全行为的工作中，成绩显著的",
+						"sequence": 5,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "3366c46f-3239-4894-ac39-16b86d678eea",
+				"title": "甲犯间谍罪以后，国家安全机关工作人员找到甲向其了解相关情况后离开，甲因害怕东窗事发，遂在家人的陪同下到国家安全机关主动投案，并且如实供述了自己的间谍罪行。关于甲的刑事责任下列说法正确的有：",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 9,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "692ecdf3-a564-4663-9e39-12a0585786c8",
+						"questionId": "3366c46f-3239-4894-ac39-16b86d678eea",
+						"content": "甲成立自首情节，可从轻处罚或减轻处罚",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "c4ee5451-45da-4ccf-958a-95d3fcec5c2c",
+						"questionId": "3366c46f-3239-4894-ac39-16b86d678eea",
+						"content": "甲成立自首情节，犯罪较轻的可以免除处罚",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "84402646-d711-478d-add9-255db9458128",
+						"questionId": "3366c46f-3239-4894-ac39-16b86d678eea",
+						"content": "甲不成立自首情节，因为其已经被安全机关接触，但如实供述可成立坦白",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "7376b45a-4ace-4d84-a099-f88078812584",
+						"questionId": "3366c46f-3239-4894-ac39-16b86d678eea",
+						"content": "甲不成立自首情节，因其是因为害怕才如实供述自己的罪行，不具备主动投案的主观意图",
+						"sequence": 4,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "d3cfd436-29d1-4f6a-bbfc-a388550a06fc",
+				"title": "下列哪些行为可以传播艾滋病？",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 10,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "bd72fc9d-177b-4975-82db-69440de301a4",
+						"questionId": "d3cfd436-29d1-4f6a-bbfc-a388550a06fc",
+						"content": "性行为",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "7dda584a-2c1f-40c1-aa6d-36749b19a9d7",
+						"questionId": "d3cfd436-29d1-4f6a-bbfc-a388550a06fc",
+						"content": "咳嗽和打喷嚏",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "faa807d5-1af5-4e8f-bc08-188ff088b769",
+						"questionId": "d3cfd436-29d1-4f6a-bbfc-a388550a06fc",
+						"content": "输血",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "60210461-32e2-4369-b174-cf0ee8093d20",
+						"questionId": "d3cfd436-29d1-4f6a-bbfc-a388550a06fc",
+						"content": "共用注射针具吸毒",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "d609c9d5-94f3-4ada-8d78-103374d37f8d",
+				"title": "小明打算买一辆电动自行车，如果要你给一些安全提醒，下面说法正确的是？",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 11,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "aa9cc8db-c49d-4ac8-a1ce-c9b7348f7e00",
+						"questionId": "d609c9d5-94f3-4ada-8d78-103374d37f8d",
+						"content": "整车重量不能超过55公斤",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "d43582b6-1e7e-4165-bc5f-02de80aec1d2",
+						"questionId": "d609c9d5-94f3-4ada-8d78-103374d37f8d",
+						"content": "车的最高速度不能超过30公里每小时",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "a8aa63f6-f06a-4d9d-a0d4-036428b1603a",
+						"questionId": "d609c9d5-94f3-4ada-8d78-103374d37f8d",
+						"content": "必须带有脚踏功能",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "7edcc9c5-7757-4ae3-9572-060839d905a2",
+						"questionId": "d609c9d5-94f3-4ada-8d78-103374d37f8d",
+						"content": "仔细查看电动自行车标识、合格证、出厂日期等",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "8f8dfe38-277c-472d-9666-253ef75336fd",
+				"title": "国家对军事设施实行（   ）、（   ）的方针。",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 12,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "cd890116-a9fa-4b6a-a058-03bb228eafa1",
+						"questionId": "8f8dfe38-277c-472d-9666-253ef75336fd",
+						"content": "保密管理",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "77aaa901-8c7a-45d7-912d-a2cb5fe87b1d",
+						"questionId": "8f8dfe38-277c-472d-9666-253ef75336fd",
+						"content": "单独线路管理",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2,
+						"attachmentList": []
+					},
+					{
+						"id": "8ddc3d7f-eef3-47a4-9702-a2bab2f70d75",
+						"questionId": "8f8dfe38-277c-472d-9666-253ef75336fd",
+						"content": "分类保护",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "113fca5b-9888-4d40-a4bc-334cd05fc444",
+						"questionId": "8f8dfe38-277c-472d-9666-253ef75336fd",
+						"content": "确保重点",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "deab2b97-b1d3-4857-a936-8c15bc7188cf",
+				"title": "我国目前艾滋病防治工作中主要的法律法规有：",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 13,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "9d5cf761-03e7-4e63-bd1d-28fa839790cd",
+						"questionId": "deab2b97-b1d3-4857-a936-8c15bc7188cf",
+						"content": "《中华人民共和国传染病防治法》",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "c307d018-0ce1-4999-baf6-8f27ca8c0726",
+						"questionId": "deab2b97-b1d3-4857-a936-8c15bc7188cf",
+						"content": "《艾滋病防治条例》",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "bd79cb46-6b56-4c71-a353-bbc91635e40b",
+						"questionId": "deab2b97-b1d3-4857-a936-8c15bc7188cf",
+						"content": "《中华人民共和国献血法》",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					},
+					{
+						"id": "698461bd-def3-4106-a273-ff5fabb0e217",
+						"questionId": "deab2b97-b1d3-4857-a936-8c15bc7188cf",
+						"content": "《性病防治管理条例》",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1,
+						"attachmentList": []
+					}
+				],
+				"attachmentList": []
+			}
+		]
+	},
+	"detailCode": "0"
+}

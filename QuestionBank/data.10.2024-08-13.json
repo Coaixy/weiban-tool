@@ -1,0 +1,1703 @@
+{
+    "code": "0",
+    "data": {
+        "submitTime": "2024-08-13 08:28:39",
+        "score": 98,
+        "useTime": 1003,
+        "questions": [
+            {
+                "title": "根据《中华人民共和国刑法修正案(九)》规定，明知他人利用信息网络实施犯罪，为其犯罪提供互联网接入、服务器托管、网络存储、通讯传输等技术支持，或者提供广告推广、支付结算等帮助，情节严重的行为，处（ ）有期徒刑或者拘役，并处或者单处罚金。",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "一年以下",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "三年以下",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "三年以上五年以内",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "溺水者有心跳，但是呼吸微弱，意识模糊，应当：",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "立刻进行人工呼吸。",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "有呼吸就不用人工呼吸，大声呼唤、拍打来唤醒溺水者。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "根据《刑法》规定，编造虚假险情造成严重后果的，会被判处？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "三年以下有期徒刑",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "三年以上七年以下有期徒刑",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "无人机“黑飞”的意思是指（）。",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "在夜里飞",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "未取得合法身份的飞行",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "购物平台的客服会让用户提供银行卡信息和转账吗？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "不会",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "会",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "帮骗子发送病毒文件，是违法犯罪行为吗？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "是",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "不是",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "暴雨天，最好不要趟积水的主要原因是？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "水太脏",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "可能有电线落入",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "在房间中发现楼里着火了，应该如何开门逃跑呢？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "用手背轻触门板和把手，判断火势。",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "捂住口鼻，抓紧时间，直接打开门逃跑。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "到目前为止，我国对现行宪法进行了（）次全面修改",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "3",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "4",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "5",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "6",
+                        "sequence": 4,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "小王一喝酒就脸红，朋友们都说他酒量一定很大：",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "对。",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "错。",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "溺水救人的第一个原则是什么？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "能不下水就不下水。",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "救人一命胜造七级浮屠。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "下列关于终端安全，正确的说法是：",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "终端安全是保护计算机和其他移动设备免受恶意软件、病毒、黑客攻击和其他网络威胁的一种安全措施",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "终端安全是指设备本身的安全，不包括用户的行为和操作",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "我国估计存活艾滋病感染者超过（      ）人。",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "100万",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "120万",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "50万",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "150万",
+                        "sequence": 4,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "每年的消防安全日是哪一天？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "11月9日。",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "11月6日。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "11月8日。",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "11月10日。",
+                        "sequence": 4,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "消防产品，是指专门用于火灾预防、灭火救援和火灾（）的产品。",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "防护、逃生",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "防护、避难",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "防护、避难、逃生",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "逃生、避难",
+                        "sequence": 4,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "运动能够：",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "让身体更健康。",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "让心理更健康。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "让身体更健康、让心理更健康。",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "我国的密级从高到低是如何排列的？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "绝密、机密、秘密",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "机密、秘密、绝密",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "机密、绝密、秘密",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "绝密、秘密、机密",
+                        "sequence": 4,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "演讲时巧用“自己人效应”对话题的引出和切入，具有事半功倍的效果。",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "对",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "错",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "小明在微信中看到一个爱心筹款的链接，便点了进去想要献一份爱心，爱心筹款链接随即弹出需要提供个人信息的页面，小明应该怎么做？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "现在网络安全管得严，填写一下也是正常的",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "心感疑惑，爱心筹款应该是不需要填写个人信息的，果断退出",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "既然是要献爱心，就不管那么多了，照实填写",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "头部弯曲角度越大，脊椎所承受的压力越大：",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "对。",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "错。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "电动车充电原则上不应超过多久？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "6小时",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "10小时",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "8小时",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "行政法律关系中不可缺少的一方主体是（）。",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "行政机关",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "行政相对方",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "行政主体",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "授权组织",
+                        "sequence": 4,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "下列哪个不是艾滋病的三大传播途径：",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "血液传播。",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "唾液传播。",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "母婴传播。",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "所有专业的研究生生活都是一样的，只要好好学习，不管其他事情，写完论文就可以毕业了。",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "正确",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "错误",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "如果接到陌生电话，告诉你涉嫌洗黑钱时，正确的做法是？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "不信、不理睬",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "按对方的提示操作",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "在火灾中，以下没有巧妙使用毛巾的是？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "结绳自救时，手掌缠湿毛巾。",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "火灾逃生时，用双手捂住口鼻。",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "在窗口挥动鲜艳毛巾，来作求救信号。",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "用湿毛巾或床单等物堵塞缝隙或孔洞。",
+                        "sequence": 4,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "《数据安全法》中的数据指的是：",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "任何以电子或者其他方式对信息的记录",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "对客观事件进行记录并可以鉴别的符号",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "宗教的戒律与通常国家的法律是什么关系？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "相符合。",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "相冲突。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "“紫菜都是塑料做的”属于哪种类型的谣言？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "政治谣言",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "灾害谣言",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "犯罪谣言",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "食品及产品谣言",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "现存活艾滋病感染者中，多少系注射吸毒所致？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "近10%",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "近30%",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "近20%",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "近15%",
+                        "sequence": 4,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "早上上课，小川来到教室，发现这么冷的天居然还开着窗户，就关上了，并跟班里的人说，怕大家感冒窗户就不要开了。这样的想法对吗？为什么？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "不对，在寒冷的冬天可以选择不长时间开窗通风，但是按时开窗通风还是有必要的。",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "对，大冬天的开窗户把屋里的温度都降低了，应该把窗户封好，禁止冷风吹进来。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "以下哪些行为属于妨碍安全疏散的违法行为？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 2,
+                "optionList": [
+                    {
+                        "content": "将杂物堆在楼梯处",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "学生宿舍楼安装防盗窗网",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "在家门口楼道里堆放物品",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "安全通道门上锁",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "以下哪些属于不当存放和使用氢气瓶的后果",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "爆炸",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "起火",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "人身伤害",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "仪器损坏",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "毒品对身体的危害有哪些？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "急性中毒",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "致人死亡",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "精神错乱",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "记忆损害",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "产生攻击性",
+                        "sequence": 5,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "以下哪些是使用氧化性气体需要注意的（）",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "氧化性气体严谨接触油脂，并选择合格的气瓶进行充装，管道、设备也要进行清洁脱脂",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "氧气埋地管道与地上管道之间的绝缘法兰处必须要有防雷击装置",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "一旦发生泄漏，要保证充分的通风，迅速撤离泄漏污染区人员至上风处",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "面对AI诈骗，我们应该？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "视频仔细观察人脸",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "多重验证，确认身份",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "保护自己信息",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "如果因作证或反恐而面临危险，可以获得哪些保护措施？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "隐匿姓名、住址和工作单位等个人信息。",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "禁止特定的人接触。",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "人身和住宅获得专门性保护措施。",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "变更姓名，重新安排住所和工作单位。",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "谣言一般是怎么来的？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "凭空杜撰",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "夸大其词",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "断章取义",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "拼凑剪接",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "互惠实验告诉我们的道理有？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "彼此之间的感觉都是相互的",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "你怎样对待别人，别人就会怎样对你",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "以下哪些毒品会导致性病、艾滋病的传播？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "吸食K粉",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "口服摇头丸",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "注射海洛因",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "使用杜冷丁",
+                        "sequence": 4,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "可以从哪些方面去识别一个人的自杀前征兆？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "言语上",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "行为上",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "动作上",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "无人机“炸机”的原因可能有（）。",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "操作失误",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "遇到障碍物",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "风力太大",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "以下关于楼梯间的设计的说法，正确的是",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "楼梯间的设计要尽量减少布置凸出墙体的物体",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "楼梯扶手不应使用木制扶手",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "楼梯间的宽度设计还需考虑采取措施，以保证人行宽度不宜过宽，防止人群疏散时失稳跌倒而导致踩踏等意外",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "网贷诈骗常用的宣传词有：",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "“低门槛”",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "“秒放款”",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "“无抵押”",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "“无担保”",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "以下哪些属于高速运转类设备可能对实验人员带来机械危险（）",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "卷绕",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "挤压",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "飞出物打击",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "坠落打击",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "切割",
+                        "sequence": 5,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "故意散播谣言的意图一般有哪些？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "别有用心",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "有利可图",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "闲极无聊",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "报复泄愤",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "博眼球、求关注",
+                        "sequence": 5,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "下列哪些具体的做法有助于转移不良情绪？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "享受美食",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "逛街购物",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "外出旅游",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "做自己喜欢的任何事",
+                        "sequence": 4,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "以下哪些做法能规避“买卖游戏账号、装备”诈骗骗局？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "不玩游戏",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "不买卖账号和装备",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "任何交易都在官方平台进行",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "不脱离官方平台转账",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "以下哪些是化学类典型事故带来的危害",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "人身伤亡",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "财产损失",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "家庭伤害",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "科研进展",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "网购退款骗局中，骗子一般的手段有？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "冒充购物网站客服",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "添加微信、QQ好友",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "发送木马网站",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            }
+        ]
+    },
+    "detailCode": "0"
+}

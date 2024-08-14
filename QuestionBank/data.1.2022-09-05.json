@@ -1,0 +1,1757 @@
+{
+	"code": "0",
+	"data": {
+		"submitTime": "2022-09-05 17:51:36",
+		"score": 94,
+		"useTime": 794,
+		"questions": [
+			{
+				"id": "335233b6-c681-4147-85a6-7d9eba377520",
+				"title": "食物中毒的原因有：",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 2,
+				"optionList": [
+					{
+						"id": "9fb16ec6-006f-4391-adcf-fbe1a413b807",
+						"questionId": "335233b6-c681-4147-85a6-7d9eba377520",
+						"content": "毒素。",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 1
+					},
+					{
+						"id": "96f889c6-1b85-4a45-95e4-f82a257cc099",
+						"questionId": "335233b6-c681-4147-85a6-7d9eba377520",
+						"content": "病毒。",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "e943a590-58bf-4060-8cca-41f826b07da8",
+				"title": "只要平常多注意，宿舍可以使用大功率电器？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "5d7c63eb-8bf8-411b-8c5a-c3449d5bf08f",
+						"questionId": "e943a590-58bf-4060-8cca-41f826b07da8",
+						"content": "正确",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "951ceb68-f431-488d-93f3-307bd4a5c591",
+						"questionId": "e943a590-58bf-4060-8cca-41f826b07da8",
+						"content": "错误",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "e617d1a0-1071-4d81-a435-516ca8cd1a59",
+				"title": "微信号“美丽”发来消息：本人27岁，女，自己经营一家公司，迫切的想要添加有知识的大学生为合作伙伴，不需要注入资金，只需要加入进来帮忙经营就好。你应该怎么办？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "ac05af7e-4d24-4a65-8a9f-5bbc5d9634e7",
+						"questionId": "e617d1a0-1071-4d81-a435-516ca8cd1a59",
+						"content": "怎么可能有这么好的事呢？删了！",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "a83ddb97-0c2b-4b0b-bfd1-f097ec3bc2b7",
+						"questionId": "e617d1a0-1071-4d81-a435-516ca8cd1a59",
+						"content": "立刻添加微信号。",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "d833798a-1e50-468e-a2f8-f8742bb6f7d3",
+				"title": "游泳时脚被水草缠住怎么办？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "e3e8dbdc-71f1-479d-8b68-95e5481836a1",
+						"questionId": "d833798a-1e50-468e-a2f8-f8742bb6f7d3",
+						"content": "憋气钻进水里用手解开。",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "cb49a05f-3866-4e59-ae49-e83b8f491f78",
+						"questionId": "d833798a-1e50-468e-a2f8-f8742bb6f7d3",
+						"content": "用脚乱踹，踹断。",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "1cd097c1-4858-468f-9a08-7dcbcc397740",
+				"title": "是不是所有的负面情绪都应该被抑制？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "537e6b11-3a79-48c6-9299-465ae7515e53",
+						"questionId": "1cd097c1-4858-468f-9a08-7dcbcc397740",
+						"content": "是，任何负面情绪都不应该出现",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "9829aa10-6ef2-452b-bbe6-91ebdc75494c",
+						"questionId": "1cd097c1-4858-468f-9a08-7dcbcc397740",
+						"content": "不，负面情绪也有存在的意义",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "f882d533-ac70-4727-8e0d-3f496ffdb382",
+				"title": "世界上流行的三大传染病是哪三个？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "11dcd204-1414-43a6-b2c1-d76127f2ed65",
+						"questionId": "f882d533-ac70-4727-8e0d-3f496ffdb382",
+						"content": "肺结核、乙肝、疟疾。",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "a6be968f-3f7a-4bb1-9a6d-4629fdcf4f74",
+						"questionId": "f882d533-ac70-4727-8e0d-3f496ffdb382",
+						"content": "肺结核、艾滋病、疟疾。",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "a8348ce0-9acc-486b-8a5a-e740e731bc2b",
+				"title": "下列哪项不能培养良好的作息习惯？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "c2ac8d33-d6ed-4029-a072-733330ae0194",
+						"questionId": "a8348ce0-9acc-486b-8a5a-e740e731bc2b",
+						"content": "制作目标管理计划表。",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "6b430443-a891-47ca-a98c-84d27b5a5b6a",
+						"questionId": "a8348ce0-9acc-486b-8a5a-e740e731bc2b",
+						"content": "和小伙伴之间互相鼓励。",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "76d941f1-5e3f-4d21-8217-e539078bd915",
+						"questionId": "a8348ce0-9acc-486b-8a5a-e740e731bc2b",
+						"content": "忘记悔恨时的痛苦感觉。",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "dba42093-6ee0-40fe-8e49-42dff276c9d3",
+						"questionId": "a8348ce0-9acc-486b-8a5a-e740e731bc2b",
+						"content": "完成或没完成计划时，及时给予自己奖惩。",
+						"sequence": 4,
+						"selected": 2,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "ac46466e-97ca-402d-bc71-e35582ed6cb0",
+				"title": "你打算和对方分手，怎么说比较合适呢？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "42f54442-3a6f-4a52-8b3a-f1019e857132",
+						"questionId": "ac46466e-97ca-402d-bc71-e35582ed6cb0",
+						"content": "对不起，我不爱你了，你身上很多毛病我受不了，以后不要再见面了。",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "323a2e59-70c7-4fb0-bbda-513d5b3bdb1c",
+						"questionId": "ac46466e-97ca-402d-bc71-e35582ed6cb0",
+						"content": "有件事困扰了我很久，不知道怎么和你说。……（多说自己不好的地方）我想我们并不合适，我们先冷静一段时间，暂时不要联系了。",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "15a97d1a-5d0c-4303-bd0b-a0fccf679ff6",
+				"title": "当有陌生人告诉你，添加微信发红包就可返利时，你应该？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "a17b6efc-1cdb-46b3-9200-aeec9f90c5ac",
+						"questionId": "15a97d1a-5d0c-4303-bd0b-a0fccf679ff6",
+						"content": "不信不理",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "05b159fa-ddce-4b14-938e-dfb054020d09",
+						"questionId": "15a97d1a-5d0c-4303-bd0b-a0fccf679ff6",
+						"content": "添加试试",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "58ddaa3e-8384-4758-9388-3646ea22a89d",
+				"title": "看到网络上有人发偷拍的情侣亲热视频，违法的做法是：",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "ded47868-3c31-436a-937d-93ecf5382490",
+						"questionId": "58ddaa3e-8384-4758-9388-3646ea22a89d",
+						"content": "赶紧下载下来，并且大量发给朋友同学。",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "30b45bad-f080-4dc9-803b-502ce4d94d66",
+						"questionId": "58ddaa3e-8384-4758-9388-3646ea22a89d",
+						"content": "忍不住好奇下载下来看看，然后就删除。",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "2f06ddf4-50f7-4866-a22e-c9e266f23b73",
+						"questionId": "58ddaa3e-8384-4758-9388-3646ea22a89d",
+						"content": "不看。",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "988acc2b-57d7-468c-a694-5570a246ab3d",
+				"title": "听到任何“低风险、高回报”的投资宣传时，你应该？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "fa68243a-3c26-4b28-9d75-6c8a7076cdb6",
+						"questionId": "988acc2b-57d7-468c-a694-5570a246ab3d",
+						"content": "投点试试",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "c0aa4749-63ee-40cb-8184-99df16a5c605",
+						"questionId": "988acc2b-57d7-468c-a694-5570a246ab3d",
+						"content": "避而远之",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "3200e6f0-db89-4ae8-afab-3a4bd507eb3d",
+				"title": "只有亲密和激情的爱是什么爱？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "008be6f2-b12f-4855-8fff-9d589200dbae",
+						"questionId": "3200e6f0-db89-4ae8-afab-3a4bd507eb3d",
+						"content": "愚蠢爱",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "ef761282-7875-486c-b2f5-67524f28b88b",
+						"questionId": "3200e6f0-db89-4ae8-afab-3a4bd507eb3d",
+						"content": "浪漫爱",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "c9dff15f-cee4-4a4b-b565-83b5fdba4713",
+						"questionId": "3200e6f0-db89-4ae8-afab-3a4bd507eb3d",
+						"content": "伙伴爱",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "613405b3-d086-4984-b043-ea67e2fc9f69",
+				"title": "关于移动支付安全，下面说法正确的是：",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "2f0f6943-e467-4463-a0b6-7d7229ebfe6c",
+						"questionId": "613405b3-d086-4984-b043-ea67e2fc9f69",
+						"content": "保证设备安全、软件安全、密码及使用安全就万事大吉啦。",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "c3fb8a2e-b1be-4b6c-ab0e-73fed59a6042",
+						"questionId": "613405b3-d086-4984-b043-ea67e2fc9f69",
+						"content": "在保证设备安全、软件安全、密码及使用安全之外，要小心骗子，不要上当。",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "3b991756-c814-41d8-9aec-f3f2547928b4",
+				"title": "下列关于相互性原则，说法正确的是：",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "782db5ed-47f5-41e8-bf47-2935375b30ce",
+						"questionId": "3b991756-c814-41d8-9aec-f3f2547928b4",
+						"content": "要想让别人喜欢你，你要先喜欢别人。",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "e5fc7b95-eeba-4088-8c7d-a1916c6b8d89",
+						"questionId": "3b991756-c814-41d8-9aec-f3f2547928b4",
+						"content": "只要你喜欢别人，别人一定会和你同样程度的喜欢你。",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "63581db8-a858-4a8d-a6de-778f0a269506",
+				"title": "哪种类型的父母容易培养出自信独立的孩子？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "1e0c5582-56f6-43b7-8fba-a32dbce0ddd8",
+						"questionId": "63581db8-a858-4a8d-a6de-778f0a269506",
+						"content": "控制型父母",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "19965838-5080-4b07-8bda-f6c1e0054c63",
+						"questionId": "63581db8-a858-4a8d-a6de-778f0a269506",
+						"content": "放纵型父母",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "8bb92ead-3e7c-465f-ba8a-c4882df89044",
+						"questionId": "63581db8-a858-4a8d-a6de-778f0a269506",
+						"content": "忽视型父母",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "e5e5c1bd-a31f-4341-9b31-eabeb5500e74",
+						"questionId": "63581db8-a858-4a8d-a6de-778f0a269506",
+						"content": "权威型父母",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "7ab1ba28-67a3-41c9-b769-7df581f5cfd0",
+				"title": "不小心发生了无保护的性关系，赶紧吃了一片紧急避孕药，接下来：",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "edb0063f-60de-4b05-8cbd-d045a16b795b",
+						"questionId": "7ab1ba28-67a3-41c9-b769-7df581f5cfd0",
+						"content": "如果又发生了无保护的性关系，就再吃一片。",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "4ff81a68-89dd-414a-b644-ef717087583d",
+						"questionId": "7ab1ba28-67a3-41c9-b769-7df581f5cfd0",
+						"content": "不能再发生无保护的性关系了。",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "ba5410d3-cfc0-434b-b5ff-10f6780082af",
+				"title": "面对突如其来的灾害，周围的人都在疯狂的抢购物资，你应该？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "d3dc6f37-6a25-4368-bdb9-111d0018841d",
+						"questionId": "ba5410d3-cfc0-434b-b5ff-10f6780082af",
+						"content": "加入抢购的队伍",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "451e1cc5-95c1-4c59-b083-c91cc2932f18",
+						"questionId": "ba5410d3-cfc0-434b-b5ff-10f6780082af",
+						"content": "相信并听从政府的引导",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "5f619cc8-306e-4bfa-8709-c7e2f8529f07",
+				"title": "你和对方吵了起来，你很生气，觉得对方不讲理、说不通，这时怎样处理更机智？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "1fe3bb1d-1e92-4dcc-b71a-52b056ebb38b",
+						"questionId": "5f619cc8-306e-4bfa-8709-c7e2f8529f07",
+						"content": "好想把愤怒发泄出来！干脆用拳头让他明白道理！",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "5cac1a2e-3ee0-417c-9b9d-0fd3a3b3b68d",
+						"questionId": "5f619cc8-306e-4bfa-8709-c7e2f8529f07",
+						"content": "提醒自己要冷静，深呼吸十秒钟，好好想一想怎么才能把事情解决。",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "81d63079-6b89-431e-b55d-51924d9c43bb",
+				"title": "下面说法正确的是：",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "025cf349-f384-4e94-a94d-9655acac73ff",
+						"questionId": "81d63079-6b89-431e-b55d-51924d9c43bb",
+						"content": "为了保护牙釉质，应该吃完东西立刻刷牙。",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "13ecb808-6fd4-4572-baa2-0441f077333b",
+						"questionId": "81d63079-6b89-431e-b55d-51924d9c43bb",
+						"content": "为了保护牙釉质，应该吃完东西过十分钟再刷牙。",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "eefbab7a-1db0-4c5b-8425-7881e4556c00",
+				"title": "用正确的洗手方法洗手，至少要多久？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 2,
+				"optionList": [
+					{
+						"id": "1cb88d49-8511-44a9-94c6-c508fdf47a39",
+						"questionId": "eefbab7a-1db0-4c5b-8425-7881e4556c00",
+						"content": "30秒左右",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 1
+					},
+					{
+						"id": "93cc26ed-4816-4c98-b7c3-19695a1014a6",
+						"questionId": "eefbab7a-1db0-4c5b-8425-7881e4556c00",
+						"content": "20秒左右",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "106c5022-4169-4eac-bb36-a3ff19563ceb",
+				"title": "维护国家主权、统一和领土完整是（）的共同义务。 ",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "fb9b4d6f-f57f-4b8f-b7d3-e548eb7daab7",
+						"questionId": "106c5022-4169-4eac-bb36-a3ff19563ceb",
+						"content": "国家工作人员 ",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "2e25413e-8e0a-4f70-be2c-75bd9476cb7c",
+						"questionId": "106c5022-4169-4eac-bb36-a3ff19563ceb",
+						"content": "港澳同胞和台湾同胞",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "3a32b275-b844-42f5-93e3-e0a84943fe69",
+						"questionId": "106c5022-4169-4eac-bb36-a3ff19563ceb",
+						"content": "国家安全机关工作人员",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "35eb15ab-4dcb-4f03-9fde-df3c0054e4d0",
+						"questionId": "106c5022-4169-4eac-bb36-a3ff19563ceb",
+						"content": "包括港澳同胞和台湾同胞在内的全中国人民",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "23b91f36-5d8a-42f0-ba71-76b4714fb72d",
+				"title": "好朋友的微信发来信息：“xx，我现在需要3000块钱看病，如果你现在有的话就先借给我吧。卡号：xxxxxx,姓名：XX。”你应该怎么办？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "793b9c6e-1550-4a72-9ad3-f4f97c119fed",
+						"questionId": "23b91f36-5d8a-42f0-ba71-76b4714fb72d",
+						"content": "赶紧打钱给她并电话通知她。",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "d92d72e2-38d2-45e7-a4d0-4b43117a4e8e",
+						"questionId": "23b91f36-5d8a-42f0-ba71-76b4714fb72d",
+						"content": "先电话询问一下情况。",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "831bd11b-24e0-4dc4-a5d6-9dec2d3271d6",
+				"title": "和人第一次见面应该热情些，这样比冷淡更能给人留下好印象。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "b42a8045-0b08-4419-a77f-b1c07fa8b2f3",
+						"questionId": "831bd11b-24e0-4dc4-a5d6-9dec2d3271d6",
+						"content": "对。",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "78dac33c-59d9-4039-9aa3-465d20d13533",
+						"questionId": "831bd11b-24e0-4dc4-a5d6-9dec2d3271d6",
+						"content": "错。",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "351d04ba-144c-4819-abb1-ea6d64f81c96",
+				"title": "遵守规则是为了什么？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "0e2363d8-aa33-4643-a037-afb342047c83",
+						"questionId": "351d04ba-144c-4819-abb1-ea6d64f81c96",
+						"content": "为了保证我们的自由和生命",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "24efabfd-9022-4a9d-9b62-610f93e178b2",
+						"questionId": "351d04ba-144c-4819-abb1-ea6d64f81c96",
+						"content": "为了管理者方便",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "e013b7db-e0fc-41b3-b888-891d4f8b5759",
+				"title": "如果该租房黑中介公司没有提供发票，可以登陆各城市地税局网站举报与投诉该租房黑中介公司偷税漏税，并拨打（）同步电话举报。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "2e0fde17-28fe-4041-aa95-5b2e136d11c1",
+						"questionId": "e013b7db-e0fc-41b3-b888-891d4f8b5759",
+						"content": "12366",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "54f8dc26-dd90-4b6b-a6a0-c23a2b04f7a5",
+						"questionId": "e013b7db-e0fc-41b3-b888-891d4f8b5759",
+						"content": "13266",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "b9bfbc81-57a1-4d06-a765-580d261df309",
+						"questionId": "e013b7db-e0fc-41b3-b888-891d4f8b5759",
+						"content": "13566",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "9b38caed-30ac-4c3d-ab6f-7bdca1c89bcd",
+				"title": "在面对冲突时迎合型的特征是？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "f3f5837a-1c04-4747-b7dc-7539c8be3962",
+						"questionId": "9b38caed-30ac-4c3d-ab6f-7bdca1c89bcd",
+						"content": "自信且乐于合作",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "75b98b68-1d3d-43e7-94b7-596186c95105",
+						"questionId": "9b38caed-30ac-4c3d-ab6f-7bdca1c89bcd",
+						"content": "不自信且不乐于合作",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "cbdc281d-4039-4d58-b141-300b178a88e3",
+						"questionId": "9b38caed-30ac-4c3d-ab6f-7bdca1c89bcd",
+						"content": "过于自信且不乐于合作",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "1b639965-08d6-443d-8b77-263b6be73083",
+						"questionId": "9b38caed-30ac-4c3d-ab6f-7bdca1c89bcd",
+						"content": "不自信但乐于合作",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "808fa1a0-93d4-4c55-af2d-f89ab110d95a",
+				"title": "当接到“税收政策调整，可以办理退税，需要你提交各种信息的”电话时，你应该？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "472a7497-767d-4958-9e47-3f5235d3b268",
+						"questionId": "808fa1a0-93d4-4c55-af2d-f89ab110d95a",
+						"content": "按对方的提示提交信息",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "17d7b95a-3afc-4227-8f31-40148fa76819",
+						"questionId": "808fa1a0-93d4-4c55-af2d-f89ab110d95a",
+						"content": "不轻信，先确认对方身份",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "f3b78044-4506-40a9-a774-2d2113b2731d",
+				"title": "下列有安全隐患的行为是：（）",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "b252ae3a-453b-47ff-9245-9bcd00b48287",
+						"questionId": "f3b78044-4506-40a9-a774-2d2113b2731d",
+						"content": "边看手机边过马路。",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "d089e6e3-0106-47d7-a83a-6d47935f446a",
+						"questionId": "f3b78044-4506-40a9-a774-2d2113b2731d",
+						"content": "开车间隙看看手机。",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "469d501b-c3f9-4f12-b4dc-c9dd4301874b",
+						"questionId": "f3b78044-4506-40a9-a774-2d2113b2731d",
+						"content": "前面两个选项都有安全隐患",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "cacab5cb-c5ce-4187-97ac-7696a8491bb9",
+				"title": "下面哪个露营地点最安全？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "8b80699b-9ae3-438e-947d-75a8e7cf7d46",
+						"questionId": "cacab5cb-c5ce-4187-97ac-7696a8491bb9",
+						"content": "悬崖下边，可以躲雨。",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "9e3cd24f-a9ea-4405-a9a5-20df452099a2",
+						"questionId": "cacab5cb-c5ce-4187-97ac-7696a8491bb9",
+						"content": "日照充足的小湖附近。",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "c2e9407c-3d63-48a4-ac22-bef5d01b7304",
+						"questionId": "cacab5cb-c5ce-4187-97ac-7696a8491bb9",
+						"content": "宽阔的河流旁。",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "f9aa6d7d-3d1d-4395-8b9c-95396065a7f3",
+						"questionId": "cacab5cb-c5ce-4187-97ac-7696a8491bb9",
+						"content": "雷雨多发地带的空旷谷地。",
+						"sequence": 4,
+						"selected": 2,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "96079ed1-4154-4067-b2da-30b3b09b5278",
+				"title": "在突发暴力袭击时，如果不能安全的逃跑，也无处可躲，你应该（）。",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 2,
+				"optionList": [
+					{
+						"id": "fbf78a5e-0aeb-4408-901e-03ef267d34b7",
+						"questionId": "96079ed1-4154-4067-b2da-30b3b09b5278",
+						"content": "跪地求饶",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 2
+					},
+					{
+						"id": "c294c0a6-d3d8-42e1-bd87-d457c7fb5683",
+						"questionId": "96079ed1-4154-4067-b2da-30b3b09b5278",
+						"content": "武力反击",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "3db1b5c9-4aa7-47d4-9226-a79057cca627",
+				"title": "小川来到教室，发现这么冷的天居然还开着窗户，就关上了，并跟班里的人说，怕大家感冒窗户就不要开了。这样的想法对吗？为什么？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "0529d50f-bd23-4780-ab2d-2663117a04a4",
+						"questionId": "3db1b5c9-4aa7-47d4-9226-a79057cca627",
+						"content": "不对，在寒冷的冬天可以选择不长时间开窗通风，但是按时开窗通风还是有必要的。",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "967bd1b9-0f61-409e-b2ec-5ed0670f8b9b",
+						"questionId": "3db1b5c9-4aa7-47d4-9226-a79057cca627",
+						"content": "对，大冬天的开窗户把屋里的温度都降低了，应该把窗户封好，禁止冷风吹进来。",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "4211abbf-d7ca-4333-8295-0749ac890e9e",
+				"title": "刷单是合法的吗？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "3e2281d7-586c-4f31-8cc1-0824c720169c",
+						"questionId": "4211abbf-d7ca-4333-8295-0749ac890e9e",
+						"content": "是",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "2fc375d6-e8f3-41dd-86ee-03cb0ba32e18",
+						"questionId": "4211abbf-d7ca-4333-8295-0749ac890e9e",
+						"content": "不是",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "14172fd9-4c75-44fd-899b-1ef6590acfee",
+				"title": "遇到“刷单兼职”广告的做法正确的是？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "4102c2a9-3809-4bc6-9565-935e27b55024",
+						"questionId": "14172fd9-4c75-44fd-899b-1ef6590acfee",
+						"content": "不信、不理睬",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "68db7806-590c-4e02-9498-accfd76cba06",
+						"questionId": "14172fd9-4c75-44fd-899b-1ef6590acfee",
+						"content": "试试",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "ad226a0d-8a0f-4116-8b53-bf5ec3b04edd",
+				"title": "身份证需要和银行卡分开存放，以免被小偷一起偷走，盗刷冒领。——这句话正确吗？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "b1ebd89c-3316-4fc0-a82f-0a673c52a598",
+						"questionId": "ad226a0d-8a0f-4116-8b53-bf5ec3b04edd",
+						"content": "正确。",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "6d95c819-9cc4-4334-a948-7253d44c08b8",
+						"questionId": "ad226a0d-8a0f-4116-8b53-bf5ec3b04edd",
+						"content": "错误。",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "85a1ab7e-743b-43a4-b861-ef206e85d782",
+				"title": "有一群同学邀请你去玩耍，他们都是高富帅白富美，他们开始吸食毒品，并且邀请你一起：",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "ce3aaba9-f650-4b01-824b-3d9ca2b9fe96",
+						"questionId": "85a1ab7e-743b-43a4-b861-ef206e85d782",
+						"content": "既然他们都吸，看起来也没事，那我也玩玩看",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "70fab54c-6fa4-4b0c-bf9a-c7dca9ec8d9e",
+						"questionId": "85a1ab7e-743b-43a4-b861-ef206e85d782",
+						"content": "坚决拒绝，以后不再和他们来往",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "1df36e34-02d2-478d-bfca-c3c421de7b0b",
+				"title": "坚持正确使用安全套可以减少感染和传播艾滋病的风险吗？",
+				"type": 1,
+				"typeLabel": "单选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "afac8afc-d13e-4688-8a4a-6ea977605b59",
+						"questionId": "1df36e34-02d2-478d-bfca-c3c421de7b0b",
+						"content": "可以。",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "753fce90-2ebe-4f10-ac44-35e71e266df8",
+						"questionId": "1df36e34-02d2-478d-bfca-c3c421de7b0b",
+						"content": "不可以。",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "2deb24b6-275e-4319-934b-99537440a706",
+						"questionId": "1df36e34-02d2-478d-bfca-c3c421de7b0b",
+						"content": "不知道。",
+						"sequence": 3,
+						"selected": 2,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "44d1cc22-aceb-4e86-ac8d-5c22ec13dba4",
+				"title": "根据《反恐法》，下面行为违法的是：",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "c9ed3ff0-c583-439b-ad92-c80ef0fc9752",
+						"questionId": "44d1cc22-aceb-4e86-ac8d-5c22ec13dba4",
+						"content": "编造、传播虚假恐怖事件信息。",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "5726842c-823a-411f-8438-43c9a3ae7f05",
+						"questionId": "44d1cc22-aceb-4e86-ac8d-5c22ec13dba4",
+						"content": "报道、传播可能引起模仿的恐怖活动的实施细节。",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "2eaa721a-ea34-470d-b58d-f94fd7a7e3ee",
+						"questionId": "44d1cc22-aceb-4e86-ac8d-5c22ec13dba4",
+						"content": "发布恐怖事件中残忍、不人道的场景。",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "eb8da062-a24e-4b14-a398-2ef0c75fc39e",
+						"questionId": "44d1cc22-aceb-4e86-ac8d-5c22ec13dba4",
+						"content": "未经批准，报道、传播工作人员、人质身份信息和处置情况。",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "69c236f3-a00f-4d66-ad75-edbbf4fe809e",
+				"title": "朋友圈：“这是我的表弟的孩子，正在竞选阳光少年，请帮我投一下票好吗？网址：ygsn.com。下载后直接投52号就可以了。谢谢。”以下哪些做法是正确的？",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "cda74004-17e2-4214-bcf7-e37dcaeb4ed5",
+						"questionId": "69c236f3-a00f-4d66-ad75-edbbf4fe809e",
+						"content": "去正规的网站查找是否有这样的活动。",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "c542f894-f86e-45cc-b495-b853d0458a10",
+						"questionId": "69c236f3-a00f-4d66-ad75-edbbf4fe809e",
+						"content": "不轻易点开微信里发来的链接。",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "11675651-1766-4350-889e-08a3eae1a029",
+						"questionId": "69c236f3-a00f-4d66-ad75-edbbf4fe809e",
+						"content": "跟发信息的朋友电话确认。",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "ac36602d-8ca9-48e8-9ed4-aaa31933e5c7",
+				"title": "党的十八大以来，提出的有关粮食安全的战略有？",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "dc121ac4-04ef-445e-8eb3-f53427b15df2",
+						"questionId": "ac36602d-8ca9-48e8-9ed4-aaa31933e5c7",
+						"content": "饭碗论",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "6b8d2f64-5008-43ee-b04c-344c8cc57680",
+						"questionId": "ac36602d-8ca9-48e8-9ed4-aaa31933e5c7",
+						"content": "底线论",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "04cbf9ec-930d-49c9-9ba3-95c6a09ae885",
+						"questionId": "ac36602d-8ca9-48e8-9ed4-aaa31933e5c7",
+						"content": "红线论",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "dc395d75-8d2d-4203-aec5-c14370f6e4ae",
+						"questionId": "ac36602d-8ca9-48e8-9ed4-aaa31933e5c7",
+						"content": "阴谋论",
+						"sequence": 4,
+						"selected": 2,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "db555821-6c16-42f3-ade7-5d33194ea894",
+				"title": "根据《反恐法》，司法机关调查情况时，拒绝提供信息，可能面临哪些惩罚？",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "73a0ee0c-43ac-4694-be8c-ab680c7d0ce3",
+						"questionId": "db555821-6c16-42f3-ade7-5d33194ea894",
+						"content": "十年以上有期徒刑、无期徒刑或死刑。",
+						"sequence": 1,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "ec46fa45-ecf5-4a9e-93dd-fccaab1c8908",
+						"questionId": "db555821-6c16-42f3-ade7-5d33194ea894",
+						"content": "没收全部财产。",
+						"sequence": 2,
+						"selected": 2,
+						"isCorrect": 2
+					},
+					{
+						"id": "737238d7-639d-4684-b33e-606988c23c7e",
+						"questionId": "db555821-6c16-42f3-ade7-5d33194ea894",
+						"content": "公安机关处十日以上十五日以下拘留。",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "6541274d-55b1-4125-8844-83a868b2ae20",
+						"questionId": "db555821-6c16-42f3-ade7-5d33194ea894",
+						"content": "一万元以下罚款。",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "b82b2a74-f522-4146-b15a-be2815e6aa7b",
+				"title": "“利诱类”欺诈常见的形式有？",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "af389302-d0fa-4d29-971f-75c3671c4400",
+						"questionId": "b82b2a74-f522-4146-b15a-be2815e6aa7b",
+						"content": "冒充名企中奖诈骗",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "547c814b-7933-457e-9324-71fcddca18f9",
+						"questionId": "b82b2a74-f522-4146-b15a-be2815e6aa7b",
+						"content": "娱乐节目中奖诈骗",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "94038ba9-5fd4-46a5-9e1e-d94d6448e859",
+						"questionId": "b82b2a74-f522-4146-b15a-be2815e6aa7b",
+						"content": "兑换积分诈骗",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "6234223b-04b4-40c3-9b9b-62e4c03b263b",
+						"questionId": "b82b2a74-f522-4146-b15a-be2815e6aa7b",
+						"content": "重金求子诈骗",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "161c82b9-23e6-4977-a6e6-c05d4329fec3",
+				"title": "以下哪些是电诈常见套路",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "06a74715-aae5-4d1e-97a9-56ed52e4c041",
+						"questionId": "161c82b9-23e6-4977-a6e6-c05d4329fec3",
+						"content": "让你找个安静的地方，一个人完成操作，避免连累家人",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "473f4431-a3f5-4d58-a66b-206de503200e",
+						"questionId": "161c82b9-23e6-4977-a6e6-c05d4329fec3",
+						"content": "电话通知你犯法，再给你转接其他公安人员处理",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "1c54983a-0c3f-4732-b876-915c9045bfc1",
+						"questionId": "161c82b9-23e6-4977-a6e6-c05d4329fec3",
+						"content": "和你视频，亮出警徽和警号",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "f8f28d10-bd57-4f77-be6b-4b45711e2c64",
+						"questionId": "161c82b9-23e6-4977-a6e6-c05d4329fec3",
+						"content": "发送带有你照片和名字的逮捕令",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "c049a355-d41a-4256-815c-e287236c2093",
+				"title": "遇到自称快递员，说你的包裹丢失，要给你赔付时，正确的做法是？",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "d9fa259b-1858-454c-8af2-81e632f93199",
+						"questionId": "c049a355-d41a-4256-815c-e287236c2093",
+						"content": "先登录网站查询",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "5201a9c5-8c65-4108-946f-c8700488ce93",
+						"questionId": "c049a355-d41a-4256-815c-e287236c2093",
+						"content": "不轻信",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "05a44d8e-046f-483d-8674-d61b91c1c803",
+				"title": "“日常生活消费欺诈” 的常见的形式有？",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "974f310e-095f-456a-a651-597b93764aee",
+						"questionId": "05a44d8e-046f-483d-8674-d61b91c1c803",
+						"content": "冒充房东短信诈骗",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "c252148c-1e26-4eaf-9ce4-99aee0eb57bb",
+						"questionId": "05a44d8e-046f-483d-8674-d61b91c1c803",
+						"content": "电话欠费诈骗",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "1a6b9158-b936-4a42-905d-1abed1774cb8",
+						"questionId": "05a44d8e-046f-483d-8674-d61b91c1c803",
+						"content": "购物退税诈骗",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "335d5c14-07d0-497c-b527-ad1d44af7692",
+						"questionId": "05a44d8e-046f-483d-8674-d61b91c1c803",
+						"content": "机票改签诈骗",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "add3de6e-bb0c-4720-a2a4-c421c5337f12",
+				"title": "使用移动支付时，应注意哪些问题？",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "e014f846-72dc-4120-817b-4a9d4b88e244",
+						"questionId": "add3de6e-bb0c-4720-a2a4-c421c5337f12",
+						"content": "建议不要使用公共WIFI进行支付。",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "4c22b93d-70c2-4a9d-9d86-e4630cfb861e",
+						"questionId": "add3de6e-bb0c-4720-a2a4-c421c5337f12",
+						"content": "使用密码和验证码双重身份验证，设置账户更改提示。",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "b04bbe99-0b02-4d5b-83b3-98a7f0bb2cba",
+						"questionId": "add3de6e-bb0c-4720-a2a4-c421c5337f12",
+						"content": "使用官方应用商店的支付应用，加强设备本身安全性。",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "11033284-0e92-4761-9a29-23250548ddcb",
+						"questionId": "add3de6e-bb0c-4720-a2a4-c421c5337f12",
+						"content": "仔细核查转账人信息。",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "c667d7e5-5f8b-438b-8413-93bffaea0cf3",
+				"title": "一个好的咨询师是如何帮助你改变依恋类型的？",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "7a1a234f-dd87-48a8-a8e9-b563c9d2cfe7",
+						"questionId": "c667d7e5-5f8b-438b-8413-93bffaea0cf3",
+						"content": "协助你自我了解",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "2448d191-00c0-40c8-b112-6cbeb4c69442",
+						"questionId": "c667d7e5-5f8b-438b-8413-93bffaea0cf3",
+						"content": "不带批判的帮你理解过去是如何影响现在的",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "b07c2350-d02f-418a-875f-e037ee4abe25",
+						"questionId": "c667d7e5-5f8b-438b-8413-93bffaea0cf3",
+						"content": "教你一些应对不安全感和焦虑的技巧",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "14ab39f7-0865-427b-b995-ebae6704bcfd",
+				"title": "为什么饭前便后要洗手？",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "44a0ee0f-9594-4b9e-bd50-9c98b49953c5",
+						"questionId": "14ab39f7-0865-427b-b995-ebae6704bcfd",
+						"content": "手接触各种东西，细菌非常多。",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "0fe8c6cd-e257-4d4b-b348-4e2a94a6b8af",
+						"questionId": "14ab39f7-0865-427b-b995-ebae6704bcfd",
+						"content": "避免接触传播疾病。",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "f7841812-1970-42e3-8ac7-1784f726f953",
+						"questionId": "14ab39f7-0865-427b-b995-ebae6704bcfd",
+						"content": "降低自己传播细菌到别处的几率。",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "42bf0fd6-6735-4c61-b4d3-b52b1b70b677",
+				"title": "你的好友小A在施工楼下行走，被楼上掉下来的零件砸伤脚，以下哪些是导致了小A发生事故的原因",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "952c230b-71d0-4da4-851e-03a8ec4e92c6",
+						"questionId": "42bf0fd6-6735-4c61-b4d3-b52b1b70b677",
+						"content": "施工楼没有正在施工的提醒标识",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "e2281c13-b038-42e4-8862-575c6eedf0b3",
+						"questionId": "42bf0fd6-6735-4c61-b4d3-b52b1b70b677",
+						"content": "小A缺乏安全意识",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "f05dff71-b596-40d7-8541-194344acfa11",
+						"questionId": "42bf0fd6-6735-4c61-b4d3-b52b1b70b677",
+						"content": "施工队安全管理疏漏，没有按期检查隐患",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "d394ff75-76e6-41f7-9d71-6db6b894eb42",
+						"questionId": "42bf0fd6-6735-4c61-b4d3-b52b1b70b677",
+						"content": "为了好看，小A穿了白色露趾凉鞋",
+						"sequence": 4,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "0c123a10-bfd1-4a08-ae76-4284fb38f6ca",
+				"title": "非法集资的骗子常用的话术有哪些？",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "099259fc-53cd-4269-8c2f-78d64c8ac66c",
+						"questionId": "0c123a10-bfd1-4a08-ae76-4284fb38f6ca",
+						"content": "高回报、高收益",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "d2de4ed9-b3a7-4852-95d6-ede17f35c831",
+						"questionId": "0c123a10-bfd1-4a08-ae76-4284fb38f6ca",
+						"content": "大项目、政策支持",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "7881d2c2-cde2-4042-a9d1-f7e5bc070bd5",
+						"questionId": "0c123a10-bfd1-4a08-ae76-4284fb38f6ca",
+						"content": "你看看、你的同学都买了",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1
+					}
+				],
+				"attachmentList": []
+			},
+			{
+				"id": "5e7585ad-dead-4685-b8a9-8e6d679bd5e2",
+				"title": "疫情期间，正确的做法是（）。",
+				"type": 2,
+				"typeLabel": "多选题",
+				"score": 2,
+				"sequence": 0,
+				"analysis": "",
+				"isRight": 1,
+				"optionList": [
+					{
+						"id": "9cb2c5fc-4b9e-45df-b29e-3b1416315807",
+						"questionId": "5e7585ad-dead-4685-b8a9-8e6d679bd5e2",
+						"content": "不聚会",
+						"sequence": 1,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "f93bda8f-78d0-405d-9620-c2eb86fd9676",
+						"questionId": "5e7585ad-dead-4685-b8a9-8e6d679bd5e2",
+						"content": "不访友",
+						"sequence": 2,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "79ea7976-0d10-4d66-a36c-3baca757a518",
+						"questionId": "5e7585ad-dead-4685-b8a9-8e6d679bd5e2",
+						"content": "听从政府号召",
+						"sequence": 3,
+						"selected": 1,
+						"isCorrect": 1
+					},
+					{
+						"id": "bf5d0274-4721-47a6-82af-5c369c09bdb7",
+						"questionId": "5e7585ad-dead-4685-b8a9-8e6d679bd5e2",
+						"content": "小区内自由活动",
+						"sequence": 4,
+						"selected": 2,
+						"isCorrect": 2
+					}
+				],
+				"attachmentList": []
+			}
+		]
+	},
+	"detailCode": "0"
+}
