@@ -69,11 +69,16 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
     if auto_exam > 0:
         index = 0
         tenant_code = Instance.get_tenant_code(school_name)
-        for answer in Instance.getAnswerList():
-            index = index + 1
-            with open(f"QuestionBank/{tenant_code + "-" + account + "-" + str(index)}.json", 'w',encoding='utf-8') as f:
-                f.write(answer)
-        QuestionBank.generate_bank(directory=os.getcwd() + "/QuestionBank")
+        answer_list = Instance.getAnswerList()
+        if len(answer_list) == 0 or answer_list == None:
+            print("未获取到答案")
+        else:
+            for answer in Instance.getAnswerList():
+                index = index + 1
+                with open(f"QuestionBank/{tenant_code + "-" + account + "-" + str(index)}.json", 'w',encoding='utf-8') as f:
+                    f.write(answer)
+            print("答案已保存到QuestionBank文件夹")
+            QuestionBank.generate_bank(directory=os.getcwd() + "/QuestionBank")
         print("开始自动考试")
         Instance.finish_exam_time = auto_exam
         Instance.autoExam()
