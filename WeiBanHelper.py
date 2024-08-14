@@ -48,7 +48,7 @@ class WeibanHelper:
         login_data = self.login(account, password, tenant_code, verify_code, verify_time)
 
         if auto_verify:
-            while login_data['code'] == '-1' and str(login_data['msg']).find("验证码") != -1:
+            while login_data['code'] == '-1' and str(login_data).find("验证码") != -1:
                 verify_time = time.time()
                 verify_code = self.ocr.classification(self.get_verify_code(get_time=verify_time, download=False))
                 login_data = self.login(account, password, tenant_code, verify_code, verify_time)
@@ -455,6 +455,6 @@ class WeibanHelper:
         data = json.loads(text)
         print(data)
         if data['code'] == '-1':
-            if str(data['msg']).find("不匹配") != -1:
+            if str(data).find("不匹配") != -1:
                 exit(1)
         return data
