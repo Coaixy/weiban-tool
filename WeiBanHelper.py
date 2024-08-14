@@ -131,7 +131,12 @@ class WeibanHelper:
                 "examPlanId": exam_plan_id
             }
             response = requests.post(url, headers=self.headers, data=dataList)
-            dataList = json.loads(response.text)['data']
+
+            data = json.loads(response.text)
+            if data['code'] == '-1':
+                return result
+            else:
+                dataList = data['data']
         for data in dataList:
             result.append(data['id'])
         return result
@@ -196,7 +201,7 @@ class WeibanHelper:
         start_paper_url = f"https://weiban.mycourse.cn/pharos/exam/startPaper.do?"
         submit_url = f"https://weiban.mycourse.cn/pharos/exam/submitPaper.do?timestamp="
         answer_data = None
-        with open("QuestionBank/result.json", 'r',encoding='utf8') as f:
+        with open("QuestionBank/result.json", 'r', encoding='utf8') as f:
             answer_data = json.loads(f.read())
 
         def get_answer_list(question_title):
