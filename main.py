@@ -75,7 +75,7 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
         else:
             for answer in answer_list:
                 index = index + 1
-                with open(f"QuestionBank/{tenant_code + "-" + account + "-" + str(index)}.json", 'w',
+                with open(f"QuestionBank/{tenant_code}-{account}-{str(index)}.json", 'w',
                           encoding='utf-8') as f:
                     f.write(answer)
             print("答案已保存到QuestionBank文件夹")
