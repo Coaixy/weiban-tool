@@ -1,6 +1,8 @@
 /.idea
-code.jpg
+code
 dist
 build
 venv
 main.spec
+.DS_Store
+__pycache__
