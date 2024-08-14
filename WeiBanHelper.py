@@ -267,6 +267,7 @@ class WeibanHelper:
             "userExamPlanId": plan_id,
         }).json()['data']
         question_list = paper_data['questionList']
+        match_count = 0
         for question in question_list:
             question_title = question['title']
             option_list = question['optionList']
@@ -274,12 +275,12 @@ class WeibanHelper:
             answer_list, is_match = get_answer_list(question_title)
             print(f"题目: {question_title}")
             if is_match:
+                match_count = match_count + 1
                 for answer in answer_list:
                     for option in option_list:
                         if option['content'] == answer:
                             submit_answer_id_list.append(option['id'])
                             print(f"答案: {answer}")
-            print()
             # Record
             record_data = {
                 "answerIds": ",".join(submit_answer_id_list),
@@ -293,6 +294,11 @@ class WeibanHelper:
             requests.post(f"https://weiban.mycourse.cn/pharos/exam/recordQuestion.do?timestamp={time.time()}",
                           headers=self.headers, data=record_data)
         # SubMit
+        print("答案匹配度: ", match_count, " / ", len(question_list))
+        if len(question_list) - match_count >= 5:
+            print("题库匹配度过低")
+            print("暂未提交,请重新考试")
+            return
         submit_data = {
             "tenantCode": self.tenantCode,
             "userId": self.userId,
