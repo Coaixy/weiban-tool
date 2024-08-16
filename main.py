@@ -58,7 +58,7 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
     if len(arguments) == 0:
         project_index = int(input("请输入项目编号: "))
         Instance.userProjectId = Instance.project_list[project_index]['userProjectId']
-        auto_exam = int(input("是否自动考试: 0: 不自动考试, 1: 自动考试"))
+        auto_exam = int(input("是否自动考试: 0: 不自动考试, >0 : 考试时间(单位秒)"))
     if len(arguments) == 5:
         project_index = int(arguments[4])
         Instance.userProjectId = Instance.project_list[project_index]['userProjectId']
