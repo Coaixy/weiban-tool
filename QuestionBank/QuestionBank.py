@@ -42,8 +42,7 @@ def generate_bank(directory='.'):
         for item in data:
             if final_result.get(item['title']) is None:
                 final_result[item['title']] = {
-                    'typeLabel': item['typeLabel'],
-                    'right': item['isRight'],
+                    # 'typeLabel': item['typeLabel'],
                     'optionList': item['optionList']
                 }
         print()
@@ -74,7 +73,6 @@ def main():
     with open("result.json", 'r') as f:
         global bank_obj
         bank_obj = json.load(f)
-        print(bank_obj)
     uvicorn.run(app, host="127.0.0.1", port=8080)
 
 
