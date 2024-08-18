@@ -205,7 +205,7 @@ class WeibanHelper:
             answer_data = json.loads(f.read())
 
         def get_answer_list(question_title):
-            closest_match = difflib.get_close_matches(question_title, answer_data.keys(), n=1, cutoff=0.8)
+            closest_match = difflib.get_close_matches(question_title, answer_data.keys(), n=1, cutoff=1)
             answer_list = []
             if closest_match:
                 data = answer_data[closest_match[0]]
@@ -295,7 +295,7 @@ class WeibanHelper:
                           headers=self.headers, data=record_data)
         # SubMit
         print("答案匹配度: ", match_count, " / ", len(question_list))
-        if len(question_list) - match_count >= 5:
+        if len(question_list) - match_count >= 1:
             print("题库匹配度过低")
             print("暂未提交,请重新考试")
             return
