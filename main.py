@@ -74,7 +74,7 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
             print("未获取到答案")
         else:
             for answer in answer_list:
-                index = index + 1
+                index = index + 1   
                 with open(f"QuestionBank/{tenant_code}-{account}-{str(index)}.json", 'w',
                           encoding='utf-8') as f:
                     f.write(answer)

@@ -205,7 +205,7 @@ class WeibanHelper:
             answer_data = json.loads(f.read())
 
         def get_answer_list(question_title):
-            closest_match = difflib.get_close_matches(question_title, answer_data.keys(), n=1, cutoff=0.6)
+            closest_match = difflib.get_close_matches(question_title, answer_data.keys(), n=1, cutoff=0.8)
             answer_list = []
             if closest_match:
                 data = answer_data[closest_match[0]]
