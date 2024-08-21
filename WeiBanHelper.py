@@ -74,7 +74,7 @@ class WeibanHelper:
         for i in self.getCourse(chooseType):
             print(f"{index} / {num}")
             self.start(i)
-            time.sleep(15)
+            time.sleep(random.randint(15,20))
             self.finish(i, finishIdList[i])
             index = index + 1
         print("刷课完成")
@@ -212,7 +212,9 @@ class WeibanHelper:
                 for i in data['optionList']:
                     if i['isCorrect'] == 1:
                         answer_list.append(i['content'])
-            return answer_list, True
+                return answer_list, True
+            else:
+                return answer_list, False
 
         def get_verify_code():
             now = time.time()
@@ -281,6 +283,11 @@ class WeibanHelper:
                         if option['content'] == answer:
                             submit_answer_id_list.append(option['id'])
                             print(f"答案: {answer}")
+                print("\n")
+            else:
+                print("——————————!!!未匹配到答案，题库暂未收录此题!!!——————————")
+                print("\n")
+
             # Record
             record_data = {
                 "answerIds": ",".join(submit_answer_id_list),
