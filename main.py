@@ -4,6 +4,7 @@ import json
 import os
 import sys
 import uuid
+import re
 
 import requests
 
@@ -42,7 +43,12 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
     if len(arguments) == 0:
         account = input("请输入账号: ")
         password = input("请输入密码: ")
-        school_name = input("请输入学校名称: ")
+        while True:
+            school_name = input("请输入学校名称：")
+            if re.fullmatch(r'[\u4e00-\u9fa5]+', school_name):
+                break
+            else:
+                print("学校名称无效，仅允许中文字符，如果终端无法输入，请在外面输入，并复制粘贴到这里")
     elif len(arguments) >= 4:
         account = arguments[0]
         password = arguments[1]
@@ -52,11 +58,16 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
     Instance = WeiBanHelper.WeibanHelper(account=account, password=password, school_name=school_name,
                                          auto_verify=auto_verify,
                                          project_index=0)
+    print("\n编号 -  课程\n-----------------------")
     for index, value in enumerate(Instance.project_list):
-        print(index, " - ", value['projectName'])
+        print(index, "   - ", value['projectName'])
+    print("\n")
     project_index = 0
     if len(arguments) == 0:
-        project_index = int(input("请输入项目编号: "))
+        if len(Instance.project_list) == 1:
+            project_index = int(input("已经识别到唯一项目, 请直接输入“0”开始执行: "))
+        else:
+            project_index = int(input("请输入项目编号: "))
         Instance.userProjectId = Instance.project_list[project_index]['userProjectId']
         auto_exam = int(input("是否自动考试: 0: 不自动考试, >0 : 考试时间(单位秒)"))
     if len(arguments) == 5:
