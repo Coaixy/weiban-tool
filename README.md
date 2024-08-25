@@ -1,34 +1,38 @@
 # Weiban-Tool
-
 安全微伴自动刷课助手
+
+## 注意事项
+仅供学习，请在下载后24h内删除。
 
 [![仓库访问次数](https://badges.toozhao.com/badges/01J4X431GX8JJ8F43S0ES0ANXY/green.svg)]( "")
 
 ## 使用方法
+配置镜像:
 
-1. 安装Python
-2. 执行 <code>Pip install -r requirements.txt</code>
-3. 执行<code>Python main.py</code>
+<code>pip config set global.index-url https://mirrors.aliyun.com/pypi/simple</code>
 
-## 贡献方法
-1. Fork 本项目
-2. 创建您的特性分支 (`git checkout -b feature/fooBar`)
-3. 提交您的改动 (`git commit -am 'Add some fooBar'`)
-4. 推送您的分支 (`git push origin feature/fooBar`)
-5. 创建一个新的 Pull Request
-6. 等待合并
-7. 欢迎您的贡献
+<code>pip config set install.trusted-host mirrors.aliyun.com</code>
 
-## TodoList
+安装依赖
+
+<code>Pip install -r requirements.txt</code>
+
+执行程序
+
+<code>Python main.py</code>
+
+## 完成情况
 - [x] 自动登录
 - [x] 自动刷课
 - [x] 题库提取
 - [x] 自动答题
 - [ ] 网页版
-## 注意事项
-仅供学习，请在下载后24h内删除。
 
-![Cow2](https://github.com/Coaixy/weiban-tool/blob/master/QRCODE.JPG "Cow2")
+## 贡献者
+
+<img src="https://contrib.rocks/image?repo=coaixy/weiban-tool" />
+ 
+<img src="https://github.com/Coaixy/weiban-tool/blob/master/QRCODE.JPG" width="400" height="600" />
 
 ## Star History
 
