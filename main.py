@@ -36,8 +36,10 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
     account = ""
     password = ""
     school_name = ""
-    auto_verify = False
+    auto_verify = True
     auto_exam = False
+
+
 
     arguments = sys.argv[1:]
     if len(arguments) == 0:
