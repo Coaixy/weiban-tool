@@ -30,7 +30,8 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
         print("school_name: 学校名称")
         print("auto_verify: 是否自动验证, 0: 不自动验证, 1: 自动验证")
         print("project_index: 课程编号")
-        print("auto_exam: 是否自动考试 0: 不自动考试, >0 : 考试时间(单位秒)")
+        print("auto_exam: 是否自动考试 0: 不自动考试, >0 : 考试时间(单位秒)：")
+        print("exam_threshold: 允许错的题目数：")
         print()
     # 基础信息
     account = ""
@@ -38,8 +39,7 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
     school_name = ""
     auto_verify = True
     auto_exam = False
-
-
+    exam_threshold = 1
 
     arguments = sys.argv[1:]
     if len(arguments) == 0:
@@ -51,7 +51,7 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
                 break
             else:
                 print("学校名称无效，仅允许中文字符，如果终端无法输入，请在外面输入，并复制粘贴到这里")
-    elif len(arguments) >= 4:
+    elif len(arguments) >= 5:
         account = arguments[0]
         password = arguments[1]
         school_name = arguments[2]
@@ -72,11 +72,15 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
             project_index = int(input("请输入项目编号: "))
         Instance.userProjectId = Instance.project_list[project_index]['userProjectId']
         auto_exam = int(input("是否自动考试: 0: 不自动考试, >0 : 考试时间(单位秒)"))
+        if auto_exam >= 1:
+            exam_threshold = int(input("允许错的题目数: "))
     if len(arguments) == 5:
         project_index = int(arguments[4])
         Instance.userProjectId = Instance.project_list[project_index]['userProjectId']
     if len(arguments) == 6:
         auto_exam = int(arguments[5])
+    if len(arguments) == 7:
+        exam_threshold = int(arguments[6])
     print("当前项目名称: ", Instance.project_list[project_index]['projectName'])
     Instance.run()
     if auto_exam > 0:
@@ -87,7 +91,7 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
             print("未获取到答案")
         else:
             for answer in answer_list:
-                index = index + 1   
+                index = index + 1
                 with open(f"QuestionBank/{tenant_code}-{account}-{str(index)}.json", 'w',
                           encoding='utf-8') as f:
                     f.write(answer)
@@ -95,4 +99,5 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
         QuestionBank.generate_bank(directory=os.getcwd() + "/QuestionBank")
         print("开始自动考试")
         Instance.finish_exam_time = auto_exam
+        Instance.exam_threshold = exam_threshold
         Instance.autoExam()

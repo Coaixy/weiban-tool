@@ -22,6 +22,7 @@ class WeibanHelper:
     project_list = {}
     ocr = None
     finish_exam_time = 0
+    exam_threshold = 1
     headers = {
         "X-Token": "",
         "ContentType": "application/x-www-form-urlencoded; charset=UTF-8",
@@ -302,7 +303,7 @@ class WeibanHelper:
                           headers=self.headers, data=record_data)
         # SubMit
         print("答案匹配度: ", match_count, " / ", len(question_list))
-        if len(question_list) - match_count >= 1:
+        if len(question_list) - match_count >= self.exam_threshold:
             print("题库匹配度过低")
             print("暂未提交,请重新考试")
             return
