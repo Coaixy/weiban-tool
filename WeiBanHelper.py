@@ -303,7 +303,7 @@ class WeibanHelper:
                           headers=self.headers, data=record_data)
         # SubMit
         print("答案匹配度: ", match_count, " / ", len(question_list))
-        if len(question_list) - match_count >= self.exam_threshold:
+        if len(question_list) - match_count > self.exam_threshold:
             print("题库匹配度过低")
             print("暂未提交,请重新考试")
             return
