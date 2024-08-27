@@ -7,9 +7,24 @@ import uuid
 import re
 
 import requests
+from tornado.options import print_help
 
 import QuestionBank.QuestionBank as QuestionBank
 import WeiBanHelper
+
+
+def print_help_info():
+    print("使用方法: python main.py [account] [password] [school_name] [auto_verify] [project_index] [auto_exam]")
+    print("使用方法: python main.py 进入纯手动输入模式")
+    print("account: 账号")
+    print("password: 密码")
+    print("school_name: 学校名称")
+    print("auto_verify: 是否自动验证, 0: 不自动验证, 1: 自动验证")
+    print("project_index: 课程编号")
+    print("auto_exam: 是否自动考试 0: 不自动考试, >0 : 考试时间(单位秒)：")
+    print("exam_threshold: 允许错的题目数：")
+    print()
+
 
 if __name__ == "__main__":
     print("""
@@ -23,16 +38,7 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
                                                                                                          
     """)
     if len(sys.argv) == 2 and sys.argv[1] == "help":
-        print("使用方法: python main.py [account] [password] [school_name] [auto_verify] [project_index] [auto_exam]")
-        print("使用方法: python main.py 进入纯手动输入模式")
-        print("account: 账号")
-        print("password: 密码")
-        print("school_name: 学校名称")
-        print("auto_verify: 是否自动验证, 0: 不自动验证, 1: 自动验证")
-        print("project_index: 课程编号")
-        print("auto_exam: 是否自动考试 0: 不自动考试, >0 : 考试时间(单位秒)：")
-        print("exam_threshold: 允许错的题目数：")
-        print()
+        print_help_info()
     # 基础信息
     account = ""
     password = ""
@@ -51,11 +57,6 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
                 break
             else:
                 print("学校名称无效，仅允许中文字符，如果终端无法输入，请在外面输入，并复制粘贴到这里")
-    elif len(arguments) >= 5:
-        account = arguments[0]
-        password = arguments[1]
-        school_name = arguments[2]
-        auto_verify = True if int(arguments[3]) == 1 else False
 
     Instance = WeiBanHelper.WeibanHelper(account=account, password=password, school_name=school_name,
                                          auto_verify=auto_verify,
@@ -74,14 +75,18 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
         auto_exam = int(input("是否自动考试: 0: 不自动考试, >0 : 考试时间(单位秒)"))
         if auto_exam >= 1:
             exam_threshold = int(input("允许错的题目数（如填0是一题不错，填1是可以错一题）: "))
-    if len(arguments) == 5:
-        project_index = int(arguments[4])
-        Instance.userProjectId = Instance.project_list[project_index]['userProjectId']
-    if len(arguments) == 6:
-        auto_exam = int(arguments[5])
+    if 0 < len(arguments) < 6:
+        print_help_info()
+        exit(0)
     if len(arguments) == 7:
+        account = arguments[0]
+        password = arguments[1]
+        school_name = arguments[2]
+        auto_verify = bool(arguments[3])
+        project_index = int(arguments[4])
         auto_exam = int(arguments[5])
         exam_threshold = int(arguments[6])
+
     print("当前项目名称: ", Instance.project_list[project_index]['projectName'])
     Instance.run()
     if auto_exam > 0:
