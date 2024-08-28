@@ -7,9 +7,9 @@ import uuid
 import re
 
 import requests
-from tornado.options import print_help
 
-import QuestionBank.QuestionBank as QuestionBank
+
+import QuestionBank.QuestionBank as Questio
 import WeiBanHelper
 
 
