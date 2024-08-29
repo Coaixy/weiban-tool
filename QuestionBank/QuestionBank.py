@@ -30,25 +30,83 @@ def get_all_json_files_content(directory):
                 print(f"读取文件 {filename} 时发生错误: {e}")
     return json_files_content
 
+def is_more_complete(option1, option2):
+    """
+    比较两个选项，返回 True 如果 option1 的属性比 option2 更全。
+    """
+    # 比较选项的属性
+    # 你可以根据需要修改此函数来比较哪些属性是必须的。
+    for key in option1:
+        if key not in option2:
+            return True
+        if isinstance(option1[key], list) and len(option1[key]) > len(option2[key]):
+            return True
+        if option1[key] != option2[key]:
+            return True
+    return False
+
 
 def generate_bank(directory='.'):
     final_result = {}
     json_contents = get_all_json_files_content(directory)
     json_data_list = {}
+
     for filename, content in json_contents.items():
-        json_data_list[filename] = content['data']['questions']
+        try:
+            # 尝试访问 'data' 和 'questions' 键
+            json_data_list[filename] = content['data']['questions']
+        except KeyError as e:
+            print(f"文件 {filename} 中缺少键 {e}")
+
     for filename, data in json_data_list.items():
         print(f"文件 {filename} 中的题目数量: {len(data)}")
         for item in data:
-            if final_result.get(item['title']) is None:
-                final_result[item['title']] = {
-                    # 'typeLabel': item['typeLabel'],
-                    'optionList': item['optionList']
+            title = item['title']
+            options = item['optionList']
+
+            # 使用字典去重选项，确保每个选项的 content 唯一，并且保留信息最全的选项
+            unique_options_dict = {}
+            for option in options:
+                content = option['content']
+                if content not in unique_options_dict:
+                    unique_options_dict[content] = option
+                else:
+                    existing_option = unique_options_dict[content]
+                    if is_more_complete(option, existing_option):
+                        unique_options_dict[content] = option
+
+            unique_options = list(unique_options_dict.values())
+
+            if title not in final_result:
+                # 如果题目标题不存在，则添加新题目及其选项
+                final_result[title] = {
+                    'optionList': unique_options
                 }
+            else:
+                # 如果题目标题已存在，则检查选项是否相同
+                existing_options = final_result[title]['optionList']
+
+                # 使用字典去重现有选项，确保每个选项的 content 唯一
+                existing_options_dict = {option['content']: option for option in existing_options}
+
+                # 将现有选项和新的选项合并
+                all_options_dict = existing_options_dict.copy()
+                for option in unique_options:
+                    content = option['content']
+                    if content in all_options_dict:
+                        if is_more_complete(option, all_options_dict[content]):
+                            all_options_dict[content] = option
+                    else:
+                        all_options_dict[content] = option
+
+                final_result[title]['optionList'] = list(all_options_dict.values())
+
         print()
+
     with open(f"{directory}/result.json", 'w', encoding='utf-8') as f:
         f.write(json.dumps(final_result, indent=4, ensure_ascii=False))
     # return json.dumps(final_result, indent=4, ensure_ascii=False)
+
     print(f"当前题库总数:{len(final_result)}\n")
 
 

@@ -269,25 +269,39 @@ class WeibanHelper:
             "userId": self.userId,
             "userExamPlanId": plan_id,
         }).json()['data']
+
+        # 提取题目列表
         question_list = paper_data['questionList']
         match_count = 0
+
         for question in question_list:
             question_title = question['title']
             option_list = question['optionList']
             submit_answer_id_list = []
-            answer_list, is_match = get_answer_list(question_title)
+
+            # 获取答案列表和初始的匹配标志
+            answer_list, _ = get_answer_list(question_title)
+
             print(f"题目: {question_title}")
-            if is_match:
-                match_count = match_count + 1
+
+            # 检查题目标题是否匹配
+            if answer_list:
+                # 查找是否有至少一个答案在选项中匹配
+                found_match = False
                 for answer in answer_list:
-                    for option in option_list:
-                        if option['content'] == answer:
-                            submit_answer_id_list.append(option['id'])
-                            print(f"答案: {answer}")
-                print("\n")
+                    matched_option = next((option for option in option_list if option['content'] == answer), None)
+                    if matched_option:
+                        submit_answer_id_list.append(matched_option['id'])
+                        print(f"答案: {answer}")
+                        found_match = True
+
+                if found_match:
+                    match_count += 1
+                    print("^^^答案匹配成功^^^\n")
+                else:
+                    print("——————————!!!题目匹配但选项未找到匹配项!!!——————————\n")
             else:
-                print("——————————!!!未匹配到答案，题库暂未收录此题!!!——————————")
-                print("\n")
+                print("——————————!!!未匹配到答案，题库暂未收录此题!!!——————————\n")
 
             # Record
             record_data = {

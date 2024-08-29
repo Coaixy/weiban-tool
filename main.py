@@ -57,7 +57,7 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
                 break
             else:
                 print("学校名称无效，仅允许中文字符，如果终端无法输入，请在外面输入，并复制粘贴到这里")
-    if 0 < len(arguments) < 6:
+    if 0 < len(arguments) < 7:
         print_help_info()
         exit(0)
     if len(arguments) == 7:
