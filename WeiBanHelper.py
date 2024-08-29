@@ -70,15 +70,15 @@ class WeibanHelper:
     def run(self):
         for chooseType in [2, 3]:
             finishIdList = self.getFinishIdList(chooseType)
-        num = len(finishIdList)
-        index = 1
-        for i in self.getCourse(chooseType):
-            print(f"{index} / {num}")
-            self.start(i)
-            time.sleep(random.randint(15,20))
-            self.finish(i, finishIdList[i])
-            index = index + 1
-        print("刷课完成")
+            num = len(finishIdList)
+            index = 1
+            for i in self.getCourse(chooseType):
+                print(f"{index} / {num}")
+                self.start(i)
+                time.sleep(random.randint(15,20))
+                self.finish(i, finishIdList[i])
+                index = index + 1
+            print("刷课完成")
 
     # 以下俩个方法来自https://github.com/Sustech-yx/WeiBanCourseMaster
 
