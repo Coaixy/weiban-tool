@@ -1,0 +1,1591 @@
+{
+    "code": "0",
+    "data": {
+        "submitTime": "2024-08-29 10:09:09",
+        "score": 92,
+        "useTime": 70,
+        "questions": [
+            {
+                "title": "踩踏中如果摔倒，应该怎么办？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 2,
+                "optionList": [
+                    {
+                        "content": "立刻大声呼救并用尽力气推周围的人。",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "不乱动、不挣扎，以小幅度的动作进行自我保护。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "香水的爆炸临界点是：",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "30℃",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "49℃",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "科学研究标明，跑步能提高人的心理健康程度。",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "正确",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "错误",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "遵守规则是为了什么？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "为了保证我们的自由和生命",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "为了管理者方便",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "游泳时脚被水草缠住怎么办？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "憋气钻进水里用手解开。",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "用脚乱踹，踹断。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "发现有人溺水时，应该立刻：",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "立刻跳下水去救人。",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "立刻拨打120、110电话。",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "在拥挤的人群里前进，突然鞋掉了，你应当：",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "不去管它，继续前进。",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "立即蹲下提鞋。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "随着人流前进时，什么位置更安全？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "被夹在人群的正中间。",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "贴着墙、扶梯、电线杆、汽车、雕像等稳定物。",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "以下哪个选项不能体现盲人点灯的“三不伤害”原则？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "坐车系安全带",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "感冒了戴口罩",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "电动车进电梯",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "夜间行车开尾灯",
+                        "sequence": 4,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "在人员异常拥挤的场所，下面做法正确的是：",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "注意力高度集中于钱包、手机上，别的都不在意。",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "听到有人喊“XX明星来啦！”立即拼命往前挤。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "前方开始派发纪念品，人群一哄而上，自己扭头撤退，不去凑热闹。",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "鞋突然被踩掉了，赶紧原地蹲下来提鞋。",
+                        "sequence": 4,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "所有专业的研究生生活都是一样的，只要好好学习，不管其他事情，写完论文就可以毕业了。",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "正确",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "错误",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "火灾时，如何利用窗户逃生？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "可以直接跳楼。",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "可以尝试用窗帘、地毯、床单制成安全绳。",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "“京东金融客服来电，要求进行操作变更，否则会影响征信。”这样的诈骗方式利用了人的什么弱点呢？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "恐惧",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "贪婪",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "情感",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "大一新生小蕊接到电话，对方说她可以领取助学金，让她提供银行卡号，身份证和密码，直接把钱汇到她的账户上。小蕊这时应该怎么做呢？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "立刻提供信息，准备领钱。",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "任何时候都不能同时提供重要的“三信息”（银行卡号、身份证和密码）给陌生人。",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "宿舍午休，浓浓烟火把你呛醒了，这时你会：",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "往床底下钻，等待救援。",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "用湿毛巾或衣服捂鼻，贴地面逃离火区。",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "你觉得为了网络办案，去酒店等开房间操作合理吗？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "合理，毕竟涉及我自己的隐私",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "正常的案件必须一对一当面办理，诉讼需要经签字确认后的纸质材料作为依据，不会简单地通过电话或者网络就完成处理",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "电子烟里不含尼古丁。",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "对",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "错",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "如果真的压力太大，放弃或者暂时放弃也是可以的，放过自己，让自己舒服一些更重要。可以选择一些自己喜欢的方式继续生活。旅游，工作，休息，不要强迫自己继续，也不要放弃自己。",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "正确",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "错误",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "失学或失去至亲属于哪种危机？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "发展性危机",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "境遇性危机",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "存在性危机",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "动动手指，给商家发文件，即可获得丰厚报酬，这样的兼职：",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "一定有问题，不能做",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "这钱不赚白不赚",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "身处高楼被困火灾，你会选择如何逃生呢？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 2,
+                "optionList": [
+                    {
+                        "content": "迅速坐电梯逃生。",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "寻找安全通道，快速撤离。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "机动车是指以（）驱动或者牵引，上道路行驶的供人员乘用或者用于运送物品以及进行工程专项作业的（）。",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "电力装置；轮式车辆",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "动力装置；轮式车辆",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "电力装置；箱式车辆",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "动力装置；箱式车辆",
+                        "sequence": 4,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "机动车和非机动车的管理和通行规则方面有什么不一样？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "非机动车上道路行驶需要投保交强险、登记上牌、驾驶人需要持有驾驶证，属于机动车的电动自行车，应依法遵守此规定，机动车无此要求",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "机动车上道路行驶需要投保交强险、登记上牌、驾驶人需要持有驾驶证，属于机动车的电动自行车，应依法遵守此规定，非机动车无此要求",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "对方给你发来一个逮捕令，看起来非常正规，你觉得这个逮捕令是否有威慑力？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "有呀，吓得腿软，居然还有我的照片，还有盖章。",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "不。还是嫌疑人的情况下，就可以看到“密函”，难道穿越回了古代？",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "踩踏中，腹部被顶了一下后剧痛不已，转到安全地带后应：",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "立即拨打120等待急救。",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "赶紧躺下来揉一揉，缓解疼痛。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "汹涌的人群拥挤中，该摆出什么样的姿势呢？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "手插在兜里，护住钱包和手机。",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "双手架在胸前，保证胸腔前有一定空间。",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "当在网络上遇到需要进行现金交易，并要求不断增加数额时，你应该",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "按照指示进行转账交易",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "想到止损线，停顿犹豫",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "火灾发生时，湿毛巾折叠8层为宜，其烟雾浓度消除率可达（）。",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "50%",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "60%",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "游泳时发现身边有漩涡，怎么逃离？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "放平身体俯卧浮于水面上，沿着漩涡边，用爬泳的方法借力顺势快速摆脱漩涡。",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "直立踩水或潜入水中逃跑。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "艾滋病病毒感染者的结婚/就业/入学等权益受我国法律保护吗？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "是。",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "否。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "不知道。",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "当天降暴雨，车被水淹时，下面做法正确的是：",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "立刻打开车门逃跑。",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "先给救援中心打电话。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "踩踏中摔倒后，应采用哪种姿势自我保护？",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "将身体抱成球状。",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "就势将身体平躺。",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "关于发展心理咨询，下面说法正确的是：",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "发展心理咨询是心理不健康的人想要发展成健康所做的咨询。",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "发展心理咨询是心理健康的人对未来发展有困惑时做的咨询。",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "溺水的时候浮上水面应该怎么做：",
+                "type": 1,
+                "typeLabel": "单选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "让口鼻露出水面，鼻子吸气嘴呼气，大声呼救。",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "让口鼻露出水面，鼻子呼气嘴吸气，大声呼救。",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "关于感染艾滋病后的法律法规，下面说法正确的是：",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "艾滋病病毒感染者和艾滋病病人应当履行下列义务：将感染或者发病的事实及时告知与其有性关系者。",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "艾滋病病毒感染者或者艾滋病病人故意传播艾滋病的，依法承担民事赔偿责任。",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "艾滋病病毒感染者或者艾滋病病人故意传播艾滋病的，构成犯罪的，依法追究刑事责任",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "就医时，将感染或者发病的事实如实告知接诊医生；采取必要的防护措施，防止感染他人。",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "出现拖延症的原因有哪些？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "讨厌被人委派任务",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "对成功信心不足",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "目标太过遥远和酬劳不合预期",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "容易分心和冲动",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "研究生的人际关系压力通常有：",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "很多时候会觉得孤独",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "与寝室、同学有矛盾",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "与同学之间的恶意竞争氛围",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "和导师有矛盾",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "以下哪些不是利用受害者“恐惧”心理进行诈骗的？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "兼职诈骗",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "冒充公检法诈骗",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "裸聊诈骗",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "投资诈骗",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "研究生学业可能遇到的难题包括：",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "枯燥的文献看不懂",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "完全不了解/不擅长做实验",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "学习安排与大学变化较大",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "遇到问题孤立无援，只能自己想办法解决",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "论文投稿总是被拒绝",
+                        "sequence": 5,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "心肺复苏术操作步骤有哪些？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "确定现场环境是否安全",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "确定患者意识",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "拨打120急救电话",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "检查呼吸",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "无反应+无呼吸或仅喘息\u003d实施CPR",
+                        "sequence": 5,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "电动自行车容易发生事故的主观原因有（）。",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "驾驶员安全意识低",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "驾驶员存在侥幸心理",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "驾驶员驾驶不熟练",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "抑郁症患者的症状可能有？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "心情低落，与处境不相符",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "悲痛欲绝，甚至木僵",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "明显的焦虑和运动性激越",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "自伤、自杀",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "当有朋友跟你借钱时，你应该：",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 2,
+                "optionList": [
+                    {
+                        "content": "按照朋友的要求，要多少给多少",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "就当这钱是要不回来的，自己能接受多少借多少",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "要先确认朋友的真实性，别被诈骗了",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "AI骗局可能有哪些形式？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "盗用熟人账号，换脸进行视频，装作熟人借钱",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "通过技术转发语音，伪装身份借钱",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "通过骚扰电话录音等来提取某人声音，进行声音合成，之后再打电话行骗",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "跑步有哪些作用？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "促进燃脂修身",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "保持年轻快乐",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "提高抵抗力",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "提升心肺功能",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "下面哪些是火灾中逃生的误区？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "盲目从众",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "在火海中大喊大叫",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "朝着有光的地方逃生",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "打开门窗通风换气",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "当我们面对陌生来电时，应该怎么办呢？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "陌生来电最好不接",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "如果对方自称公检法，一律挂掉找官方号码拨打求证",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "有任何疑问向警方求助",
+                        "sequence": 3,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "转账多思考，不听对方催促",
+                        "sequence": 4,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "缓解研究生学业压力，我们可以：",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 2,
+                "optionList": [
+                    {
+                        "content": "提前确定研究生生涯目标",
+                        "sequence": 1,
+                        "selected": 2,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "发现压力，释放压力",
+                        "sequence": 2,
+                        "selected": 2,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "想办法去解决最有压力的事情",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "做好时间管理，并努力执行",
+                        "sequence": 4,
+                        "selected": 2,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "骗子用“广撒网”的方式为什么会屡次得手？",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "撒的网够多够大，总会有相信这个“剧本”的人",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "骗术不用太过精细，用广撒网的方式可以快速筛选出自己的目标，“容易相信的人”更容易骗到钱",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "机会是留给有准备的人的",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "天道酬勤",
+                        "sequence": 4,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            },
+            {
+                "title": "研究生造成学业压力的原因可以大致分为两类，分别是：",
+                "type": 2,
+                "typeLabel": "多选题",
+                "score": 2,
+                "sequence": 0,
+                "analysis": "",
+                "isRight": 1,
+                "optionList": [
+                    {
+                        "content": "内在压力",
+                        "sequence": 1,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "外在压力",
+                        "sequence": 2,
+                        "selected": 1,
+                        "isCorrect": 1,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "家庭压力",
+                        "sequence": 3,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    },
+                    {
+                        "content": "学校压力",
+                        "sequence": 4,
+                        "selected": 2,
+                        "isCorrect": 2,
+                        "attachmentList": []
+                    }
+                ],
+                "attachmentList": []
+            }
+        ]
+    },
+    "detailCode": "0"
+}
