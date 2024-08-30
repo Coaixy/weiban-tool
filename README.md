@@ -38,7 +38,7 @@
 
 二群：443195213
 
-<img src="https://github.com/Coaixy/weiban-tool/blob/master/code.jpg" width="400" height="600" />
+<img src="https://github.com/Coaixy/weiban-tool/blob/master/qrcode.jpg" width="400" height="600" />
 
 ## Star History
 
