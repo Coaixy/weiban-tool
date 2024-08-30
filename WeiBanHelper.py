@@ -75,7 +75,7 @@ class WeibanHelper:
             for i in self.getCourse(chooseType):
                 print(f"{index} / {num}")
                 self.start(i)
-                time.sleep(random.randint(15,20))
+                time.sleep(random.randint(30,60))
                 self.finish(i, finishIdList[i])
                 index = index + 1
             print("刷课完成")
@@ -297,11 +297,11 @@ class WeibanHelper:
 
                 if found_match:
                     match_count += 1
-                    print("^^^答案匹配成功^^^\n")
+                    print("<===答案匹配成功===>\n")
                 else:
-                    print("——————————!!!题目匹配但选项未找到匹配项!!!——————————\n")
+                    print("<——————————!!!题目匹配但选项未找到匹配项!!!——————————>\n")
             else:
-                print("——————————!!!未匹配到答案，题库暂未收录此题!!!——————————\n")
+                print("<——————————!!!未匹配到答案，题库暂未收录此题!!!——————————>\n")
 
             # Record
             record_data = {
@@ -379,27 +379,145 @@ class WeibanHelper:
     # 感谢以下项目的思路
     # https://github.com/Sustech-yx/WeiBanCourseMaster
     def finish(self, courseId, finishId):
-        get_url_url = "https://weiban.mycourse.cn/pharos/usercourse/getCourseUrl.do"
-        finish_url = "https://weiban.mycourse.cn/pharos/usercourse/v2/{}.do"
-        data = {
-            "userProjectId": self.userProjectId,
-            "tenantCode": self.tenantCode,
-            "userId": self.userId,
-            "courseId": courseId,
-        }
-        requests.post(get_url_url, data=data, headers=self.headers)
-        token = self.get_method_token(finishId)
-        finish_url = finish_url.format(token)
-        ts = self.__get_timestamp().replace(".", "")
-        param = {
-            "callback": "jQuery{}_{}".format(self.__gen_rand(), ts),
-            "userCourseId": finishId,
-            "tenantCode": self.tenantCode,
-            "_": str(int(ts) + 1),
-        }
-        text = requests.get(finish_url, params=param, headers=self.headers).text
-        print(text)
-        return text
+        def get_mid_text(text, start, end):
+            """
+            从文本中提取位于 start 和 end 之间的子字符串。
+
+            参数:
+            text: 原始文本
+            start: 起始标记
+            end: 结束标记
+
+            返回:
+            子字符串
+            """
+            start_index = text.index(start) + len(start)
+            end_index = text.index(end, start_index)
+            return text[start_index:end_index]
+
+        def finish_first_attempt():
+            """
+            尝试首次请求以完成任务。
+
+            请求过程:
+            1. 发送 POST 请求获取课程的 URL。
+            2. 使用返回的数据生成完成任务的 URL。
+            3. 发送 GET 请求尝试完成任务，并返回响应文本。
+
+            返回:
+            响应文本
+            """
+            # 获取课程 URL 的接口
+            get_url_url = "https://weiban.mycourse.cn/pharos/usercourse/getCourseUrl.do"
+            # 完成任务的接口（模板）
+            finish_url = "https://weiban.mycourse.cn/pharos/usercourse/v2/{}.do"
+            # 请求数据
+            data = {
+                "userProjectId": self.userProjectId,
+                "tenantCode": self.tenantCode,
+                "userId": self.userId,
+                "courseId": courseId,
+            }
+            # 发送 POST 请求获取课程 URL
+            response = requests.post(get_url_url, data=data, headers=self.headers)
+            # 获取任务完成的令牌
+            token = self.get_method_token(finishId)
+            # 格式化完成任务的 URL
+            finish_url = finish_url.format(token)
+            # 获取当前时间戳并处理
+            ts = self.__get_timestamp().replace(".", "")
+            # 生成请求参数
+            param = {
+                "callback": "jQuery{}_{}".format(self.__gen_rand(), ts),
+                "userCourseId": finishId,
+                "tenantCode": self.tenantCode,
+                "_": str(int(ts) + 1),
+            }
+            # 发送 GET 请求完成任务，并返回响应文本
+            text = requests.get(finish_url, params=param, headers=self.headers).text
+            return text
+
+        def finish_second_attempt():
+            """
+            当第一次尝试失败时，使用备选方法进行第二次尝试。
+
+            请求过程:
+            1. 发送 POST 请求获取课程的 URL 和 userCourseId。
+            2. 使用返回的数据生成完成任务的 URL。
+            3. 发送 GET 请求尝试完成任务，并返回响应文本。
+
+            返回:
+            响应文本
+            """
+            # 获取课程 URL 的接口
+            get_url_url = "https://weiban.mycourse.cn/pharos/usercourse/getCourseUrl.do"
+            # 完成任务的接口（模板）
+            finish_url = "https://weiban.mycourse.cn/pharos/usercourse/v2/{}.do"
+            # 请求数据
+            data = {
+                "userProjectId": self.userProjectId,
+                "tenantCode": self.tenantCode,
+                "userId": self.userId,
+                "courseId": courseId,
+            }
+            # 发送 POST 请求获取课程 URL 和 userCourseId
+            text = json.loads(requests.post(get_url_url, data=data, headers=self.headers).text)['data']
+            # 从返回的数据中提取 userCourseId
+            token = get_mid_text(text, "userCourseId=", "&tenantCode")
+            # 格式化完成任务的 URL
+            finish_url = finish_url.format(token)
+            # 获取当前时间戳并处理
+            ts = self.__get_timestamp().replace(".", "")
+            # 生成请求参数
+            param = {
+                "callback": "jQuery{}_{}".format(self.__gen_rand(), ts),
+                "userCourseId": finishId,
+                "tenantCode": self.tenantCode,
+                "_": str(int(ts) + 1),
+            }
+            # 发送 GET 请求完成任务，并返回响应文本
+            text = requests.get(finish_url, params=param, headers=self.headers).text
+            return text
+
+        # 尝试使用第一个函数逻辑请求
+        first_attempt_response = finish_first_attempt()
+
+        # 检查第一个函数的响应是否成功
+        if ('{"msg":"ok"' in first_attempt_response
+                and '"code":"0"' in first_attempt_response
+                and '"detailCode":"0"' in first_attempt_response):
+            # 输出第一个函数请求成功的消息
+            print("finish_first_attempt函数请求成功")
+            # 输出响应文本
+            print(first_attempt_response)
+            # 返回响应文本
+            return first_attempt_response
+        else:
+            # 如果第一个函数请求失败，先输出失败信息
+            print("finish_first_attempt函数请求失败，尝试使用finish_second_attempt函数请求")
+            # 输出第一个函数的响应文本
+            print(first_attempt_response)
+
+            # 尝试使用第二个函数逻辑请求
+            second_attempt_response = finish_second_attempt()
+
+            # 检查第二个函数的响应是否成功
+            if ('{"msg":"ok"' in second_attempt_response
+                    and '"code":"0"' in second_attempt_response
+                    and '"detailCode":"0"' in second_attempt_response):
+                # 输出第二个函数请求成功的消息
+                print("finish_second_attempt函数请求成功")
+                # 输出响应文本
+                print(second_attempt_response)
+                # 返回响应文本
+                return second_attempt_response
+            else:
+                # 输出第二个函数请求失败的消息
+                print("finish_second_attempt函数请求失败")
+                # 输出第二个函数的响应文本
+                print(second_attempt_response)
+                # 返回响应文本
+                return second_attempt_response
 
     def get_method_token(self, course_id):
         url = "https://weiban.mycourse.cn/pharos/usercourse/getCaptcha.do"
