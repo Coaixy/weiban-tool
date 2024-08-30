@@ -75,7 +75,7 @@ class WeibanHelper:
             for i in self.getCourse(chooseType):
                 print(f"{index} / {num}")
                 self.start(i)
-                time.sleep(random.randint(30,60))
+                time.sleep(random.randint(15,20))
                 self.finish(i, finishIdList[i])
                 index = index + 1
             print("刷课完成")
