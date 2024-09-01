@@ -76,7 +76,21 @@ class WeibanHelper:
                 print(f"{index} / {num}")
                 self.start(i)
                 time.sleep(random.randint(15,20))
-                self.finish(i, finishIdList[i])
+                # 调用 self.finish 时遇到网络错误时重试
+                retry_count = 3  # 重试次数
+                for attempt in range(retry_count):
+                    try:
+                        self.finish(i, finishIdList[i])
+                        break  # 如果成功，跳出重试循环
+                    except (requests.exceptions.Timeout,
+                            requests.exceptions.ConnectionError,
+                            requests.exceptions.HTTPError,
+                            requests.exceptions.RequestException
+                            ) as e:  # 替换为实际的网络异常
+                        print(f"网络错误: {e}，正在重试 {attempt + 1} / {retry_count} 次...")
+                        time.sleep(5)  # 重试前等待片刻
+                        if attempt == retry_count - 1:
+                            print("达到最大重试次数，跳过此操作。")
                 index = index + 1
             print("刷课完成")
 
