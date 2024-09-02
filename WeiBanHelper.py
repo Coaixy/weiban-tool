@@ -39,6 +39,7 @@ class WeibanHelper:
         tenant_code = self.get_tenant_code(school_name=school_name)
         img_file_uuid = ""
         verify_time = time.time()
+        self.session = self.create_session()
 
         login_data = {}
         # 验证码处理
@@ -78,6 +79,22 @@ class WeibanHelper:
         self.userProjectId = projectId
         self.headers["X-Token"] = self.x_token
 
+    def create_session(self):
+        """
+        创建一个带有重试策略的会话对象。
+        """
+        session = requests.Session()
+        retry_strategy = Retry(
+            total=5,
+            status_forcelist=[429, 500, 502, 503, 504],
+            allowed_methods=["HEAD", "GET", "OPTIONS", "POST"],  # 替换 `method_whitelist`
+            backoff_factor=1
+        )
+        adapter = HTTPAdapter(max_retries=retry_strategy)
+        session.mount("https://", adapter)
+        session.mount("http://", adapter)
+        return session
+
     def retry_request(self, func, *args, retry_count=3, wait_time=5):
         """
         封装的重试请求方法。
@@ -86,28 +103,17 @@ class WeibanHelper:
             try:
                 return func(*args)  # 调用传入的函数并返回其结果
             except (SSLError, Timeout, ConnectionError, HTTPError, RequestException, ProxyError) as e:
-                print(f"网络错误: {e}，正在重试 {attempt + 1} / {retry_count} 次...")
+                print(f"网络错误 [{type(e).__name__}]: {e}，URL: {args[0]}，正在重试 {attempt + 1} / {retry_count} 次...")
                 time.sleep(wait_time)  # 等待指定时间后重试
                 if attempt == retry_count - 1:
                     print("达到最大重试次数，跳过此操作。")
                     return None  # 如果最终失败，返回 None
 
     def start(self, i):
+        url = "https://weiban.mycourse.cn/pharos/usercourse/study.do"
         try:
-            session = requests.Session()
-
-            retry_strategy = Retry(
-                total=5,
-                status_forcelist=[429, 500, 502, 503, 504],
-                method_whitelist=["HEAD", "GET", "OPTIONS", "POST"],
-                backoff_factor=1
-            )
-            adapter = HTTPAdapter(max_retries=retry_strategy)
-            session.mount("https://", adapter)
-            session.mount("http://", adapter)
-
-            response = session.post(
-                "https://weiban.mycourse.cn/pharos/usercourse/study.do",
+            response = self.session.post(
+                url,
                 data={'your_data_key': i},
                 proxies={"http": None, "https": None},  # 禁用代理
                 timeout=30,  # 增加超时时间
@@ -116,7 +122,7 @@ class WeibanHelper:
 
             # 检查响应状态码并处理
             if response.status_code != 200:
-                print(f"请求失败，状态码: {response.status_code}")
+                print(f"请求失败，状态码: {response.status_code}，URL: {url}")
                 return
 
             json_data = response.json()
@@ -124,8 +130,8 @@ class WeibanHelper:
             while json_data.get("code") == -1:
                 print("请求未成功，继续等待并重试...")
                 time.sleep(random.randint(5, 10))
-                response = session.post(
-                    "https://weiban.mycourse.cn/pharos/usercourse/study.do",
+                response = self.session.post(
+                    url,
                     data={'your_data_key': i},
                     proxies={"http": None, "https": None},  # 禁用代理
                     timeout=30,
@@ -135,13 +141,9 @@ class WeibanHelper:
 
             print("课程启动成功")
 
-        except requests.exceptions.ProxyError as e:
-            print(f"代理错误: {e}")
+        except (ProxyError, SSLError, Timeout, ConnectionError, HTTPError, RequestException) as e:
+            print(f"网络错误 [{type(e).__name__}]: {e}，URL: {url}")
             # 进一步处理或记录错误
-
-        except requests.exceptions.RequestException as e:
-            print(f"请求异常: {e}")
-            # 处理其他请求异常
 
     def run(self):
         for chooseType in [2, 3]:
@@ -162,28 +164,7 @@ class WeibanHelper:
             for i in course_list:
                 print(f"{index} / {num}")
                 self.start(i)
-                time.sleep(random.randint(30, 50))
-                self.retry_request(self.finish, i, finishIdList[i])
-                index += 1
-            print(f"chooseType={chooseType} 的课程刷课完成")
-
-    def run(self):
-        for chooseType in [2, 3]:
-            # 使用封装的重试机制获取 finishIdList
-            finishIdList = self.retry_request(self.getFinishIdList, chooseType)
-
-            # 如果获取失败，跳过此循环
-            if finishIdList is None:
-                print(f"无法获取 finishIdList，跳过 chooseType={chooseType} 的课程处理。")
-                continue
-
-            num = len(finishIdList)
-            index = 1
-            for i in self.getCourse(chooseType):
-                print(f"{index} / {num}")
-                self.start(i)
-                time.sleep(random.randint(30, 50))
-                # 使用封装的重试机制调用 finish 方法
+                time.sleep(random.randint(15, 20)) #刷课时间区间
                 self.retry_request(self.finish, i, finishIdList[i])
                 index += 1
             print(f"chooseType={chooseType} 的课程刷课完成")
