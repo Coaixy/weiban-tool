@@ -10,6 +10,9 @@ import datetime
 import random
 
 from PIL import Image
+from requests.exceptions import SSLError, Timeout, ConnectionError, HTTPError, RequestException, ProxyError
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 import encrypted
 
@@ -54,8 +57,16 @@ class WeibanHelper:
                 verify_code = self.ocr.classification(self.get_verify_code(get_time=verify_time, download=False))
                 login_data = self.login(account, password, tenant_code, verify_code, verify_time)
                 time.sleep(5)
-        login_data = login_data['data']
-        self.project_list = WeibanHelper.get_project_id(login_data["userId"], tenant_code, login_data["token"])
+        # 假设login_data是从某个请求返回的JSON数据中获取的
+        if 'data' in login_data:
+            login_data = login_data['data']
+            self.project_list = WeibanHelper.get_project_id(
+                login_data["userId"], tenant_code, login_data["token"]
+            )
+        else:
+            # 如果 'data' 键不存在，输出提示信息
+            print("登录失败，可能是学校名称输入错误。\n")
+            print(f"返回的错误信息: {login_data}\n")
 
         project_id = self.project_list[project_index]["userProjectId"]
         self.init(tenant_code, login_data["userId"], login_data["token"], project_id)
@@ -67,32 +78,115 @@ class WeibanHelper:
         self.userProjectId = projectId
         self.headers["X-Token"] = self.x_token
 
+    def retry_request(self, func, *args, retry_count=3, wait_time=5):
+        """
+        封装的重试请求方法。
+        """
+        for attempt in range(retry_count):
+            try:
+                return func(*args)  # 调用传入的函数并返回其结果
+            except (SSLError, Timeout, ConnectionError, HTTPError, RequestException, ProxyError) as e:
+                print(f"网络错误: {e}，正在重试 {attempt + 1} / {retry_count} 次...")
+                time.sleep(wait_time)  # 等待指定时间后重试
+                if attempt == retry_count - 1:
+                    print("达到最大重试次数，跳过此操作。")
+                    return None  # 如果最终失败，返回 None
+
+    def start(self, i):
+        try:
+            session = requests.Session()
+
+            retry_strategy = Retry(
+                total=5,
+                status_forcelist=[429, 500, 502, 503, 504],
+                method_whitelist=["HEAD", "GET", "OPTIONS", "POST"],
+                backoff_factor=1
+            )
+            adapter = HTTPAdapter(max_retries=retry_strategy)
+            session.mount("https://", adapter)
+            session.mount("http://", adapter)
+
+            response = session.post(
+                "https://weiban.mycourse.cn/pharos/usercourse/study.do",
+                data={'your_data_key': i},
+                proxies={"http": None, "https": None},  # 禁用代理
+                timeout=30,  # 增加超时时间
+                verify=False  # 如果需要跳过 SSL 证书验证
+            )
+
+            # 检查响应状态码并处理
+            if response.status_code != 200:
+                print(f"请求失败，状态码: {response.status_code}")
+                return
+
+            json_data = response.json()
+
+            while json_data.get("code") == -1:
+                print("请求未成功，继续等待并重试...")
+                time.sleep(random.randint(5, 10))
+                response = session.post(
+                    "https://weiban.mycourse.cn/pharos/usercourse/study.do",
+                    data={'your_data_key': i},
+                    proxies={"http": None, "https": None},  # 禁用代理
+                    timeout=30,
+                    verify=False
+                )
+                json_data = response.json()
+
+            print("课程启动成功")
+
+        except requests.exceptions.ProxyError as e:
+            print(f"代理错误: {e}")
+            # 进一步处理或记录错误
+
+        except requests.exceptions.RequestException as e:
+            print(f"请求异常: {e}")
+            # 处理其他请求异常
+
     def run(self):
         for chooseType in [2, 3]:
-            finishIdList = self.getFinishIdList(chooseType)
+            finishIdList = self.retry_request(self.getFinishIdList, chooseType)
+
+            if finishIdList is None:
+                print(f"无法获取 finishIdList，跳过 chooseType={chooseType} 的课程处理。")
+                continue
+
+            course_list = self.retry_request(self.getCourse, chooseType)
+
+            if course_list is None:
+                print(f"无法获取课程列表，跳过 chooseType={chooseType} 的课程处理。")
+                continue
+
+            num = len(course_list)
+            index = 1
+            for i in course_list:
+                print(f"{index} / {num}")
+                self.start(i)
+                time.sleep(random.randint(30, 50))
+                self.retry_request(self.finish, i, finishIdList[i])
+                index += 1
+            print(f"chooseType={chooseType} 的课程刷课完成")
+
+    def run(self):
+        for chooseType in [2, 3]:
+            # 使用封装的重试机制获取 finishIdList
+            finishIdList = self.retry_request(self.getFinishIdList, chooseType)
+
+            # 如果获取失败，跳过此循环
+            if finishIdList is None:
+                print(f"无法获取 finishIdList，跳过 chooseType={chooseType} 的课程处理。")
+                continue
+
             num = len(finishIdList)
             index = 1
             for i in self.getCourse(chooseType):
                 print(f"{index} / {num}")
                 self.start(i)
-                time.sleep(random.randint(15,20))
-                # 调用 self.finish 时遇到网络错误时重试
-                retry_count = 3  # 重试次数
-                for attempt in range(retry_count):
-                    try:
-                        self.finish(i, finishIdList[i])
-                        break  # 如果成功，跳出重试循环
-                    except (requests.exceptions.Timeout,
-                            requests.exceptions.ConnectionError,
-                            requests.exceptions.HTTPError,
-                            requests.exceptions.RequestException
-                            ) as e:  # 替换为实际的网络异常
-                        print(f"网络错误: {e}，正在重试 {attempt + 1} / {retry_count} 次...")
-                        time.sleep(5)  # 重试前等待片刻
-                        if attempt == retry_count - 1:
-                            print("达到最大重试次数，跳过此操作。")
-                index = index + 1
-            print("刷课完成")
+                time.sleep(random.randint(30, 50))
+                # 使用封装的重试机制调用 finish 方法
+                self.retry_request(self.finish, i, finishIdList[i])
+                index += 1
+            print(f"chooseType={chooseType} 的课程刷课完成")
 
     # 以下俩个方法来自https://github.com/Sustech-yx/WeiBanCourseMaster
 
@@ -208,17 +302,35 @@ class WeibanHelper:
         return result
 
     def autoExam(self):
-
         list_plan_url = f"https://weiban.mycourse.cn/pharos/exam/listPlan.do"
         before_paper_url = f"https://weiban.mycourse.cn/pharos/exam/beforePaper.do"
         get_verify_code_url = f"https://weiban.mycourse.cn/pharos/login/randLetterImage.do?time="
-        check_verify_code_url = f" https://weiban.mycourse.cn/pharos/exam/checkVerifyCode.do?timestamp"
+        check_verify_code_url = f"https://weiban.mycourse.cn/pharos/exam/checkVerifyCode.do?timestamp"
         start_paper_url = f"https://weiban.mycourse.cn/pharos/exam/startPaper.do?"
         submit_url = f"https://weiban.mycourse.cn/pharos/exam/submitPaper.do?timestamp="
         answer_data = None
+
         with open("QuestionBank/result.json", 'r', encoding='utf8') as f:
             answer_data = json.loads(f.read())
 
+        def retry_request_2(method, url, headers=None, data=None, max_retries=3, retry_delay=2):
+            for attempt in range(max_retries):
+                try:
+                    if method == "GET":
+                        response = requests.get(url, headers=headers, data=data)
+                    elif method == "POST":
+                        response = requests.post(url, headers=headers, data=data)
+                    else:
+                        raise ValueError("Invalid method type")
+                    response.raise_for_status()  # 检查是否返回了错误的状态码
+                    return response
+                except (requests.exceptions.RequestException, ValueError) as e:
+                    print(f"网络错误:Request failed: {e}. 正在重试:Attempt {attempt + 1} / {max_retries}次. Retrying...")
+                    if attempt < max_retries - 1:
+                        time.sleep(retry_delay)
+                    else:
+                        print("Max retries reached. Request failed.")
+                        raise
         def get_answer_list(question_title):
             closest_match = difflib.get_close_matches(question_title, answer_data.keys(), n=1, cutoff=1)
             answer_list = []
@@ -233,52 +345,60 @@ class WeibanHelper:
 
         def get_verify_code():
             now = time.time()
-            content = requests.get(get_verify_code_url + str(now), headers=self.headers).content
+            content = retry_request_2("GET", get_verify_code_url + str(now), headers=self.headers).content
             return self.ocr.classification(content), now
 
         # 获取考试计划
-        plan_data = requests.post(list_plan_url, headers=self.headers, data={
+        plan_data = retry_request_2("POST", list_plan_url, headers=self.headers, data={
             "tenantCode": self.tenantCode,
             "userId": self.userId,
             "userProjectId": self.userProjectId
         }).json()
+
         if plan_data['code'] != '0':
             print("获取考试计划失败")
             return
+
         plan_id = plan_data['data'][0]['id']
         exam_plan_id = plan_data['data'][0]['examPlanId']
+
         # Before
-        print(requests.post(before_paper_url, headers=self.headers, data={
+        print(retry_request_2("POST", before_paper_url, headers=self.headers, data={
             "tenantCode": self.tenantCode,
             "userId": self.userId,
             "userExamPlanId": plan_id
         }).text)
+
         # Prepare
-        print(requests.post(f" https://weiban.mycourse.cn/pharos/exam/preparePaper.do?timestamp",
-                            headers=self.headers, data={
+        print(retry_request_2("POST", f"https://weiban.mycourse.cn/pharos/exam/preparePaper.do?timestamp",
+                              headers=self.headers, data={
                 "tenantCode": self.tenantCode,
                 "userId": self.userId,
                 "userExamPlanId": plan_id,
             }).text)
+
         # Check
         verify_count = 0
         while True:
             verify_code, verify_time = get_verify_code()
-            verify_data = requests.post(check_verify_code_url, headers=self.headers, data={
+            verify_data = retry_request_2("POST", check_verify_code_url, headers=self.headers, data={
                 "tenantCode": self.tenantCode,
                 "time": verify_time,
                 "userId": self.userId,
                 "verifyCode": verify_code,
                 "userExamPlanId": plan_id
             }).json()
+
             if verify_data['code'] == '0':
                 break
+
             verify_count += 1
             if verify_count > 3:
                 print("验证码识别失败")
                 return
+
         # Start
-        paper_data = requests.post(start_paper_url, headers=self.headers, data={
+        paper_data = retry_request_2("POST", start_paper_url, headers=self.headers, data={
             "tenantCode": self.tenantCode,
             "userId": self.userId,
             "userExamPlanId": plan_id,
@@ -327,21 +447,24 @@ class WeibanHelper:
                 "examPlanId": exam_plan_id,
                 "useTime": random.randint(60, 90)
             }
-            requests.post(f"https://weiban.mycourse.cn/pharos/exam/recordQuestion.do?timestamp={time.time()}",
-                          headers=self.headers, data=record_data)
-        # SubMit
+            retry_request_2("POST", f"https://weiban.mycourse.cn/pharos/exam/recordQuestion.do?timestamp={time.time()}",
+                            headers=self.headers, data=record_data)
+
+        # Submit
         print("答案匹配度: ", match_count, " / ", len(question_list))
         if len(question_list) - match_count > self.exam_threshold:
             print("题库匹配度过低")
             print("暂未提交,请重新考试")
             return
+
         submit_data = {
             "tenantCode": self.tenantCode,
             "userId": self.userId,
             "userExamPlanId": plan_id,
         }
         time.sleep(self.finish_exam_time)
-        print(requests.post(submit_url + str(int(time.time()) + 600), headers=self.headers, data=submit_data).text)
+        print(retry_request_2("POST", submit_url + str(int(time.time()) + 600), headers=self.headers,
+                              data=submit_data).text)
 
     def getFinishIdList(self, chooseType):
         url = "https://weiban.mycourse.cn/pharos/usercourse/listCourse.do"
