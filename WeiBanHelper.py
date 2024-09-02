@@ -54,8 +54,16 @@ class WeibanHelper:
                 verify_code = self.ocr.classification(self.get_verify_code(get_time=verify_time, download=False))
                 login_data = self.login(account, password, tenant_code, verify_code, verify_time)
                 time.sleep(5)
-        login_data = login_data['data']
-        self.project_list = WeibanHelper.get_project_id(login_data["userId"], tenant_code, login_data["token"])
+        # 假设login_data是从某个请求返回的JSON数据中获取的
+        if 'data' in login_data:
+            login_data = login_data['data']
+            self.project_list = WeibanHelper.get_project_id(
+                login_data["userId"], tenant_code, login_data["token"]
+            )
+        else:
+            # 如果 'data' 键不存在，输出提示信息
+            print("登录失败，可能是学校名称输入错误。\n")
+            print(f"返回的错误信息: {login_data}\n")
 
         project_id = self.project_list[project_index]["userProjectId"]
         self.init(tenant_code, login_data["userId"], login_data["token"], project_id)
