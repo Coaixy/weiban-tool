@@ -109,37 +109,49 @@ class WeibanHelper:
                     print("达到最大重试次数，跳过此操作。")
                     return None  # 如果最终失败，返回 None
 
-    def start(self, i):
+    def start(self, courseId):
+        """
+        启动课程学习的请求方法，包含重试机制和网络错误处理。
+        :param courseId: 课程ID，用于启动指定的课程学习。
+        """
         url = "https://weiban.mycourse.cn/pharos/usercourse/study.do"
+        data = {
+            "userProjectId": self.userProjectId,
+            "tenantCode": self.tenantCode,
+            "userId": self.userId,
+            "courseId": courseId,
+        }
+        headers = {"x-token": self.x_token}
+
         try:
+            # 初始请求
             response = self.session.post(
                 url,
-                data={'your_data_key': i},
+                data=data,
+                headers=headers,
                 proxies={"http": None, "https": None},  # 禁用代理
-                timeout=30,  # 增加超时时间
+                timeout=30,  # 设置超时时间
                 verify=False  # 如果需要跳过 SSL 证书验证
             )
 
-            # 检查响应状态码并处理
-            if response.status_code != 200:
-                print(f"请求失败，状态码: {response.status_code}，URL: {url}")
-                return
-
-            json_data = response.json()
-
-            while json_data.get("code") == -1:
+            # 重试机制，直到请求成功
+            while json.loads(response.text).get("code") == -1:
                 print("请求未成功，继续等待并重试...")
-                time.sleep(random.randint(5, 10))
+                time.sleep(5)  # 等待5秒后重试
                 response = self.session.post(
                     url,
-                    data={'your_data_key': i},
+                    data=data,
+                    headers=headers,
                     proxies={"http": None, "https": None},  # 禁用代理
                     timeout=30,
                     verify=False
                 )
-                json_data = response.json()
 
-            print("课程启动成功")
+            # 检查请求状态码
+            if response.status_code == 200:
+                print("课程启动成功")
+            else:
+                print(f"请求失败，状态码: {response.status_code}，URL: {url}")
 
         except (ProxyError, SSLError, Timeout, ConnectionError, HTTPError, RequestException) as e:
             print(f"网络错误 [{type(e).__name__}]: {e}，URL: {url}")
@@ -408,6 +420,7 @@ class WeibanHelper:
                         print(f"答案: {answer}")
                         found_match = True
 
+                # 判断是否找到匹配的答案
                 if found_match:
                     match_count += 1
                     print("<===答案匹配成功===>\n")
@@ -470,27 +483,6 @@ class WeibanHelper:
             print(f"加载章节 : {i['categoryName']}")
         print("\n资源加载完成")
         return result
-
-    def start(self, courseId):
-        data = {
-            "userProjectId": self.userProjectId,
-            "tenantCode": self.tenantCode,
-            "userId": self.userId,
-            "courseId": courseId,
-        }
-        headers = {"x-token": self.x_token}
-        res = requests.post(
-            "https://weiban.mycourse.cn/pharos/usercourse/study.do",
-            data=data,
-            headers=headers,
-        )
-        while json.loads(res.text)["code"] == -1:
-            time.sleep(5)
-            res = requests.post(
-                "https://weiban.mycourse.cn/pharos/usercourse/study.do",
-                data=data,
-                headers=headers,
-            )
 
     # 感谢以下项目的思路
     def finish(self, courseId, finishId):
@@ -602,16 +594,17 @@ class WeibanHelper:
                 and '"code":"0"' in first_attempt_response
                 and '"detailCode":"0"' in first_attempt_response):
             # 输出第一个函数请求成功的消息
-            print("finish_first_attempt函数请求成功")
+            print("finish_first_attempt函数请求成功🗹")
             # 输出响应文本
             print(first_attempt_response)
             # 返回响应文本
             return first_attempt_response
         else:
             # 如果第一个函数请求失败，先输出失败信息
-            print("finish_first_attempt函数请求失败，尝试使用finish_second_attempt函数请求")
+            print("finish_first_attempt函数请求失败🗵，尝试使用finish_second_attempt函数请求")
             # 输出第一个函数的响应文本
             print(first_attempt_response)
+            print(" ҉ ҉ ҉ ҉ ҉ ҉ ҉ ҉ ҉ ҉ ")
 
             # 尝试使用第二个函数逻辑请求
             second_attempt_response = finish_second_attempt()
@@ -621,14 +614,14 @@ class WeibanHelper:
                     and '"code":"0"' in second_attempt_response
                     and '"detailCode":"0"' in second_attempt_response):
                 # 输出第二个函数请求成功的消息
-                print("finish_second_attempt函数请求成功")
+                print("finish_second_attempt函数请求成功🗹")
                 # 输出响应文本
                 print(second_attempt_response)
                 # 返回响应文本
                 return second_attempt_response
             else:
                 # 输出第二个函数请求失败的消息
-                print("finish_second_attempt函数请求失败")
+                print("finish_second_attempt函数请求失败🗵")
                 # 输出第二个函数的响应文本
                 print(second_attempt_response)
                 # 返回响应文本
