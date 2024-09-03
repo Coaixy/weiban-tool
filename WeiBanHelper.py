@@ -422,6 +422,7 @@ class WeibanHelper:
                         print(f"答案: {answer}")
                         found_match = True
 
+                # 判断是否找到匹配的答案
                 if found_match:
                     match_count += 1
                     print("<===答案匹配成功===>\n")
@@ -596,16 +597,17 @@ class WeibanHelper:
                 and '"code":"0"' in first_attempt_response
                 and '"detailCode":"0"' in first_attempt_response):
             # 输出第一个函数请求成功的消息
-            print("finish_first_attempt函数请求成功")
+            print("finish_first_attempt函数请求成功🗹")
             # 输出响应文本
             print(first_attempt_response)
             # 返回响应文本
             return first_attempt_response
         else:
             # 如果第一个函数请求失败，先输出失败信息
-            print("finish_first_attempt函数请求失败，尝试使用finish_second_attempt函数请求")
+            print("finish_first_attempt函数请求失败🗵，尝试使用finish_second_attempt函数请求")
             # 输出第一个函数的响应文本
             print(first_attempt_response)
+            print(" ҉ ҉ ҉ ҉ ҉ ҉ ҉ ҉ ҉ ҉ ")
 
             # 尝试使用第二个函数逻辑请求
             second_attempt_response = finish_second_attempt()
@@ -615,14 +617,14 @@ class WeibanHelper:
                     and '"code":"0"' in second_attempt_response
                     and '"detailCode":"0"' in second_attempt_response):
                 # 输出第二个函数请求成功的消息
-                print("finish_second_attempt函数请求成功")
+                print("finish_second_attempt函数请求成功🗹")
                 # 输出响应文本
                 print(second_attempt_response)
                 # 返回响应文本
                 return second_attempt_response
             else:
                 # 输出第二个函数请求失败的消息
-                print("finish_second_attempt函数请求失败")
+                print("finish_second_attempt函数请求失败🗵")
                 # 输出第二个函数的响应文本
                 print(second_attempt_response)
                 # 返回响应文本
