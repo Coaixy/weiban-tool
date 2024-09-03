@@ -181,8 +181,6 @@ class WeibanHelper:
                 index += 1
             print(f"chooseType={chooseType} 的课程刷课完成")
 
-    # 以下俩个方法来自https://github.com/Sustech-yx/WeiBanCourseMaster
-
     # js里的时间戳似乎都是保留了三位小数的.
     def __get_timestamp(self):
         return str(round(datetime.datetime.now().timestamp(), 3))
@@ -487,7 +485,6 @@ class WeibanHelper:
         return result
 
     # 感谢以下项目的思路
-    # https://github.com/Sustech-yx/WeiBanCourseMaster
     def finish(self, courseId, finishId):
         def get_mid_text(text, start, end):
             """
