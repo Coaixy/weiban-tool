@@ -53,7 +53,7 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
         password = input("请输入密码: ")
         while True:
             school_name = input("请输入学校名称：")
-            if re.fullmatch(r'[\u4e00-\u9fa5]+', school_name):
+            if re.fullmatch(r'[\u4e00-\u9fa5\-\(\)（）]+', school_name):
                 break
             else:
                 print("学校名称无效，仅允许中文字符，如果终端无法输入，请在外面输入，并复制粘贴到这里")
