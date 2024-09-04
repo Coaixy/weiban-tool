@@ -3769,7 +3769,7 @@
             {
                 "content": "不信不理",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
@@ -15447,7 +15447,7 @@
             {
                 "content": "错误",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
@@ -26349,7 +26349,7 @@
             {
                 "content": "正确",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
@@ -26374,7 +26374,7 @@
             {
                 "content": "关掉煤气，迅速盖上锅盖。",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
@@ -26574,7 +26574,7 @@
             {
                 "content": "夏季",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
@@ -26588,7 +26588,7 @@
             {
                 "content": "冬季",
                 "sequence": 4,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
@@ -31813,8 +31813,32 @@
     "以下哪项不属于扑救初起火灾的原则？": {
         "optionList": [
             {
+                "content": "第一时间，逃生要紧",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "第一时间，逃生要紧"
+                "attachmentList": []
+            },
+            {
+                "content": "大声呼救，及时报警",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "扑灭小火，争分夺秒",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "生命至上，救人第一",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -34619,8 +34643,32 @@
     "对非法持有属于国家秘密的文件、资料和其他物品的，以及非法持有、使用专用间谍器材的，国家安全机关可以依法对其人身、物品、住处和其他有关的地方进行（）。": {
         "optionList": [
             {
+                "content": "搜查",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "搜查"
+                "attachmentList": []
+            },
+            {
+                "content": "查封",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "没收",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "销毁",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -35565,8 +35613,32 @@
     "按照法律规定的内容不同，可以划分为（）。": {
         "optionList": [
             {
+                "content": "实体法和程序法",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "实体法和程序法"
+                "attachmentList": []
+            },
+            {
+                "content": "一般法和特别法",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "国内法和国际法",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "成文法和习惯法",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -38535,8 +38607,32 @@
     "（）是指组织、策划、实施分裂国家、破坏国家统一，或者与境外的机构、组织、个人相勾结，组织、策划、实施分裂国家、破坏国家统一的行为。": {
         "optionList": [
             {
+                "content": "分裂国家罪",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "分裂国家罪"
+                "attachmentList": []
+            },
+            {
+                "content": "背叛国家罪",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "间谍罪",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "情报罪",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -45034,20 +45130,32 @@
     "燃烧的几个充分条件是？": {
         "optionList": [
             {
+                "content": "一定的可燃物浓度",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "一定的可燃物浓度"
+                "attachmentList": []
             },
             {
+                "content": "一定的氧化剂含量",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "一定的氧化剂含量"
+                "attachmentList": []
             },
             {
+                "content": "一定的引火源",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "一定的引火源"
+                "attachmentList": []
             },
             {
+                "content": "未受抑制的链式反应",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "未受抑制的链式反应"
+                "attachmentList": []
             }
         ]
     },
@@ -47133,6 +47241,519 @@
                 "sequence": 2,
                 "selected": 2,
                 "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "使用干粉灭火器扑救易燃液体火灾时，应对准（   ）扫射，直至火焰全部扑灭。": {
+        "optionList": [
+            {
+                "content": "火焰根部",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "火焰顶部",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "火焰中部",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "朝天喷射",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "广东是我国什么自然灾害最多的省份？": {
+        "optionList": [
+            {
+                "content": "寒潮",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "沙尘暴",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "台风",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "校园内严禁骑乘摩托车、电动自行车。": {
+        "optionList": [
+            {
+                "content": "正确",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "错误",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "校园内车辆时速严禁超过（）。": {
+        "optionList": [
+            {
+                "content": "20公里/小时",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "25公里/小时",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "30公里/小时",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "40公里/小时",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "同学小苏收到短信，称其有包裹被扣在邮局，让其回电。小苏回电后，对方称其包裹涉嫌重武器，直接将电话转接到公安局，公安局为核实情况让小苏将银行卡内的钱款转到“安全账户”。小苏感到很恐慌，立马将卡内所有钱转到该账户——这个做法正确吗？": {
+        "optionList": [
+            {
+                "content": "正确",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "错误",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "对“套路贷”犯罪应从严惩处哪些人员？": {
+        "optionList": [
+            {
+                "content": "对黑社会性质组织领导者、首要分子、骨干分子",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "致使被害人自杀身亡等严重后果的“套路贷”犯罪分子",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "以上都应处罚",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "以下哪个不是“套路贷”的典型手法？": {
+        "optionList": [
+            {
+                "content": "按照国家政策以一定的利率将资金贷放给资金需要者",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "以“迅速放款”为诱饵吸引借款人",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "签订虚高借款合同、阴阳借款合同等",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "学生王某在教室接到一条短信，说他有法院的传票，并附带一个网站，让他点进去查看详情。王某点进去一看，发现是最高法院给他的传票，于是他就相信了对方，并按对方提示开始操作——这样的做法正确吗？": {
+        "optionList": [
+            {
+                "content": "正确",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "错误",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "假期，你正在家里上网聊天，这时收到一条陌生信息：“轻松兼职，每天工作2小时，日入300元”，你想反正在家也是闲着，寻点事做也好，于是询问对方如何兼职。对方说兼职内容是帮淘宝商户刷信誉，只要“购买”他所发链接的“商品”，确认收货后给好评即可，操作简单，每单给5元钱手续费，会和购买商品的钱一同打回到卡上。你应该怎么做？": {
+        "optionList": [
+            {
+                "content": "不信，是骗子",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "先买个小额的商品试试",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "反正闲着也是闲着，就按照他说的做吧",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "这是兼职刷单诈骗，直接拨打110举报",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "用电时要注意防火安全。下面哪些说法是正确的：": {
+        "optionList": [
+            {
+                "content": "不乱接乱拉电线，不超负荷用电",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "及时更换老化电器设施和线路",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "外出时要关闭电源开关",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "尽量减少电灯的开关次数",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "我校处于珠海机场净空保护区范围之内，禁止：": {
+        "optionList": [
+            {
+                "content": "燃放“孔明灯”",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "玩滑翔伞",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "放飞航拍无人机",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "放风筝",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "如果你想换一部最新款的手机，手上的钱不够，可以怎么赚钱？": {
+        "optionList": [
+            {
+                "content": "帮人办贷款，银行账户借他人刷流水",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "帮人“跑分\"，用个人账户代收款转钱",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "参与勤工助学",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "通过正规渠道找实习工作",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "一位陌生人向你打招呼：“同学你好，我是市场营销专业的毕业生，我现在在一个文具公司实习，只有完成销售任务才能转正，你能帮帮我吗？我可以免费请你喝奶茶！”——下面做法正确的有：": {
+        "optionList": [
+            {
+                "content": "这么便宜多买一些，其他的再转卖，还能赚一笔",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "感到疑问，学校允许这种推销行为吗？立刻打电话问一下辅导员",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "想让我花钱？先打开手机查一下，有没有这种诈骗骗局",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "拨打校内24小时报警电话",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "普通人如何避免掉入“帮信罪”犯罪团伙的圈套？": {
+        "optionList": [
+            {
+                "content": "不收购、出售“两卡”（银行卡和电话卡）",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "不出租、出借“两卡”（银行卡和电话卡）",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "不用微信等社交媒体帮电诈团队推广",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "为电诈团队制作、维护非法软件",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "某日，同学小刘通过QQ发来视频通话请求，与其闲聊后，小刘称近期手头紧想借2000元，但是身上没有银行卡，让你帮忙把钱转到朋友账号XXXXXX上，因两人关系不错，于是你将钱转到指定账户后发觉小刘QQ号被盗，自己上当受骗了。对于这种“冒充QQ好友借钱”的诈骗手段，以下识别办法正确的是：": {
+        "optionList": [
+            {
+                "content": "QQ视频可以复制，与QQ好友视频聊天中涉及借款、汇钱问题时，假如视频内容是重复的画面，很可能就是诈骗",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "让对方做个表情变化或动作予以求证",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "聊一些无网聊记录的私密话题以核实对方身份",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "直接拨打对方电话验证身份的真伪",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "如果你在网购过程中接到电话或短信称“你网购的商品因平台系统升级导致订单失效，需要联系淘宝客服办理激活或解冻，电话XXXXXXXX，网址XXXXXXXX。”不正确的做法是：": {
+        "optionList": [
+            {
+                "content": "登录官方购物网站查询订单详情",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "拨打对方提供的“客服号码”进行咨询",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "电话联系客服后，按照客服要求前往银行向指定账户汇款",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "登录对方提供的网址链接查验订单",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "防盗措施包括：": {
+        "optionList": [
+            {
+                "content": "不乱放个人物品，保持在视线范围内",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "养成人走锁好门窗的好习惯",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "警惕陌生或可疑人员",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "不要留宿外来人员",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "下列属于违反消防法的行为是：": {
+        "optionList": [
+            {
+                "content": "爱护消防设施和器材",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "非火警时期挪动、损坏或使用消防设施、器材",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "堵塞消防疏散通道",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "发现电源、电线老化，报告给学校",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
                 "attachmentList": []
             }
         ]
