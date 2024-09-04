@@ -1,6 +1,7 @@
 import json
 import os
 import difflib
+from json import JSONDecodeError
 
 import uvicorn
 from fastapi import FastAPI
@@ -30,6 +31,7 @@ def get_all_json_files_content(directory):
                 print(f"读取文件 {filename} 时发生错误: {e}")
     return json_files_content
 
+
 def is_more_complete(option1, option2):
     """
     比较两个选项，返回 True 如果 option1 的属性比 option2 更全。
@@ -48,8 +50,16 @@ def is_more_complete(option1, option2):
 
 def generate_bank(directory='.'):
     final_result = {}
+    old_result_count = 0
     json_contents = get_all_json_files_content(directory)
     json_data_list = {}
+    # 读取原有题库
+    with open("QuestionBank/result.json", 'r', encoding='utf8') as f:
+        try:
+            final_result = json.loads(f.read())
+            old_result_count = len(final_result)
+        except JSONDecodeError as e:
+            pass
 
     for filename, content in json_contents.items():
         try:
@@ -102,12 +112,16 @@ def generate_bank(directory='.'):
                 final_result[title]['optionList'] = list(all_options_dict.values())
 
         print()
-
-    with open(f"{directory}/result.json", 'w', encoding='utf-8') as f:
-        f.write(json.dumps(final_result, indent=4, ensure_ascii=False))
-    # return json.dumps(final_result, indent=4, ensure_ascii=False)
-
-    print(f"当前题库总数:{len(final_result)}\n")
+    print(f"旧题库总数:{old_result_count}\n")
+    with open(f"{directory}/result.json", 'r+', encoding='utf-8') as f:
+        if old_result_count <= len(final_result):
+            f.seek(0)
+            print("已更新题库\n")
+            f.write(json.dumps(final_result, indent=4, ensure_ascii=False))
+            print(f"当前题库总数:{len(final_result)}\n")
+            f.truncate()
+        else:
+            print(f"当前题库总数:{old_result_count}\n")
 
 
 bank_obj = {}
