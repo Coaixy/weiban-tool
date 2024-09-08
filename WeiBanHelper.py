@@ -486,6 +486,9 @@ class WeibanHelper:
 
     # 感谢以下项目的思路
     def finish(self, courseId, finishId):
+        from datetime import datetime
+        # 获取当前系统时间
+        current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         def get_mid_text(text, start, end):
             """
             从文本中提取位于 start 和 end 之间的子字符串。
@@ -597,6 +600,8 @@ class WeibanHelper:
             print("finish_first_attempt函数请求成功🗹")
             # 输出响应文本
             print(first_attempt_response)
+            # 输出指定文本和当前系统时间
+            print(f" - 当前时间: {current_time}")
             # 返回响应文本
             return first_attempt_response
         else:
@@ -617,6 +622,8 @@ class WeibanHelper:
                 print("finish_second_attempt函数请求成功🗹")
                 # 输出响应文本
                 print(second_attempt_response)
+                # 输出指定文本和当前系统时间
+                print(f" - 当前时间: {current_time}")
                 # 返回响应文本
                 return second_attempt_response
             else:
@@ -624,6 +631,8 @@ class WeibanHelper:
                 print("finish_second_attempt函数请求失败🗵")
                 # 输出第二个函数的响应文本
                 print(second_attempt_response)
+                # 输出指定文本和当前系统时间
+                print(f" - 当前时间: {current_time}")
                 # 返回响应文本
                 return second_attempt_response
 
