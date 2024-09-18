@@ -95,7 +95,7 @@ class WeibanHelper:
         session.mount("http://", adapter)
         return session
 
-    def retry_request(self, func, *args, retry_count=3, wait_time=5):
+    def retry_request(self, func, *args, retry_count=5, wait_time=3):
         """
         封装的重试请求方法。
         """
@@ -130,7 +130,7 @@ class WeibanHelper:
                 data=data,
                 headers=headers,
                 proxies={"http": None, "https": None},  # 禁用代理
-                timeout=30,  # 设置超时时间
+                timeout=10,  # 设置超时时间
                 verify=False  # 如果需要跳过 SSL 证书验证
             )
 
@@ -304,7 +304,7 @@ class WeibanHelper:
         with open("QuestionBank/result.json", 'r', encoding='utf8') as f:
             answer_data = json.loads(f.read())
 
-        def retry_request_2(method, url, headers=None, data=None, max_retries=3, retry_delay=2):
+        def retry_request_2(method, url, headers=None, data=None, max_retries=5, retry_delay=5):
             for attempt in range(max_retries):
                 try:
                     if method == "GET":
@@ -338,6 +338,10 @@ class WeibanHelper:
             now = time.time()
             content = retry_request_2("GET", get_verify_code_url + str(now), headers=self.headers).content
             return self.ocr.classification(content), now
+
+        from datetime import datetime
+        # 获取当前系统时间
+        current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
         # 获取考试计划
         plan_data = retry_request_2("POST", list_plan_url, headers=self.headers, data={
@@ -444,6 +448,8 @@ class WeibanHelper:
 
         # Submit
         print("答案匹配度: ", match_count, " / ", len(question_list))
+        # 输出指定文本和当前系统时间
+        print(f" - 当前时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         if len(question_list) - match_count > self.exam_threshold:
             print("题库匹配度过低")
             print("暂未提交,请重新考试")
@@ -457,6 +463,8 @@ class WeibanHelper:
         time.sleep(self.finish_exam_time)
         print(retry_request_2("POST", submit_url + str(int(time.time()) + 600), headers=self.headers,
                               data=submit_data).text)
+        # 输出指定文本和当前系统时间
+        print(f" - 当前时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
     def getFinishIdList(self, chooseType):
         url = "https://weiban.mycourse.cn/pharos/usercourse/listCourse.do"
