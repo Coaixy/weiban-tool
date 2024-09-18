@@ -37993,8 +37993,25 @@
     "走在街上被人叫住说“拜托帮我刷一下业绩，免费了解一下，会赠送您小礼品的！”，你该怎么办？": {
         "optionList": [
             {
+                "content": "天上不会掉馅饼，赶紧离开",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "天上不会掉馅饼，赶紧离开"
+                "attachmentList": []
+            },
+            {
+                "content": "助人为乐，何乐不为",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "有免费礼品，进去看看吧",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
