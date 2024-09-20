@@ -92,18 +92,33 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
     if auto_exam > 0:
         index = 0
         tenant_code = Instance.get_tenant_code(school_name)
+
+        # 获取答案列表
         answer_list = Instance.getAnswerList()
-        if len(answer_list) == 0 or answer_list is None:
-            print("未获取到答案")
+
+        if not answer_list:  # 简化判空条件
+            print("未获取到答题记录")
         else:
-            for answer in answer_list:
-                index = index + 1
-                with open(f"QuestionBank/{tenant_code}-{account}-{str(index)}.json", 'w',
-                          encoding='utf-8') as f:
+            # 保存答题记录
+            for idx, answer in enumerate(answer_list, start=1):
+                filename = f"{tenant_code}-{account}-{idx}.json"
+                file_path = os.path.join("QuestionBank", filename)
+
+                # 确保 QuestionBank 目录存在
+                os.makedirs(os.path.dirname(file_path), exist_ok=True)
+
+                with open(file_path, 'w', encoding='utf-8') as f:
                     f.write(answer)
-            print("答案已保存到QuestionBank文件夹")
-        QuestionBank.generate_bank(directory=os.getcwd() + "/QuestionBank")
-        print("开始自动考试")
+
+            print("答题记录已保存到 QuestionBank 文件夹")
+
+        # 生成题库
+        question_bank_dir = os.path.join(os.getcwd(), "QuestionBank")
+        QuestionBank.generate_bank(directory=question_bank_dir)
+
+        # 开始自动答题
+        print("开始自动答题")
         Instance.finish_exam_time = auto_exam
         Instance.exam_threshold = exam_threshold
         Instance.autoExam()
+
