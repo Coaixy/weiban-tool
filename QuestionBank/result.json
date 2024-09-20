@@ -3156,12 +3156,22 @@
                 "attachmentList": []
             },
             {
+                "content": "集会、游行、示威的负责人必须负责维持集会、游行、示威的秩序，并严格防止其他人加入。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "集会、游行、示威的负责人必须负责维持集会、游行、示威的秩序，并严格防止其他人加入。"
+                "attachmentList": []
             },
             {
                 "content": "暑假期间企业与打工的学生是受劳动法管理的雇佣关系。",
                 "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "集会、游行、示威的负责人必须负责维持集会、游行、示威的秩序，对要加入的他人审核管理。",
+                "sequence": 2,
                 "selected": 2,
                 "isCorrect": 2,
                 "attachmentList": []
@@ -3759,7 +3769,7 @@
             {
                 "content": "190多部",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
@@ -15280,7 +15290,7 @@
             {
                 "content": "正确",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
@@ -15474,28 +15484,28 @@
             {
                 "content": "破坏人际关系",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "影响学习和工作效率",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "引发心理疾病",
                 "sequence": 3,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "引发生理疾病",
                 "sequence": 4,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
@@ -15531,21 +15541,21 @@
             {
                 "content": "获得感",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "幸福感",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "安全感",
                 "sequence": 3,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
@@ -18035,7 +18045,7 @@
             {
                 "content": "刑事责任",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
@@ -19385,7 +19395,7 @@
             {
                 "content": "不可以随意大声呼救，以免吸入烟雾",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
@@ -21744,7 +21754,7 @@
             {
                 "content": "急性肠胃炎",
                 "sequence": 3,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
@@ -22431,28 +22441,28 @@
             {
                 "content": "遇到问题及时就医，按时吃药，治疗，戒掉不良生活习惯。",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "要保持健康的生活习惯，不要动辄熬夜，更不能在身体已经感到不适的时候还强撑着。",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "适当的锻炼身体，增强身体素质。",
                 "sequence": 3,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "清淡饮食更健康。",
                 "sequence": 4,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
@@ -22744,20 +22754,18 @@
     "在突发暴力袭击时，如果不能安全的逃跑，也无处可躲，你应该（）。": {
         "optionList": [
             {
-                "id": "fbf78a5e-0aeb-4408-901e-03ef267d34b7",
-                "questionId": "96079ed1-4154-4067-b2da-30b3b09b5278",
                 "content": "跪地求饶",
                 "sequence": 1,
-                "selected": 1,
-                "isCorrect": 2
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             },
             {
-                "id": "c294c0a6-d3d8-42e1-bd87-d457c7fb5683",
-                "questionId": "96079ed1-4154-4067-b2da-30b3b09b5278",
                 "content": "武力反击",
                 "sequence": 2,
-                "selected": 2,
-                "isCorrect": 1
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
             }
         ]
     },
@@ -29789,21 +29797,21 @@
             {
                 "content": "不信、不听、不传政治谣言",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "不观看、不传播反动宣传品",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "不围观、不参与非法聚集活动",
                 "sequence": 3,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
@@ -30423,8 +30431,18 @@
     "“喂，还记我吗？老同学。还能猜出我是谁吗？”这个时候你的下一句会是什么呢？": {
         "optionList": [
             {
+                "content": "赶紧自报家门啊，要不就挂了。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "赶紧自报家门啊，要不就挂了。"
+                "attachmentList": []
+            },
+            {
+                "content": "听你的声音好像是……XX？",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -30713,8 +30731,32 @@
     "《宪法修正案》将宪法序言第七自然段改为“……在马克思列宁主义、毛泽东思想、邓小平理论、‘三个代表’重要思想、科学发展观、（）指引下……”。": {
         "optionList": [
             {
+                "content": "习近平新时代中国特色社会主义思想",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "习近平新时代中国特色社会主义思想"
+                "attachmentList": []
+            },
+            {
+                "content": "新时代中国特色社会主义思想",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "习近平中国特色社会主义法治思想",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "新时代习近平中国特色社会主义法治思想",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -31058,8 +31100,32 @@
     "下列用电存在安全隐患的是：": {
         "optionList": [
             {
+                "content": "﻿﻿用湿布擦拭通电的电器",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "﻿﻿用湿布擦拭通电的电器"
+                "attachmentList": []
+            },
+            {
+                "content": "手擦干后再去触摸通电的电器开关",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "﻿﻿移动电器前切断电源",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "﻿﻿保护好电线外部的保护",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -31238,8 +31304,32 @@
     "下面情况不可以“私了”的是：": {
         "optionList": [
             {
+                "content": "一辆机动车与摩托车相撞，双方都认为是对方的错。",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "一辆机动车与摩托车相撞，双方都认为是对方的错。"
+                "attachmentList": []
+            },
+            {
+                "content": "自行车撞了行人，都没受伤。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "两辆机动车轻微剐蹭。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "两辆电动自行车相撞，事实清楚，责任方表示负全责。",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -31262,8 +31352,18 @@
     "下面这条短信是木马吗？“突然翻出了好久以前咱俩的照片，太好玩了，你快看看吧！我放这里了：XXX.XXX”": {
         "optionList": [
             {
+                "content": "照片直接微信发过来、或者发邮箱不就完了，这么拐弯抹角的，就是想骗你点链接，链接一点就中木马。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "照片直接微信发过来、或者发邮箱不就完了，这么拐弯抹角的，就是想骗你点链接，链接一点就中木马。"
+                "attachmentList": []
+            },
+            {
+                "content": "如果是熟人发的就应该不是木马。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -31885,8 +31985,32 @@
     "以下内容属于国家秘密的秘密级的描述的是（）。": {
         "optionList": [
             {
+                "content": "一般的国家秘密，泄露会使国家安全和利益遭受损害。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "一般的国家秘密，泄露会使国家安全和利益遭受损害。"
+                "attachmentList": []
+            },
+            {
+                "content": "重要的国家秘密，泄露会使国家安全和利益遭受严重的损害；",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "关系到国家安全和利益，依照法定程序确定，在一定时间内只限一定范围人员知悉的事项",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "最重要的国家秘密，泄露会使国家安全和利益遭受特别严重的损害",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -32133,8 +32257,18 @@
     "作为被劫持者，在警方发起突击的瞬间应当（）。": {
         "optionList": [
             {
+                "content": "要尽可能的趴在地上，并在警方掩护下脱离现场",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "要尽可能的趴在地上，并在警方掩护下脱离现场"
+                "attachmentList": []
+            },
+            {
+                "content": "迅速挣脱逃跑",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -32181,8 +32315,18 @@
     "你收到短信：“哥哥，我在路上，东西、钱包被偷了，请汇300元到工行：622xxxxxxx，户名：芊芊。这是我朋友芊芊的手机。”": {
         "optionList": [
             {
+                "content": "给自己的弟弟、妹妹打电话核查。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "给自己的弟弟、妹妹打电话核查。"
+                "attachmentList": []
+            },
+            {
+                "content": "赶紧汇钱。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -32205,8 +32349,18 @@
     "你收到短信：“我以前的账号不能用了，请把款直接汇入这个工商银行的账户。卡号：62220219xxxxxxxxxxx户名：王晓。”这时应该怎么办？": {
         "optionList": [
             {
+                "content": "先给朋友打电话确认一下。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "先给朋友打电话确认一下。"
+                "attachmentList": []
+            },
+            {
+                "content": "马上汇钱。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -32613,8 +32767,32 @@
     "关于“托运带毒”，下面行为正确的是：": {
         "optionList": [
             {
+                "content": "不熟悉的邻居委托你出国时给留学的儿子带些家中自制食品，你委婉拒绝。",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "不熟悉的邻居委托你出国时给留学的儿子带些家中自制食品，你委婉拒绝。"
+                "attachmentList": []
+            },
+            {
+                "content": "机场偶遇陌生人说自己行李超重了，你好心帮他装了1箱饮料。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "旅行团中认识的朋友回国时说购买了限购商品，你帮忙将多购的两包装进了自己箱中。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "朋友拜托你回国时稍带礼物给国内同学，你为了不弄坏礼品包装也不知道里面是什么。",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -33805,8 +33983,18 @@
     "在突发暴力袭击时，如果不能安全的逃跑，你需要（）。": {
         "optionList": [
             {
+                "content": "先找个地方躲藏起来",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "先找个地方躲藏起来"
+                "attachmentList": []
+            },
+            {
+                "content": "即刻反击",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -34227,8 +34415,18 @@
     "如果你在暴力袭击中受伤了，你应该选择（）。": {
         "optionList": [
             {
+                "content": "就地装死",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "就地装死"
+                "attachmentList": []
+            },
+            {
+                "content": "奋力逃跑",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -34453,8 +34651,18 @@
     "如果遇到抢劫钱财，我们可以把钱包扔向对方远处，趁对方去捡时逃跑。": {
         "optionList": [
             {
+                "content": "对。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "对。"
+                "attachmentList": []
+            },
+            {
+                "content": "错。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -34605,8 +34813,18 @@
     "实习的单位是在正规的网站上找的，是不是就万事大吉，等着上班了？": {
         "optionList": [
             {
+                "content": "不是，最好到工商局查询用人单位近一年的年检情况和公司的合法性。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "不是，最好到工商局查询用人单位近一年的年检情况和公司的合法性。"
+                "attachmentList": []
+            },
+            {
+                "content": "是呀，正规网站上的肯定没有问题呀！",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -34909,8 +35127,18 @@
     "小强跟宿舍的舍友们的关系特别的好，当舍友小壮想用一下他的毛巾时，小强委婉地拒绝了。小强这样的做法对吗？为什么？": {
         "optionList": [
             {
+                "content": "对，这既是对自己的保护也是对舍友的保护。因为毛巾很可能被一些病菌污染，如红眼病等。如果不分彼此的乱用，很可能把病菌传播开来。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "对，这既是对自己的保护也是对舍友的保护。因为毛巾很可能被一些病菌污染，如红眼病等。如果不分彼此的乱用，很可能把病菌传播开来。"
+                "attachmentList": []
+            },
+            {
+                "content": "不对，一个宿舍还搞得这么生分，用一下毛巾又不会损失什么。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -35287,8 +35515,18 @@
     "微信号“耐克鞋官方专卖”发来消息：新到耐克鞋，绝对正版，正规美国代购，价格便宜，欲购从速。怎么做更妥当呢？": {
         "optionList": [
             {
+                "content": "如果不能多方确认是正品，还是不买的好。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "如果不能多方确认是正品，还是不买的好。"
+                "attachmentList": []
+            },
+            {
+                "content": "这么便宜的耐克鞋当然要买啦。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -35547,8 +35785,25 @@
     "成语“居安思危”的出处是？": {
         "optionList": [
             {
+                "content": "《左传·襄公十一年》",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "《左传·襄公十一年》"
+                "attachmentList": []
+            },
+            {
+                "content": "《明史·郑本公传》",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "《全唐文·谏太宗十思疏》",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -35741,8 +35996,18 @@
     "手机界面显示是400开头的号码打来电话，你会怎么做？": {
         "optionList": [
             {
+                "content": "立刻挂断，肯定是诈骗。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "立刻挂断，肯定是诈骗。"
+                "attachmentList": []
+            },
+            {
+                "content": "这么高大上的电话当然接啦！",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -36089,8 +36354,25 @@
     "敲诈勒索公私财物，数额较大或者多次敲诈勒索的处罚为（）。": {
         "optionList": [
             {
+                "content": "处三年以下有期徒刑、拘役或者管制，并处或者单处罚金。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "处三年以下有期徒刑、拘役或者管制，并处或者单处罚金。"
+                "attachmentList": []
+            },
+            {
+                "content": "处三年以上十年以下有期徒刑，并处罚金。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "处十年以上有期徒刑，并处罚金。",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -36523,8 +36805,32 @@
     "根据《中华人民共和国治安管理处罚法》规定，卖淫、嫖娼的，处（     ），可以并处（     ）罚款；情节较轻的，处五日以下拘留或者五百元以下罚款。": {
         "optionList": [
             {
+                "content": "处十日以上十五日以下拘留，五千元以下",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "处十日以上十五日以下拘留，五千元以下"
+                "attachmentList": []
+            },
+            {
+                "content": "处五日以上十日以下拘留，三千元以下",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "处十日以上十五日以下拘留，三千元以下",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "处五日以上十日以下拘留，五千元以下",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -38374,8 +38680,18 @@
     "金融安全与我们每一个人的生活都密切相关。": {
         "optionList": [
             {
+                "content": "正确",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "正确"
+                "attachmentList": []
+            },
+            {
+                "content": "错误",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -38512,8 +38828,25 @@
     "集会、游行、示威过程中产生的任何后果由（）承担责任。": {
         "optionList": [
             {
+                "content": "集会、游行、示威活动的负责人和直接责任人",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "集会、游行、示威活动的负责人和直接责任人"
+                "attachmentList": []
+            },
+            {
+                "content": "直接责任人",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "集会、游行、示威活动的负责人",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -38859,8 +39192,18 @@
     "黑恶势力的保护伞一般指？": {
         "optionList": [
             {
+                "content": "某些国家公职人员",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "某些国家公职人员"
+                "attachmentList": []
+            },
+            {
+                "content": "地痞流氓",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -39301,16 +39644,25 @@
     "“破窗效应”告诉我们的道理有？": {
         "optionList": [
             {
+                "content": "环境中的不良现象如果被放任存在，会诱使人们仿效，甚至变本加厉。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "环境中的不良现象如果被放任存在，会诱使人们仿效，甚至变本加厉。"
+                "attachmentList": []
             },
             {
+                "content": "勿以恶小而为之，勿以善小而不为。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "勿以恶小而为之，勿以善小而不为。"
+                "attachmentList": []
             },
             {
+                "content": "小洞不补，大洞吃苦。",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "小洞不补，大洞吃苦。"
+                "attachmentList": []
             }
         ]
     },
@@ -41015,20 +41367,32 @@
     "以下疾病能够通过血液传播的有：": {
         "optionList": [
             {
+                "content": "乙肝",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "乙肝"
+                "attachmentList": []
             },
             {
+                "content": "艾滋病",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "艾滋病"
+                "attachmentList": []
             },
             {
+                "content": "淋病",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "淋病"
+                "attachmentList": []
             },
             {
+                "content": "梅毒",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "梅毒"
+                "attachmentList": []
             }
         ]
     },
@@ -41160,20 +41524,32 @@
     "使用手机时，应如何注意安全？": {
         "optionList": [
             {
+                "content": "开启锁屏密码",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "开启锁屏密码"
+                "attachmentList": []
             },
             {
+                "content": "在公众场合尽量关闭WIFI和蓝牙",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "在公众场合尽量关闭WIFI和蓝牙"
+                "attachmentList": []
             },
             {
+                "content": "小心山寨APP",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "小心山寨APP"
+                "attachmentList": []
             },
             {
+                "content": "密码不重复使用",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "密码不重复使用"
+                "attachmentList": []
             }
         ]
     },
@@ -41224,16 +41600,25 @@
     "信任心理型诈骗的诈骗手法通常有哪些？": {
         "optionList": [
             {
+                "content": "在学生论坛、QQ群发布木马文件，盗取QQ号",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "在学生论坛、QQ群发布木马文件，盗取QQ号"
+                "attachmentList": []
             },
             {
+                "content": "冒充学生与父母联系",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "冒充学生与父母联系"
+                "attachmentList": []
             },
             {
+                "content": "冒充学生与同学联系",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "冒充学生与同学联系"
+                "attachmentList": []
             }
         ]
     },
@@ -42377,20 +42762,32 @@
     "国家安全工作应当统筹（）。": {
         "optionList": [
             {
+                "content": "内部安全和外部安全",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "内部安全和外部安全"
+                "attachmentList": []
             },
             {
+                "content": "国土安全和国民安全",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "国土安全和国民安全"
+                "attachmentList": []
             },
             {
+                "content": "传统安全和非传统安全",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "传统安全和非传统安全"
+                "attachmentList": []
             },
             {
+                "content": "自身安全和共同安全",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "自身安全和共同安全"
+                "attachmentList": []
             }
         ]
     },
@@ -42793,16 +43190,32 @@
     "在枪击现场中，当只能选择反击时，你需要（）。": {
         "optionList": [
             {
+                "content": "用武力征服",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "用武力征服"
+                "attachmentList": []
             },
             {
+                "content": "尽力砸准",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "尽力砸准"
+                "attachmentList": []
             },
             {
+                "content": "在身边找到能当做武器的物品",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "在身边找到能当做武器的物品"
+                "attachmentList": []
+            },
+            {
+                "content": "用情感打动他",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -43128,16 +43541,32 @@
     "大学生群体易发生校园贷被骗并不是孤立的现象，撇开社会等客观原因，就其自身主观原因主要有（）": {
         "optionList": [
             {
+                "content": "人生观、价值观、道德观被扭曲",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "人生观、价值观、道德观被扭曲"
+                "attachmentList": []
             },
             {
+                "content": "法律观念不强",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "法律观念不强"
+                "attachmentList": []
             },
             {
+                "content": "侥幸心理作祟",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "侥幸心理作祟"
+                "attachmentList": []
+            },
+            {
+                "content": "贴补家用",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -43355,16 +43784,25 @@
     "如何防范网络诈骗？": {
         "optionList": [
             {
+                "content": "不贪便宜",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "不贪便宜"
+                "attachmentList": []
             },
             {
+                "content": "使用安全的支付工具",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "使用安全的支付工具"
+                "attachmentList": []
             },
             {
+                "content": "不轻信陌生人",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "不轻信陌生人"
+                "attachmentList": []
             }
         ]
     },
@@ -43455,16 +43893,25 @@
     "如何预防陷入各种“套路贷”？": {
         "optionList": [
             {
+                "content": "树立正确的消费观",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "树立正确的消费观"
+                "attachmentList": []
             },
             {
+                "content": "注意个人信息的保护",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "注意个人信息的保护"
+                "attachmentList": []
             },
             {
+                "content": "不被“小便宜”迷惑",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "不被“小便宜”迷惑"
+                "attachmentList": []
             }
         ]
     },
@@ -43503,16 +43950,32 @@
     "如果你的朋友失恋了，你该如何去帮助他？": {
         "optionList": [
             {
+                "content": "尽量避免主动提起",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "尽量避免主动提起"
+                "attachmentList": []
             },
             {
+                "content": "允许朋友在你面前表达ta的感受",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "允许朋友在你面前表达ta的感受"
+                "attachmentList": []
             },
             {
+                "content": "主动邀请朋友参加集体活动",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "主动邀请朋友参加集体活动"
+                "attachmentList": []
+            },
+            {
+                "content": "陪朋友买醉",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -43535,16 +43998,32 @@
     "如果在集贸市场发生爆炸，逃生时需注意（）。": {
         "optionList": [
             {
+                "content": "保持镇静，迅速选择最近安全出口有序撤离现场。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "保持镇静，迅速选择最近安全出口有序撤离现场。"
+                "attachmentList": []
             },
             {
+                "content": "注意避开临时搭建的货架，避免因坍塌可能造成新的伤害。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "注意避开临时搭建的货架，避免因坍塌可能造成新的伤害。"
+                "attachmentList": []
             },
             {
+                "content": "注意避开脚下物品，一旦摔倒应设法让身体靠近墙根或其他支撑物。",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "注意避开脚下物品，一旦摔倒应设法让身体靠近墙根或其他支撑物。"
+                "attachmentList": []
+            },
+            {
+                "content": "不要忘了收拾贵重物品。",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -43599,16 +44078,32 @@
     "如果是饭店发生爆炸，逃生时注意的事项有（）。": {
         "optionList": [
             {
+                "content": "保持镇静，注意避免进入餐厅等存有易燃易爆物品的危险地点。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "保持镇静，注意避免进入餐厅等存有易燃易爆物品的危险地点。"
+                "attachmentList": []
             },
             {
+                "content": "寻找有利地形进行隐藏。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "寻找有利地形进行隐藏。"
+                "attachmentList": []
             },
             {
+                "content": "按照警方和有关人员的指挥及时撤离现场，如果条件不允许，就应原地卧倒，等待救援。",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "按照警方和有关人员的指挥及时撤离现场，如果条件不允许，就应原地卧倒，等待救援。"
+                "attachmentList": []
+            },
+            {
+                "content": "直接跟着人群逃离。",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -44166,16 +44661,25 @@
     "开展扫黑除恶的原因有哪些？": {
         "optionList": [
             {
+                "content": "黑恶势力向政治领域渗透",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "黑恶势力向政治领域渗透"
+                "attachmentList": []
             },
             {
+                "content": "黑恶势力向新行业扩张",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "黑恶势力向新行业扩张"
+                "attachmentList": []
             },
             {
+                "content": "黑恶势力向隐蔽化转型",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "黑恶势力向隐蔽化转型"
+                "attachmentList": []
             }
         ]
     },
@@ -44446,12 +44950,32 @@
     "恐怖活动人员，是指（）。": {
         "optionList": [
             {
+                "content": "实施恐怖活动的人",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "实施恐怖活动的人"
+                "attachmentList": []
             },
             {
+                "content": "恐怖活动组织的成员",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "恐怖活动组织的成员"
+                "attachmentList": []
+            },
+            {
+                "content": "恐怖组织成员配偶",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "恐怖组织成员子女",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -44610,20 +45134,32 @@
     "我国生物安全防控面临的挑战有（）。": {
         "optionList": [
             {
+                "content": "外来入侵生物危害不断加剧",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "外来入侵生物危害不断加剧"
+                "attachmentList": []
             },
             {
+                "content": "生物遗传资源流失严重，国家利益蒙受巨大损失",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "生物遗传资源流失严重，国家利益蒙受巨大损失"
+                "attachmentList": []
             },
             {
+                "content": "生物战威胁将长期存在",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "生物战威胁将长期存在"
+                "attachmentList": []
             },
             {
+                "content": "转基因生物的大规模应用可能产生潜在风险",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "转基因生物的大规模应用可能产生潜在风险"
+                "attachmentList": []
             }
         ]
     },
@@ -45047,12 +45583,32 @@
     "有时候我们不愿意听别人的意见，本质原因是？": {
         "optionList": [
             {
+                "content": "因为没有认识到自己的不足",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "因为没有认识到自己的不足"
+                "attachmentList": []
             },
             {
+                "content": "因为不愿肯定他人的优点",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "因为不愿肯定他人的优点"
+                "attachmentList": []
+            },
+            {
+                "content": "因为思考是理性的",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "因为结论是自己得出的",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -45259,16 +45815,32 @@
     "校园贷都用哪些方法让学生们心甘情愿的注册并贷款？": {
         "optionList": [
             {
+                "content": "招聘学生推广校园贷“APP”，若推荐他人注册成功，每单可提成30—50元不等。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "招聘学生推广校园贷“APP”，若推荐他人注册成功，每单可提成30—50元不等。"
+                "attachmentList": []
             },
             {
+                "content": "贷款办理起来也很轻松，有的只需要学生证就可以办理。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "贷款办理起来也很轻松，有的只需要学生证就可以办理。"
+                "attachmentList": []
             },
             {
+                "content": "利用一些大学生攀比的心理，鼓励大学生提前消费。如：给女朋友买一个新手机，只需每天100块钱。",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "利用一些大学生攀比的心理，鼓励大学生提前消费。如：给女朋友买一个新手机，只需每天100块钱。"
+                "attachmentList": []
+            },
+            {
+                "content": "根本就不推销，坐等学生上门。",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -46279,16 +46851,32 @@
     "精神药品类毒品对人中枢神经的作用有哪几类？": {
         "optionList": [
             {
+                "content": "抑制剂",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "抑制剂"
+                "attachmentList": []
             },
             {
+                "content": "兴奋剂",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "兴奋剂"
+                "attachmentList": []
             },
             {
+                "content": "致幻剂",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "致幻剂"
+                "attachmentList": []
+            },
+            {
+                "content": "麻醉剂",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -47073,16 +47661,25 @@
     "间谍窃密的方式一般有（）。": {
         "optionList": [
             {
+                "content": "实地窃取",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "实地窃取"
+                "attachmentList": []
             },
             {
+                "content": "网络窃密",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "网络窃密"
+                "attachmentList": []
             },
             {
+                "content": "技术窃密",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "技术窃密"
+                "attachmentList": []
             }
         ]
     },
@@ -47796,28 +48393,28 @@
             {
                 "content": "拘役",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "死刑",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "有期徒刑",
                 "sequence": 3,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "罚金",
                 "sequence": 4,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
@@ -47853,7 +48450,7 @@
             {
                 "content": "人民当家作主",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
@@ -49207,21 +49804,21 @@
             {
                 "content": "树立“国家安全高于一切”的观念",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "善于识别各种伪装的思想",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "掌握国家安全知识、提高安全防范意识",
                 "sequence": 3,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
@@ -49303,6 +49900,751 @@
             {
                 "content": "查找监控录像",
                 "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "截至2023年底，北京共开通了多少条地铁线？": {
+        "optionList": [
+            {
+                "content": "10",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "15",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "27",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "30",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "沟通是听与说的艺术。": {
+        "optionList": [
+            {
+                "content": "对",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "错",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "如何避免被传销“洗脑”？": {
+        "optionList": [
+            {
+                "content": "坚守常识",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "学法守法",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "端正三观",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "贪便宜想暴富",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "世界卫生组织发布报告称，全球每年约有（）万人死于自杀。": {
+        "optionList": [
+            {
+                "content": "40",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "80",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "120",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "该如何防范间谍？": {
+        "optionList": [
+            {
+                "content": "网络交友须谨慎",
+                "sequence": 1,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "守口如瓶知密不泄密",
+                "sequence": 2,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "使用互联网需谨慎",
+                "sequence": 3,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "一旦犯错应立即自救",
+                "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "对于建设文化强国，我们能做什么？": {
+        "optionList": [
+            {
+                "content": "树立中国文化自信",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "吸收优秀外来文化",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "批判继承传统文化",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "以下哪些情况需要你提高警惕、小心毒品？": {
+        "optionList": [
+            {
+                "content": "朋友承认他曾尝试吸毒，根本不会上瘾，问你要不要尝试。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "在酒吧有美女给你推荐新型嗨药、聚会必备，可以免费给你尝试。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "男朋友说他搞到吃了可以更爽的“粉面”，如果你不跟他试试就要分手。",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "你跟朋友去新开的夜总会玩，酒保说在搞活动，你们来就提供你们娱乐必备小药丸。",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "下列哪些是与生物安全相关的法律法规？": {
+        "optionList": [
+            {
+                "content": "《传染病防治法》",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "《进出境动植物检疫法》",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "《中华人民共和国生物保护法》",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "《野生动物保护法》",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "晚上准备离开实验室了，但是实验还没有做完的情况下，仪器设备（）开机过夜": {
+        "optionList": [
+            {
+                "content": "应该",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "不应该",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "替考是违法行为吗？": {
+        "optionList": [
+            {
+                "content": "是",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "不是",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "中国的偏远山区中（）有手机信号覆盖。": {
+        "optionList": [
+            {
+                "content": "80%以上",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "90%以上",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "95%以上",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "中国成为移动通信技术标准的制定者之一最早是在（）时代。": {
+        "optionList": [
+            {
+                "content": "1G",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "2G",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "3G",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "4G",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "对于各种黑恶势力违法犯罪，依法严惩、（）、除恶务尽。": {
+        "optionList": [
+            {
+                "content": "打早打小",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "养大再打",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "打晚打大",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "恶势力是指以（）等手段，在一定区域内或行业内多次实施违法犯罪活动，严重扰乱经济、社会生活秩序，造成恶劣影响的犯罪组织。": {
+        "optionList": [
+            {
+                "content": "暴力、威胁、滋扰",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "暴力、胁迫、骚扰",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "暴力、威胁、骚扰",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "在全国开展扫黑除恶专项斗争，是（）年开展的。": {
+        "optionList": [
+            {
+                "content": "2016年",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "2017年",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "2018年",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "中国的4G信号覆盖率全球排名（）。": {
+        "optionList": [
+            {
+                "content": "第一",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "第二",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "第三",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "扫黑除恶专项斗争中，着力解决的5类违法犯罪活动包括“淫秽、吸毒、传销、拐卖”和（）。": {
+        "optionList": [
+            {
+                "content": "强买强卖",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "赌博",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "盗窃",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "联合发布《关于依法严厉打击黑恶势力违法犯罪的通告》四部门是哪四个？": {
+        "optionList": [
+            {
+                "content": "最高法、最高检、公安部、安全部",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "最高法、最高检、公安部、司法部",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "最高检、公安部、安全部、司法部",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "间谍罪是指参加间谍组织，接受间谍组织及其代理人的任务，或者（），危害国家安全的行为。": {
+        "optionList": [
+            {
+                "content": "间谍组织及其代理人实施或者指使、资助他人实施，或者境内外机构、组织、个人与其相勾结实施的危害中华人民共和国国家安全的活动；",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "为境外窃取、刺探、收买",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "为敌人指示轰击目标",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "进行其他间谍活动的",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "在党的十九大报告中，“安全”一词被提及的次数有多少次？": {
+        "optionList": [
+            {
+                "content": "22",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "55",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "38",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "如果是体育馆发生爆炸，逃生时需注意（）。": {
+        "optionList": [
+            {
+                "content": "迅速有序远离爆炸现场，避免拥挤、踩踏造成伤亡。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "撤离时要注意观察场馆内的安全疏散指示和标志。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "要用打火机点火照明。",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "及时拨打报警电话，客观详细地描述事件发生、发展经过。",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "在遭遇劫持时，如何正确的求救？": {
+        "optionList": [
+            {
+                "content": "尽可能保留和隐藏自己的通讯工具，适时用短信等方式向警方求救；",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "巧妙寻求机会按下报警按钮。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "大吼大叫",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "间谍一般都会做什么？": {
+        "optionList": [
+            {
+                "content": "刺探",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "分析",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "窃取",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "策反",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "在遭遇劫持时，下列哪些应对措施是可选的？": {
+        "optionList": [
+            {
+                "content": "保持冷静和清醒",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "大声呼救",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "避免大幅度动作",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "配合周旋，稳定劫持者",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "机场净空区包括以下哪些禁止项？": {
+        "optionList": [
+            {
+                "content": "禁止燃放烟花爆竹",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "禁止放养鸽子及其他鸟类",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "禁止放飞气球、风筝",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "禁止孔明灯、航模、无人机",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "“套现” 的后果有哪些？": {
+        "optionList": [
+            {
+                "content": "涉嫌犯罪",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "影响个人信用",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "产生逾期还款利息",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "遭遇诈骗",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "校园贷存在哪些风险？": {
+        "optionList": [
+            {
+                "content": "低利率、高费用",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "风险控制不完善",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "用户信息可能被盗取、泄露和篡改",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "过于宽松的信贷政策，会纵容一部分自制力差的大学生过度消费，助长攀比风气",
+                "sequence": 4,
                 "selected": 2,
                 "isCorrect": 1,
                 "attachmentList": []
