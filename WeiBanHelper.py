@@ -6,7 +6,8 @@ import uuid
 import ddddocr
 import requests
 import json
-import datetime
+from datetime import datetime
+
 import random
 
 from PIL import Image
@@ -28,11 +29,9 @@ class WeibanHelper:
     exam_threshold = 1
     headers = {
         "X-Token": "",
-        "ContentType": "application/x-www-form-urlencoded; charset=UTF-8",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
         "User-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82",
     }
-
-    tempUserCourseId = ""
 
     def __init__(self, account, password, school_name, auto_verify=False, project_index=0):
         self.ocr = ddddocr.DdddOcr(show_ad=False)
@@ -41,7 +40,6 @@ class WeibanHelper:
         verify_time = time.time()
         self.session = self.create_session()
 
-        login_data = {}
         # 验证码处理
         verify_code = ''
         if not auto_verify:
@@ -50,22 +48,20 @@ class WeibanHelper:
             verify_code = input("请输入验证码: ")
         else:
             verify_code = self.ocr.classification(self.get_verify_code(get_time=verify_time, download=False))
+
         login_data = self.login(account, password, tenant_code, verify_code, verify_time)
 
         if auto_verify:
-            while login_data['code'] == '-1' and str(login_data).find("验证码") != -1:
+            while login_data['code'] == '-1' and "验证码" in str(login_data):
                 verify_time = time.time()
                 verify_code = self.ocr.classification(self.get_verify_code(get_time=verify_time, download=False))
                 login_data = self.login(account, password, tenant_code, verify_code, verify_time)
                 time.sleep(5)
-        # 假设login_data是从某个请求返回的JSON数据中获取的
+
         if 'data' in login_data:
             login_data = login_data['data']
-            self.project_list = WeibanHelper.get_project_id(
-                login_data["userId"], tenant_code, login_data["token"]
-            )
+            self.project_list = WeibanHelper.get_project_id(login_data["userId"], tenant_code, login_data["token"])
         else:
-            # 如果 'data' 键不存在，输出提示信息
             print("登录失败，可能是学校名称输入错误。\n")
             print(f"返回的错误信息: {login_data}\n")
 
@@ -80,14 +76,11 @@ class WeibanHelper:
         self.headers["X-Token"] = self.x_token
 
     def create_session(self):
-        """
-        创建一个带有重试策略的会话对象。
-        """
         session = requests.Session()
         retry_strategy = Retry(
             total=5,
             status_forcelist=[429, 500, 502, 503, 504],
-            allowed_methods=["HEAD", "GET", "OPTIONS", "POST"],  # 替换 `method_whitelist`
+            allowed_methods=["HEAD", "GET", "OPTIONS", "POST"],
             backoff_factor=1
         )
         adapter = HTTPAdapter(max_retries=retry_strategy)
@@ -96,24 +89,17 @@ class WeibanHelper:
         return session
 
     def retry_request(self, func, *args, retry_count=5, wait_time=3):
-        """
-        封装的重试请求方法。
-        """
         for attempt in range(retry_count):
             try:
-                return func(*args)  # 调用传入的函数并返回其结果
+                return func(*args)
             except (SSLError, Timeout, ConnectionError, HTTPError, RequestException, ProxyError) as e:
                 print(f"网络错误 [{type(e).__name__}]: {e}，URL: {args[0]}，正在重试 {attempt + 1} / {retry_count} 次...")
-                time.sleep(wait_time)  # 等待指定时间后重试
+                time.sleep(wait_time)
                 if attempt == retry_count - 1:
                     print("达到最大重试次数，跳过此操作。")
-                    return None  # 如果最终失败，返回 None
+                    return None
 
     def start(self, courseId):
-        """
-        启动课程学习的请求方法，包含重试机制和网络错误处理。
-        :param courseId: 课程ID，用于启动指定的课程学习。
-        """
         url = "https://weiban.mycourse.cn/pharos/usercourse/study.do"
         data = {
             "userProjectId": self.userProjectId,
@@ -121,33 +107,15 @@ class WeibanHelper:
             "userId": self.userId,
             "courseId": courseId,
         }
-        headers = {"x-token": self.x_token}
 
         try:
-            # 初始请求
-            response = self.session.post(
-                url,
-                data=data,
-                headers=headers,
-                proxies={"http": None, "https": None},  # 禁用代理
-                timeout=10,  # 设置超时时间
-                verify=False  # 如果需要跳过 SSL 证书验证
-            )
+            response = self.session.post(url, data=data, headers=self.headers, timeout=10, verify=False)
 
-            # 重试机制，直到请求成功
             while json.loads(response.text).get("code") == -1:
                 print("请求未成功，继续等待并重试...")
-                time.sleep(5)  # 等待5秒后重试
-                response = self.session.post(
-                    url,
-                    data=data,
-                    headers=headers,
-                    proxies={"http": None, "https": None},  # 禁用代理
-                    timeout=30,
-                    verify=False
-                )
+                time.sleep(5)
+                response = self.session.post(url, data=data, headers=self.headers, timeout=30, verify=False)
 
-            # 检查请求状态码
             if response.status_code == 200:
                 print("课程启动成功")
             else:
@@ -155,7 +123,6 @@ class WeibanHelper:
 
         except (ProxyError, SSLError, Timeout, ConnectionError, HTTPError, RequestException) as e:
             print(f"网络错误 [{type(e).__name__}]: {e}，URL: {url}")
-            # 进一步处理或记录错误
 
     def run(self):
         for chooseType in [2, 3]:
@@ -181,16 +148,8 @@ class WeibanHelper:
                 index += 1
             print(f"chooseType={chooseType} 的课程刷课完成")
 
-    # js里的时间戳似乎都是保留了三位小数的.
     def __get_timestamp(self):
-        return str(round(datetime.datetime.now().timestamp(), 3))
-
-    # Magic: 用于构造、拼接"完成学习任务"的url
-    # js: (jQuery-3.2.1.min.js)
-    # f = '3.4.1'
-    # expando = 'jQuery' + (f + Math.random()).replace(/\D/g, "")
-    def __gen_rand(self):
-        return ("3.4.1" + str(random.random())).replace(".", "")
+        return str(round(time.time(), 3))
 
     def getProgress(self):
         url = "https://weiban.mycourse.cn/pharos/project/showProgress.do"
@@ -200,8 +159,7 @@ class WeibanHelper:
             "userId": self.userId,
         }
         response = requests.post(url, data=data, headers=self.headers)
-        text = response.text
-        data = json.loads(text)
+        data = json.loads(response.text)
         return data["data"]["progressPet"]
 
     def getAnswerList(self):
@@ -215,12 +173,11 @@ class WeibanHelper:
                 "userExamId": exam_id,
                 "isRetake": "2"
             }
-            response = requests.post(url, data=data, headers=self.headers)
+            response = self.session.post(url, data=data, headers=self.headers)
             answer_list.append(response.text)
         return answer_list
 
     def listHistory(self):
-        dataList = {}
         result = []
         url = "https://weiban.mycourse.cn/pharos/exam/listHistory.do?timestamp=" + self.__get_timestamp()
         exam_plan_id_list = self.listExamPlan()
@@ -230,15 +187,15 @@ class WeibanHelper:
                 "userId": self.userId,
                 "examPlanId": exam_plan_id
             }
-            response = requests.post(url, headers=self.headers, data=dataList)
+            response = self.session.post(url, headers=self.headers, data=dataList)
 
             data = json.loads(response.text)
             if data['code'] == '-1':
-                return result
+                continue  # 跳过此计划
             else:
-                dataList = data['data']
-        for data in dataList:
-            result.append(data['id'])
+                for item in data['data']:
+                    result.append(item['id'])  # 添加所有的考试记录ID
+
         return result
 
     def listExamPlan(self):
@@ -264,10 +221,8 @@ class WeibanHelper:
             "chooseType": chooseType,
         }
         response = requests.post(url, data=data, headers=self.headers)
-        text = response.text
-        data = json.loads(text)
-        list = data["data"]
-        for i in list:
+        data = json.loads(response.text)
+        for i in data["data"]:
             if i["totalNum"] > i["finishedNum"]:
                 result.append(i["categoryCode"])
         return result
@@ -316,12 +271,14 @@ class WeibanHelper:
                     response.raise_for_status()  # 检查是否返回了错误的状态码
                     return response
                 except (requests.exceptions.RequestException, ValueError) as e:
-                    print(f"网络错误:Request failed: {e}. 正在重试:Attempt {attempt + 1} / {max_retries}次. Retrying...")
+                    print(
+                        f"网络错误:Request failed: {e}. 正在重试:Attempt {attempt + 1} / {max_retries}次. Retrying...")
                     if attempt < max_retries - 1:
                         time.sleep(retry_delay)
                     else:
                         print("Max retries reached. Request failed.")
                         raise
+
         def get_answer_list(question_title):
             closest_match = difflib.get_close_matches(question_title, answer_data.keys(), n=1, cutoff=1)
             answer_list = []
@@ -339,11 +296,10 @@ class WeibanHelper:
             content = retry_request_2("GET", get_verify_code_url + str(now), headers=self.headers).content
             return self.ocr.classification(content), now
 
-        from datetime import datetime
         # 获取当前系统时间
         current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
-        # 获取考试计划
+        # 获取所有计划
         plan_data = retry_request_2("POST", list_plan_url, headers=self.headers, data={
             "tenantCode": self.tenantCode,
             "userId": self.userId,
@@ -354,117 +310,130 @@ class WeibanHelper:
             print("获取考试计划失败")
             return
 
-        plan_id = plan_data['data'][0]['id']
-        exam_plan_id = plan_data['data'][0]['examPlanId']
+        # 遍历所有考试计划
+        for plan in plan_data['data']:
+            plan_id = plan['id']
+            exam_plan_id = plan['examPlanId']
+            exam_plan_name = plan['examPlanName']
+            exam_time_state = plan['examTimeState']
+            can_not_exam_info = plan.get("canNotExamInfo", "")
+            start_Time = plan['startTime']
+            end_Time = plan['endTime']
 
-        # Before
-        print(retry_request_2("POST", before_paper_url, headers=self.headers, data={
-            "tenantCode": self.tenantCode,
-            "userId": self.userId,
-            "userExamPlanId": plan_id
-        }).text)
-
-        # Prepare
-        print(retry_request_2("POST", f"https://weiban.mycourse.cn/pharos/exam/preparePaper.do?timestamp",
-                              headers=self.headers, data={
+            # Before
+            print(retry_request_2("POST", before_paper_url, headers=self.headers, data={
                 "tenantCode": self.tenantCode,
                 "userId": self.userId,
-                "userExamPlanId": plan_id,
+                "userExamPlanId": plan_id
             }).text)
 
-        # Check
-        verify_count = 0
-        while True:
-            verify_code, verify_time = get_verify_code()
-            verify_data = retry_request_2("POST", check_verify_code_url, headers=self.headers, data={
-                "tenantCode": self.tenantCode,
-                "time": verify_time,
-                "userId": self.userId,
-                "verifyCode": verify_code,
-                "userExamPlanId": plan_id
-            }).json()
+            # 检查是否能够参加考试
+            if exam_time_state != 2:
+                print(f"考试计划 '{exam_plan_name}' 无法参加考试: {can_not_exam_info} \n")
+                continue  # 跳过这个考试，继续下一个
 
-            if verify_data['code'] == '0':
-                break
+            print(f"开始执行 '{exam_plan_name}' 考试开放为时间: {start_Time} 到 {end_Time}\n")
+            # Prepare
+            print(retry_request_2("POST", f"https://weiban.mycourse.cn/pharos/exam/preparePaper.do?timestamp",
+                                  headers=self.headers, data={
+                    "tenantCode": self.tenantCode,
+                    "userId": self.userId,
+                    "userExamPlanId": plan_id,
+                }).text)
 
-            verify_count += 1
-            if verify_count > 3:
-                print("验证码识别失败")
-                return
+            # 验证码校验
+            verify_count = 0
+            while True:
+                verify_code, verify_time = get_verify_code()
+                verify_data = retry_request_2("POST", check_verify_code_url, headers=self.headers, data={
+                    "tenantCode": self.tenantCode,
+                    "time": verify_time,
+                    "userId": self.userId,
+                    "verifyCode": verify_code,
+                    "userExamPlanId": plan_id
+                }).json()
 
-        # Start
-        paper_data = retry_request_2("POST", start_paper_url, headers=self.headers, data={
-            "tenantCode": self.tenantCode,
-            "userId": self.userId,
-            "userExamPlanId": plan_id,
-        }).json()['data']
+                if verify_data['code'] == '0':
+                    break
 
-        # 提取题目列表
-        question_list = paper_data['questionList']
-        match_count = 0
+                verify_count += 1
+                if verify_count > 3:
+                    print("验证码识别失败")
+                    return
 
-        for question in question_list:
-            question_title = question['title']
-            option_list = question['optionList']
-            submit_answer_id_list = []
-
-            # 获取答案列表和初始的匹配标志
-            answer_list, _ = get_answer_list(question_title)
-
-            print(f"题目: {question_title}")
-
-            # 检查题目标题是否匹配
-            if answer_list:
-                # 查找是否有至少一个答案在选项中匹配
-                found_match = False
-                for answer in answer_list:
-                    matched_option = next((option for option in option_list if option['content'] == answer), None)
-                    if matched_option:
-                        submit_answer_id_list.append(matched_option['id'])
-                        print(f"答案: {answer}")
-                        found_match = True
-
-                # 判断是否找到匹配的答案
-                if found_match:
-                    match_count += 1
-                    print("<===答案匹配成功===>\n")
-                else:
-                    print("<——————————!!!题目匹配但选项未找到匹配项!!!——————————>\n")
-            else:
-                print("<——————————!!!未匹配到答案，题库暂未收录此题!!!——————————>\n")
-
-            # Record
-            record_data = {
-                "answerIds": ",".join(submit_answer_id_list),
-                "questionId": question['id'],
+            # 开始考试
+            paper_data = retry_request_2("POST", start_paper_url, headers=self.headers, data={
                 "tenantCode": self.tenantCode,
                 "userId": self.userId,
                 "userExamPlanId": plan_id,
-                "examPlanId": exam_plan_id,
-                "useTime": random.randint(60, 90)
+            }).json()['data']
+
+            # 提取题目列表
+            question_list = paper_data['questionList']
+            match_count = 0
+
+            for question in question_list:
+                question_title = question['title']
+                option_list = question['optionList']
+                submit_answer_id_list = []
+
+                # 获取答案列表和初始的匹配标志
+                answer_list, _ = get_answer_list(question_title)
+
+                print(f"题目: {question_title}")
+
+                # 检查题目标题是否匹配
+                if answer_list:
+                    found_match = False
+                    for answer in answer_list:
+                        matched_option = next((option for option in option_list if option['content'] == answer), None)
+                        if matched_option:
+                            submit_answer_id_list.append(matched_option['id'])
+                            print(f"答案: {answer}")
+                            found_match = True
+
+                    if found_match:
+                        match_count += 1
+                        print("<===答案匹配成功===>\n")
+                    else:
+                        print("<——————————!!!题目匹配但选项未找到匹配项!!!——————————>\n")
+                else:
+                    print("<——————————!!!未匹配到答案，题库暂未收录此题!!!——————————>\n")
+
+                # 记录答案
+                record_data = {
+                    "answerIds": ",".join(submit_answer_id_list),
+                    "questionId": question['id'],
+                    "tenantCode": self.tenantCode,
+                    "userId": self.userId,
+                    "userExamPlanId": plan_id,
+                    "examPlanId": exam_plan_id,
+                    "useTime": random.randint(60, 90)
+                }
+                retry_request_2("POST",
+                                f"https://weiban.mycourse.cn/pharos/exam/recordQuestion.do?timestamp={time.time()}",
+                                headers=self.headers, data=record_data)
+
+            # 输出匹配度
+            print("答案匹配度: ", match_count, " / ", len(question_list))
+            print(f" - 当前时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+
+            if len(question_list) - match_count > self.exam_threshold:
+                print(f"题库匹配度过低, '{exam_plan_name}' 暂未提交,请重新考试")
+                return
+
+            print("请耐心等待考试完成（等待时长为你填写的考试时间）\n")
+
+            # 提交考试
+            submit_data = {
+                "tenantCode": self.tenantCode,
+                "userId": self.userId,
+                "userExamPlanId": plan_id,
             }
-            retry_request_2("POST", f"https://weiban.mycourse.cn/pharos/exam/recordQuestion.do?timestamp={time.time()}",
-                            headers=self.headers, data=record_data)
-
-        # Submit
-        print("答案匹配度: ", match_count, " / ", len(question_list))
-        # 输出指定文本和当前系统时间
-        print(f" - 当前时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-        if len(question_list) - match_count > self.exam_threshold:
-            print("题库匹配度过低")
-            print("暂未提交,请重新考试")
-            return
-
-        submit_data = {
-            "tenantCode": self.tenantCode,
-            "userId": self.userId,
-            "userExamPlanId": plan_id,
-        }
-        time.sleep(self.finish_exam_time)
-        print(retry_request_2("POST", submit_url + str(int(time.time()) + 600), headers=self.headers,
-                              data=submit_data).text)
-        # 输出指定文本和当前系统时间
-        print(f" - 当前时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+            time.sleep(self.finish_exam_time)
+            print(retry_request_2("POST", submit_url + str(int(time.time()) + 600), headers=self.headers,
+                                  data=submit_data).text)
+            print(f" - 当前时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
 
     def getFinishIdList(self, chooseType):
         url = "https://weiban.mycourse.cn/pharos/usercourse/listCourse.do"
