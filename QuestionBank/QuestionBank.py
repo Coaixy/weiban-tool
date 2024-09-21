@@ -26,7 +26,15 @@ def get_all_json_files_content(directory):
             try:
                 print(file_path)
                 with open(file_path, 'r', encoding='utf-8') as file:
-                    json_files_content[filename] = json.load(file)
+                    # 尝试解析为 JSON
+                    try:
+                        content = json.load(file)
+                        if isinstance(content, dict):
+                            json_files_content[filename] = content
+                        else:
+                            print(f"文件 {filename} 格式不正确，跳过。")
+                    except JSONDecodeError:
+                        print(f"文件 {filename} 不是有效的 JSON，跳过。")
             except Exception as e:
                 print(f"读取文件 {filename} 时发生错误: {e}")
     return json_files_content
@@ -36,8 +44,6 @@ def is_more_complete(option1, option2):
     """
     比较两个选项，返回 True 如果 option1 的属性比 option2 更全。
     """
-    # 比较选项的属性
-    # 你可以根据需要修改此函数来比较哪些属性是必须的。
     for key in option1:
         if key not in option2:
             return True
@@ -53,21 +59,27 @@ def generate_bank(directory='.'):
     old_result_count = 0
     json_contents = get_all_json_files_content(directory)
     json_data_list = {}
+
     # 读取原有题库
     with open("QuestionBank/result.json", 'r', encoding='utf8') as f:
         try:
             final_result = json.loads(f.read())
             old_result_count = len(final_result)
-        except JSONDecodeError as e:
-            pass
+        except JSONDecodeError:
+            print("原有题库文件无法解析，开始创建新的题库。")
 
+    # 遍历读取的 JSON 文件内容
     for filename, content in json_contents.items():
         try:
-            # 尝试访问 'data' 和 'questions' 键
-            json_data_list[filename] = content['data']['questions']
+            # 如果文件内容包含 'data' 和 'questions'，才处理
+            if 'data' in content and 'questions' in content['data']:
+                json_data_list[filename] = content['data']['questions']
+            else:
+                print(f"文件 {filename} 缺少 'data' 或 'questions' 键，跳过。")
         except KeyError as e:
-            print(f"文件 {filename} 中缺少键 {e}")
+            print(f"文件 {filename} 中缺少键 {e}，跳过。")
 
+    # 开始合并题目
     for filename, data in json_data_list.items():
         print(f"文件 {filename} 中的题目数量: {len(data)}")
         for item in data:
@@ -111,17 +123,12 @@ def generate_bank(directory='.'):
 
                 final_result[title]['optionList'] = list(all_options_dict.values())
 
-        print()
     print(f"旧题库总数:{old_result_count}\n")
-    with open(f"{directory}/result.json", 'r+', encoding='utf-8') as f:
-        if old_result_count <= len(final_result):
-            f.seek(0)
-            print("已更新题库\n")
-            f.write(json.dumps(final_result, indent=4, ensure_ascii=False))
-            print(f"当前题库总数:{len(final_result)}\n")
-            f.truncate()
-        else:
-            print(f"当前题库总数:{old_result_count}\n")
+
+    with open(f"{directory}/result.json", 'w', encoding='utf-8') as f:
+        print("已更新题库\n")
+        f.write(json.dumps(final_result, indent=4, ensure_ascii=False))
+        print(f"当前题库总数:{len(final_result)}\n")
 
 
 bank_obj = {}
@@ -141,8 +148,8 @@ async def get_answer(question: str):
 
 
 def main():
-    generate_bank()
-    with open("result.json", 'r') as f:
+    generate_bank(directory=os.getcwd() + "/QuestionBank")
+    with open("QuestionBank/result.json", 'r') as f:
         global bank_obj
         bank_obj = json.load(f)
     uvicorn.run(app, host="127.0.0.1", port=8080)
