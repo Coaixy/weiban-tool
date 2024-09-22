@@ -112,7 +112,7 @@ class WeibanHelper:
 
     def start(self, courseId):
         """
-        启动课程学习的请求方法，包含重试机制和网络错误处理。
+        启动课程学习的请求方法，包含错误处理。
         :param courseId: 课程ID，用于启动指定的课程学习。
         """
         url = "https://weiban.mycourse.cn/pharos/usercourse/study.do"
@@ -125,7 +125,7 @@ class WeibanHelper:
         headers = {"x-token": self.x_token}
 
         try:
-            # 初始请求
+            # 发起请求
             response = self.session.post(
                 url,
                 data=data,
@@ -135,24 +135,37 @@ class WeibanHelper:
                 verify=False  # 如果需要跳过 SSL 证书验证
             )
 
-            # 重试机制，直到请求成功
-            while json.loads(response.text).get("code") == -1:
-                print("请求未成功，继续等待并重试...")
-                time.sleep(5)  # 等待5秒后重试
-                response = self.session.post(
-                    url,
-                    data=data,
-                    headers=headers,
-                    proxies={"http": None, "https": None},  # 禁用代理
-                    timeout=30,
-                    verify=False
-                )
+            # 检查状态码
+            if response.status_code != 200:
+                print(f"请求失败，状态码: {response.status_code}，响应内容: {response.text}")
+                return
 
-            # 检查请求状态码
-            if response.status_code == 200:
+            # 检查返回内容是否为空
+            if not response.text:
+                print(f"请求返回了空内容，URL: {url}")
+                return
+
+            # 解析返回的 JSON 数据
+            try:
+                response_json = json.loads(response.text)
+            except json.JSONDecodeError as e:
+                print(f"JSON 解析错误: {e}，返回内容: {response.text}")
+                return
+
+            # 添加完整的响应打印
+            print(f"服务器返回完整的响应: {response_json}")
+
+            # 检查请求是否成功
+            code = response_json.get("code")
+            detail_code = response_json.get("detailCode")
+
+            if code == '0' and detail_code == '0':
+                # 课程启动成功
                 print("课程启动成功")
             else:
-                print(f"请求失败，状态码: {response.status_code}，URL: {url}")
+                # 课程启动失败
+                print(
+                    f"启动课程失败，返回的错误代码: {code}，详细代码: {detail_code}，消息: {response_json.get('message', '无消息内容')}")
 
         except (ProxyError, SSLError, Timeout, ConnectionError, HTTPError, RequestException) as e:
             print(f"网络错误 [{type(e).__name__}]: {e}，URL: {url}")
@@ -376,7 +389,7 @@ class WeibanHelper:
 
             # 检查是否能够参加考试
             if exam_time_state != 2:
-                print(f"考试计划 '{exam_plan_name}' 无法参加考试: {can_not_exam_info} \n")
+                print(f"考试计划 '{exam_plan_name}' 无法参加考试: '{can_not_exam_info}' \n")
                 continue  # 跳过这个考试，继续下一个
 
             print(f"开始执行 '{exam_plan_name}' 考试开放为时间: {start_Time} 到 {end_Time}\n")
@@ -480,6 +493,7 @@ class WeibanHelper:
             time.sleep(self.finish_exam_time)
             print(retry_request_2("POST", submit_url + str(int(time.time()) + 600), headers=self.headers,
                                   data=submit_data).text)
+            print(" - 考试已完成 \n")
             print(f" - 当前时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
 
     def getFinishIdList(self, chooseType):
