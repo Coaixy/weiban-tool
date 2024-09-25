@@ -112,7 +112,7 @@ class WeibanHelper:
 
     def start(self, courseId):
         """
-        启动课程学习的请求方法，包含错误处理。
+        启动课程学习的请求方法，包含错误处理和重试机制。
         :param courseId: 课程ID，用于启动指定的课程学习。
         """
         url = "https://weiban.mycourse.cn/pharos/usercourse/study.do"
@@ -123,53 +123,73 @@ class WeibanHelper:
             "courseId": courseId,
         }
         headers = {"x-token": self.x_token}
+        retry_count = 0
+        max_retries = 5  # 最大重试次数
+        timeout = 10
 
-        try:
-            # 发起请求
-            response = self.session.post(
-                url,
-                data=data,
-                headers=headers,
-                proxies={"http": None, "https": None},  # 禁用代理
-                timeout=10,  # 设置超时时间
-                verify=False  # 如果需要跳过 SSL 证书验证
-            )
-
-            # 检查状态码
-            if response.status_code != 200:
-                print(f"请求失败，状态码: {response.status_code}，响应内容: {response.text}")
-                return
-
-            # 检查返回内容是否为空
-            if not response.text:
-                print(f"请求返回了空内容，URL: {url}")
-                return
-
-            # 解析返回的 JSON 数据
+        while retry_count < max_retries:
             try:
-                response_json = json.loads(response.text)
-            except json.JSONDecodeError as e:
-                print(f"JSON 解析错误: {e}，返回内容: {response.text}")
-                return
+                print(f"尝试启动课程 (第 {retry_count + 1} 次) ...")
 
-            # 添加完整的响应打印
-            print(f"服务器返回完整的响应: {response_json}")
+                # 发起请求
+                response = self.session.post(
+                    url,
+                    data=data,
+                    headers=headers,
+                    proxies={"http": None, "https": None},  # 禁用代理
+                    timeout=timeout,  # 设置超时时间
+                    verify=False  # 如果需要跳过 SSL 证书验证
+                )
 
-            # 检查请求是否成功
-            code = response_json.get("code")
-            detail_code = response_json.get("detailCode")
+                # 检查状态码
+                if response.status_code != 200:
+                    print(f"请求失败，状态码: {response.status_code}，响应内容: {response.text}")
+                    retry_count += 1
+                    time.sleep(5)  # 等待5秒后重试
+                    continue
 
-            if code == '0' and detail_code == '0':
-                # 课程启动成功
-                print("课程启动成功")
-            else:
-                # 课程启动失败
-                print(
-                    f"启动课程失败，返回的错误代码: {code}，详细代码: {detail_code}，消息: {response_json.get('message', '无消息内容')}")
+                # 检查返回内容是否为空
+                if not response.text:
+                    print(f"请求返回了空内容，URL: {url}")
+                    retry_count += 1
+                    time.sleep(5)  # 等待5秒后重试
+                    continue
 
-        except (ProxyError, SSLError, Timeout, ConnectionError, HTTPError, RequestException) as e:
-            print(f"网络错误 [{type(e).__name__}]: {e}，URL: {url}")
-            # 进一步处理或记录错误
+                # 解析返回的 JSON 数据
+                try:
+                    response_json = response.json()
+                except json.JSONDecodeError as e:
+                    print(f"[JSON 解析错误] 错误信息: {e}，响应内容: {response.text}")
+                    retry_count += 1
+                    time.sleep(5)  # 等待5秒后重试
+                    continue
+
+                # 打印服务器完整响应
+                print(f"服务器返回完整的响应: {response_json}")
+
+                # 检查请求是否成功
+                code = response_json.get("code")
+                detail_code = response_json.get("detailCode")
+
+                if code == '0' and detail_code == '0':
+                    # 课程启动成功
+                    print("课程启动成功")
+                    print(f" - 当前时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                    return  # 成功后退出重试循环
+                else:
+                    # 课程启动失败
+                    print(
+                        f"启动课程失败，错误代码: {code}，详细代码: {detail_code}，消息: {response_json.get('message', '无消息内容')}")
+                    retry_count += 1
+                    time.sleep(5)  # 等待5秒后重试
+
+            except (ProxyError, SSLError, Timeout, ConnectionError, HTTPError, RequestException) as e:
+                # 网络错误处理
+                print(f"[网络错误] [{type(e).__name__}]: {e}，URL: {url}")
+                retry_count += 1
+                time.sleep(5)  # 等待5秒后重试
+
+        print(f"已达到最大重试次数 ({max_retries})，启动课程失败。")
 
     def run(self):
         for chooseType in [2, 3]:
@@ -639,7 +659,7 @@ class WeibanHelper:
             # 输出响应文本
             print(first_attempt_response)
             # 输出指定文本和当前系统时间
-            print(f" - 当前时间: {current_time}")
+            print(f" - 当前时间: {current_time} \n")
             # 返回响应文本
             return first_attempt_response
         else:
@@ -661,7 +681,7 @@ class WeibanHelper:
                 # 输出响应文本
                 print(second_attempt_response)
                 # 输出指定文本和当前系统时间
-                print(f" - 当前时间: {current_time}")
+                print(f" - 当前时间: {current_time} \n")
                 # 返回响应文本
                 return second_attempt_response
             else:
@@ -670,7 +690,7 @@ class WeibanHelper:
                 # 输出第二个函数的响应文本
                 print(second_attempt_response)
                 # 输出指定文本和当前系统时间
-                print(f" - 当前时间: {current_time}")
+                print(f" - 当前时间: {current_time} \n")
                 # 返回响应文本
                 return second_attempt_response
 
