@@ -83,7 +83,7 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
         else:
             project_index = int(input("请输入项目编号: "))
         Instance.userProjectId = Instance.project_list[project_index]['userProjectId']
-        auto_exam = int(input("是否自动考试: 0: 不自动考试, >0 : 考试时间(单位秒)"))
+        auto_exam = int(input("是否自动考试: 0: 不自动考试, >0 : 考试时间[总时长](单位秒)"))
         if auto_exam >= 1:
             exam_threshold = int(input("允许错的题目数（如填0是一题不错，填1是可以错一题）: "))
 
