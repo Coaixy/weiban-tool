@@ -27,6 +27,7 @@ def print_help_info():
 
 
 if __name__ == "__main__":
+    # 显示欢迎信息
     print("""
                                                                                                          
   _/          _/            _/  _/_/_/                                _/_/_/_/_/                    _/   
@@ -57,37 +58,62 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
                 break
             else:
                 print("学校名称无效，仅允许中文字符，如果终端无法输入，请在外面输入，并复制粘贴到这里")
+
     if 0 < len(arguments) < 7:
         print_help_info()
         exit(0)
+
     if len(arguments) == 7:
         account = arguments[0]
         password = arguments[1]
         school_name = arguments[2]
-        auto_verify = bool(arguments[3])
+        auto_verify = bool(int(arguments[3]))
         project_index = int(arguments[4])
         auto_exam = int(arguments[5])
         exam_threshold = int(arguments[6])
 
+    # 初始化WeibanHelper实例
     Instance = WeiBanHelper.WeibanHelper(account=account, password=password, school_name=school_name,
                                          auto_verify=auto_verify,
                                          project_index=0)
+    # 打印课程列表
     print("\n编号 -  课程\n-----------------------")
     for index, value in enumerate(Instance.project_list):
         print(index, "   - ", value['projectName'])
-    print("\n")
-    project_index = 0
+
+    # 检查是否有实验课信息，并打印
+    lab_index = None
+    if hasattr(Instance, 'lab_info') and Instance.lab_info is not None:
+        lab_index = len(Instance.project_list)
+        print(lab_index, "   - ", Instance.lab_info['projectName'])
+
+    # 用户选择课程
     if len(arguments) == 0:
-        if len(Instance.project_list) == 1:
+        total_courses = len(Instance.project_list) + (1 if lab_index is not None else 0)
+        if total_courses == 1:
             project_index = int(input("已经识别到唯一项目, 请直接输入“0”开始执行: "))
         else:
             project_index = int(input("请输入项目编号: "))
-        Instance.userProjectId = Instance.project_list[project_index]['userProjectId']
+            if project_index < 0 or project_index >= total_courses:
+                print("输入的项目编号超出范围，请重新输入")
+                exit(1)
+
         auto_exam = int(input("是否自动考试: 0: 不自动考试, >0 : 考试时间[总时长](单位秒)"))
         if auto_exam >= 1:
             exam_threshold = int(input("允许错的题目数（如填0是一题不错，填1是可以错一题）: "))
 
-    print("当前项目名称: ", Instance.project_list[project_index]['projectName'])
+    if lab_index is not None and project_index == lab_index:
+        Instance.userProjectId = Instance.lab_info['userProjectId']
+        current_project_name = Instance.lab_info['projectName']
+    elif project_index < len(Instance.project_list):
+        Instance.userProjectId = Instance.project_list[project_index]['userProjectId']
+        current_project_name = Instance.project_list[project_index]['projectName']
+    else:
+        print("项目编号无效，请重新输入")
+        exit(1)
+
+    print("当前项目名称: ", current_project_name)
+
     Instance.run()
     if auto_exam > 0:
         index = 0
@@ -121,4 +147,5 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
         Instance.finish_exam_time = auto_exam
         Instance.exam_threshold = exam_threshold
         Instance.autoExam()
+
 
