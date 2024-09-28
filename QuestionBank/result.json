@@ -3218,6 +3218,13 @@
                 "selected": 2,
                 "isCorrect": 2,
                 "attachmentList": []
+            },
+            {
+                "content": "12",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
             }
         ]
     },
@@ -4035,8 +4042,6 @@
     "根据《刑法》规定，编造虚假险情造成严重后果的，会被判处？": {
         "optionList": [
             {
-                "id": "ff65a6e6-8fdc-11ed-a45a-6805cab01fc0",
-                "questionId": "3f1c4ca3-3fc1-4881-96e7-1ce18fb8d158",
                 "content": "三年以下有期徒刑",
                 "sequence": 1,
                 "selected": 2,
@@ -4550,8 +4555,6 @@
     "人际冲突中常见的行为反应和处理方式有哪几种？": {
         "optionList": [
             {
-                "id": "ff76faa2-8fdc-11ed-a45a-6805cab01fc0",
-                "questionId": "6c85219d-830d-4c3f-889a-ac6854f7ea33",
                 "content": "合作型",
                 "sequence": 1,
                 "selected": 1,
@@ -4559,8 +4562,6 @@
                 "attachmentList": []
             },
             {
-                "id": "ff3705ec-8fdc-11ed-a45a-6805cab01fc0",
-                "questionId": "6c85219d-830d-4c3f-889a-ac6854f7ea33",
                 "content": "对抗型",
                 "sequence": 2,
                 "selected": 1,
@@ -4568,8 +4569,6 @@
                 "attachmentList": []
             },
             {
-                "id": "ff5bb296-8fdc-11ed-a45a-6805cab01fc0",
-                "questionId": "6c85219d-830d-4c3f-889a-ac6854f7ea33",
                 "content": "迎合型",
                 "sequence": 3,
                 "selected": 1,
@@ -4586,8 +4585,6 @@
                 "attachmentList": []
             },
             {
-                "id": "ff69bddf-8fdc-11ed-a45a-6805cab01fc0",
-                "questionId": "6c85219d-830d-4c3f-889a-ac6854f7ea33",
                 "content": "折中型",
                 "sequence": 5,
                 "selected": 1,
@@ -6214,8 +6211,6 @@
                 "attachmentList": []
             },
             {
-                "id": "ff2ce12a-8fdc-11ed-a45a-6805cab01fc0",
-                "questionId": "7626b4fd-51f2-43a7-a1a6-68d2687e5ec1",
                 "content": "不想学习",
                 "sequence": 2,
                 "selected": 1,
@@ -8209,8 +8204,6 @@
                 "attachmentList": []
             },
             {
-                "id": "ff31d734-8fdc-11ed-a45a-6805cab01fc0",
-                "questionId": "765e2081-330f-4e7e-90d4-addcf4f613ad",
                 "content": "将受到秘密处决。",
                 "sequence": 2,
                 "selected": 2,
@@ -8218,8 +8211,6 @@
                 "attachmentList": []
             },
             {
-                "id": "ff935a38-8fdc-11ed-a45a-6805cab01fc0",
-                "questionId": "765e2081-330f-4e7e-90d4-addcf4f613ad",
                 "content": "宽大政策更为优厚。",
                 "sequence": 3,
                 "selected": 1,
@@ -14201,7 +14192,7 @@
             {
                 "content": "从众心理",
                 "sequence": 1,
-                "selected": 1,
+                "selected": 2,
                 "isCorrect": 2,
                 "attachmentList": []
             },
@@ -14222,7 +14213,7 @@
             {
                 "content": "交往心理",
                 "sequence": 4,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
@@ -15575,7 +15566,7 @@
             {
                 "content": "不乱动、不挣扎，以小幅度的动作进行自我保护。",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
@@ -26817,7 +26808,7 @@
             {
                 "content": "台风、寒潮、暴雨、暴雪、大风。",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
@@ -27599,8 +27590,18 @@
     "“你好，我是广西大学招生办，我们学校是自主招生的，很自由，只要交5万元钱就能来我们学校上学。”听到这样的招生信息你会怎么做呢？": {
         "optionList": [
             {
+                "content": "自主招生是要在高考前通过高校组织测试的；测试合格后还必须参加高考，成绩达到考生所报考高校的分数线才可以的呀。怎么可能给钱就行呢？骗子。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "自主招生是要在高考前通过高校组织测试的；测试合格后还必须参加高考，成绩达到考生所报考高校的分数线才可以的呀。怎么可能给钱就行呢？骗子。"
+                "attachmentList": []
+            },
+            {
+                "content": "这个大学还是一个不错的大学呢！当然交钱去了啊！",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -29503,8 +29504,32 @@
     "以下内容属于国家秘密的绝密级的描述的是（）。": {
         "optionList": [
             {
+                "content": "最重要的国家秘密，泄露会使国家安全和利益遭受特别严重的损害",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "最重要的国家秘密，泄露会使国家安全和利益遭受特别严重的损害"
+                "attachmentList": []
+            },
+            {
+                "content": "重要的国家秘密，泄露会使国家安全和利益遭受严重的损害；",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "一般的国家秘密，泄露会使国家安全和利益遭受损害。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "关系到国家安全和利益，依照法定程序确定，在一定时间内只限一定范围人员知悉的事项",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -31189,8 +31214,32 @@
     "在中国文化背景下，特别是在中国古代，“安全”关注的是？": {
         "optionList": [
             {
+                "content": "首要的是家庭及家庭成员的祥和平顺，其次是家庭财产的富足稳定。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "首要的是家庭及家庭成员的祥和平顺，其次是家庭财产的富足稳定。"
+                "attachmentList": []
+            },
+            {
+                "content": "首要的是家庭财产的富足稳定，其次是家庭及家庭成员的祥和平顺。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "家庭及家庭成员的祥和平顺",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "家庭财产的富足稳定",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -32672,8 +32721,18 @@
     "对个人而言，金融安全关系着我们的“钱袋子”。": {
         "optionList": [
             {
+                "content": "正确",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "正确"
+                "attachmentList": []
+            },
+            {
+                "content": "错误",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -33324,8 +33383,18 @@
     "微信收到这样的信息：“恭喜你获得了50元的红包，马上输入你的身份证、银行卡信息，就可以将钱立刻转到你的账户哦。”应该怎么做呢？": {
         "optionList": [
             {
+                "content": "红包的钱会自动进入零钱，并进入银行卡，怎么会让输入信息呢？删除信息。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "红包的钱会自动进入零钱，并进入银行卡，怎么会让输入信息呢？删除信息。"
+                "attachmentList": []
+            },
+            {
+                "content": "这不是天上掉馅饼吗？赶紧存进去吧！",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -33421,8 +33490,18 @@
     "心理学家发现，在一般情况下，人都不愿意直接接受较难较高的要求，往往愿意接受较简单较低的要求。": {
         "optionList": [
             {
+                "content": "正确",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "正确"
+                "attachmentList": []
+            },
+            {
+                "content": "错误",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -33597,7 +33676,7 @@
             {
                 "content": "《左传·襄公十一年》",
                 "sequence": 1,
-                "selected": 1,
+                "selected": 2,
                 "isCorrect": 1,
                 "attachmentList": []
             },
@@ -33611,7 +33690,7 @@
             {
                 "content": "《全唐文·谏太宗十思疏》",
                 "sequence": 3,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 2,
                 "attachmentList": []
             }
@@ -36700,8 +36779,18 @@
     "遇到困难不要抱怨，因为情绪会影响人的判断。": {
         "optionList": [
             {
+                "content": "正确",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "正确"
+                "attachmentList": []
+            },
+            {
+                "content": "错误",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -36988,8 +37077,18 @@
     "随着经济全球化的深入，经济波动和危机的国际传染会成为经常性的而且是不可避免的事情吗？": {
         "optionList": [
             {
+                "content": "是",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "是"
+                "attachmentList": []
+            },
+            {
+                "content": "否",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -38592,16 +38691,25 @@
     "下面哪些做法是“居安思危”思想在日常生活中的应用和体现？": {
         "optionList": [
             {
+                "content": "每一栋大型的建筑或住宅楼里都放置有灭火器",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "每一栋大型的建筑或住宅楼里都放置有灭火器"
+                "attachmentList": []
             },
             {
+                "content": "每一个游泳池旁边都存有救生圈",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "每一个游泳池旁边都存有救生圈"
+                "attachmentList": []
             },
             {
+                "content": "国家强盛安稳时不忘练兵强军",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "国家强盛安稳时不忘练兵强军"
+                "attachmentList": []
             }
         ]
     },
@@ -39923,20 +40031,32 @@
     "作为涉密人员，因公出境或是出国旅游时，需注意（）。": {
         "optionList": [
             {
+                "content": "不要随便暴露身份",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "不要随便暴露身份"
+                "attachmentList": []
             },
             {
+                "content": "不出入涉黄、赌博等复杂场所",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "不出入涉黄、赌博等复杂场所"
+                "attachmentList": []
             },
             {
+                "content": "不随便接触来路不明的人",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "不随便接触来路不明的人"
+                "attachmentList": []
             },
             {
+                "content": "与境外人员接触过程中，不谈论敏感话题",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "与境外人员接触过程中，不谈论敏感话题"
+                "attachmentList": []
             }
         ]
     },
@@ -40201,20 +40321,32 @@
     "公共卫生问题对国家安全的威胁表现为（）。": {
         "optionList": [
             {
+                "content": "威胁政治安全",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "威胁政治安全"
+                "attachmentList": []
             },
             {
+                "content": "经济安全",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "经济安全"
+                "attachmentList": []
             },
             {
+                "content": "军事安全",
+                "sequence": 3,
+                "selected": 2,
                 "isCorrect": 1,
-                "content": "军事安全"
+                "attachmentList": []
             },
             {
+                "content": "社会安全",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "社会安全"
+                "attachmentList": []
             }
         ]
     },
@@ -45781,16 +45913,32 @@
     "疏散楼梯间是人员竖向疏散的安全通道，需要满足（）": {
         "optionList": [
             {
+                "content": "疏散楼梯间应保证人员在楼梯间内疏散时能有较好的光线",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "疏散楼梯间应保证人员在楼梯间内疏散时能有较好的光线"
+                "attachmentList": []
             },
             {
+                "content": "疏散楼梯间要尽量采用自然通风",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "疏散楼梯间要尽量采用自然通风"
+                "attachmentList": []
             },
             {
+                "content": "不能利用天然采光和自然通风的疏散楼梯间，需按规范要求设置机械防烟措施",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "不能利用天然采光和自然通风的疏散楼梯间，需按规范要求设置机械防烟措施"
+                "attachmentList": []
+            },
+            {
+                "content": "楼梯间的设计要尽量增加布置凸出墙体的物体",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -46905,24 +47053,39 @@
     "防范毒品有哪些准则？": {
         "optionList": [
             {
+                "content": "不进入治安复杂场所。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "不进入治安复杂场所。"
+                "attachmentList": []
             },
             {
+                "content": "不轻易和陌生人搭讪，不接受陌生人提供的香烟、饮料、食物。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "不轻易和陌生人搭讪，不接受陌生人提供的香烟、饮料、食物。"
+                "attachmentList": []
             },
             {
+                "content": "在娱乐服务场所要提高警惕。",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "在娱乐服务场所要提高警惕。"
+                "attachmentList": []
             },
             {
+                "content": "坚决拒绝同伴吸毒的邀请。",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "坚决拒绝同伴吸毒的邀请。"
+                "attachmentList": []
             },
             {
+                "content": "有警觉戒备意识，对诱惑提高警惕，采取坚决拒绝的态度。",
+                "sequence": 5,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "有警觉戒备意识，对诱惑提高警惕，采取坚决拒绝的态度。"
+                "attachmentList": []
             }
         ]
     },
@@ -49370,6 +49533,34 @@
                 "selected": 2,
                 "isCorrect": 2,
                 "attachmentList": []
+            },
+            {
+                "content": "非实验人员直接进入实验室",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "在实验室住宿",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "参观实验室前先登记信息",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "实验室物品借出时办理手续",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -51014,6 +51205,541 @@
             {
                 "content": "没有安装熄火保护装置",
                 "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "宠物可以带上公交车。": {
+        "optionList": [
+            {
+                "content": "正确",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "错误",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "处理严重的冻伤，要把冻伤部位放在（）摄氏度的水中": {
+        "optionList": [
+            {
+                "content": "0~22",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "20~25",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "30~42",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "40~42",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "未装可封闭离心桶的离心机内盛有潜在感染性物质的离心管发生破裂或怀疑发生破裂时，应关闭机器电源，让机器密闭等待气溶胶沉积。": {
+        "optionList": [
+            {
+                "content": "对",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "错",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "玻璃容器打碎后，如果瓶内试剂（），需要立即打开通风设备": {
+        "optionList": [
+            {
+                "content": "有毒有害",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "有腐蚀性",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "易燃",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "如果环境中同时存在不同状态的化学物质，应选择化学防护服中性能等级较（）的。": {
+        "optionList": [
+            {
+                "content": "高",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "低",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "放置的物品应距离调节门内侧（）厘米以上，以免掉落": {
+        "optionList": [
+            {
+                "content": "5",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "10",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "15",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "20",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "实验室存储柜危险化学品存储量宜按（）储存": {
+        "optionList": [
+            {
+                "content": "最小使用量",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "最大使用量",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "一般使用量",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "对已冰冻的水龙头、水表、水管，建议用热毛巾包裹水龙头，然后浇（）使其解冻": {
+        "optionList": [
+            {
+                "content": "温水",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "热水",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "凉水",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "禁止无许可证或者不按照许可证规定的种类和范围从事放射性同位素和射线装置的生产、销售、使用活动。": {
+        "optionList": [
+            {
+                "content": "是",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "否",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "马弗炉和控制器应在（）摄氏度的环境温度下运行": {
+        "optionList": [
+            {
+                "content": "0~40",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "40~60",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "30~50",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "0~20",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "在作高速钢以及类似此种性能的钢材的冲击试验时，必须备有（），以免试样飞出伤人": {
+        "optionList": [
+            {
+                "content": "安全罩",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "隔离带",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "摄像头",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "竞争对手都会带来威胁？": {
+        "optionList": [
+            {
+                "content": "所有的",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "不是所有的",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "以下哪些属于疏导情绪的方式": {
+        "optionList": [
+            {
+                "content": "涂鸦",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "唱歌",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "记日记",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "运动",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "造成传染病传播、流行以及其他严重后果的，由实验室的设立单位对（），依法给予降级、撤职、开除的处分": {
+        "optionList": [
+            {
+                "content": "实验室主要负责人",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "直接负责的主管人员",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "其他直接责任人员",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "以下哪些行为是正确的": {
+        "optionList": [
+            {
+                "content": "实验室的设计、在满足工作要求、安全要求的同时，应充分考虑节能和冗余",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "实验室的走廊和通道应不妨碍人员和物品通过",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "应设计紧急撤离路线，紧急出口处应有明显的标识",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "房间的门根据需要安装门锁，门锁应便于内部快速打开",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "以下哪些属于防护用具（）": {
+        "optionList": [
+            {
+                "content": "护目镜",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "防护手套",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "防毒面具",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "防酸碱鞋",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "特种设备使用单位有（）行为，责令停止使用有关特种设备，处三万元以上三十万元以下罚款": {
+        "optionList": [
+            {
+                "content": "未配备具有相应资格的特种设备安全管理人员、检测人员和作业人员",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "未对特种设备安全管理人员、检测人员和作业人员进行安全教育和技能培训",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "使用未取得许可生产，未经检验或者检验不合格的特种设备，或者国家明令淘汰、已经报废的特种设备的",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "特种设备出现故障或者发生异常情况，未对其进行全面检查、消除事故隐患，继续使用的",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "使用放射源的单位应当按照国务院环境保护主管部门的规定，将（）废旧放射源进行包装整备后送交有相应资质的放射性废物集中贮存单位贮存。": {
+        "optionList": [
+            {
+                "content": "Ⅳ类",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "Ⅴ类",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "Ⅰ类",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "Ⅲ类",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "易制毒化学品的特点有哪些？": {
+        "optionList": [
+            {
+                "content": "剧烈的毒害性",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "隐蔽性，易与食盐、糖、面粉等混淆",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "许多剧毒物质还具有易燃、爆炸、腐蚀等特性",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "容易获得",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "用人单位应当建立职业健康监护档案，档案应当包括（）": {
+        "optionList": [
+            {
+                "content": "劳动者的职业史和职业中毒危害接触史",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "相应作业场所职业中毒危害因素监测结果",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "职业健康检查结果及处理情况",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "职业病诊疗等劳动者健康资料",
+                "sequence": 4,
                 "selected": 2,
                 "isCorrect": 1,
                 "attachmentList": []
