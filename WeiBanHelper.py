@@ -65,6 +65,14 @@ class WeibanHelper:
             self.project_list = WeibanHelper.get_project_id(
                 login_data["userId"], tenant_code, login_data["token"]
             )
+            self.lab_info = WeibanHelper.get_lab_id(
+                login_data["userId"], tenant_code, login_data["token"]
+            )
+            if self.lab_info:  # 检查是否成功获取到实验课信息
+                print(f"实验课程名称: {self.lab_info['projectName']}")
+                print(f"实验课程ID: {self.lab_info['userProjectId']}")
+            else:
+                print("当前账户没有实验课程。")
         else:
             # 如果 'data' 键不存在，输出提示信息
             print("登录失败，可能是学校名称输入错误。\n")
@@ -159,7 +167,7 @@ class WeibanHelper:
                 try:
                     response_json = response.json()
                 except json.JSONDecodeError as e:
-                    print(f"[JSON 解析错误] 错误信息: {e}，响应内容: {response.text}")
+                    print(f"[JSON 解析错误] 错误信息: {e}") #，响应内容: {response.text}
                     retry_count += 1
                     time.sleep(5)  # 等待5秒后重试
                     continue
@@ -192,6 +200,7 @@ class WeibanHelper:
         print(f"已达到最大重试次数 ({max_retries})，启动课程失败。")
 
     def run(self):
+        # 遍历 chooseType 2 和 3 进行刷课
         for chooseType in [2, 3]:
             finishIdList = self.retry_request(self.getFinishIdList, chooseType)
 
@@ -734,6 +743,33 @@ class WeibanHelper:
             exit(1)
         else:
             return data
+
+    def get_lab_id(user_id, tenant_code, token: str):
+        """
+        获取用户的实验课程信息。
+        """
+        url = f"https://weiban.mycourse.cn/pharos/lab/index.do?timestamp={int(time.time())}"
+        headers = {
+            "X-Token": token,
+            "ContentType": "application/x-www-form-urlencoded; charset=UTF-8",
+            "User-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82",
+        }
+        data = {"tenantCode": tenant_code, "userId": user_id}
+        response = requests.get(url, headers=headers, params=data)
+        response_data = response.json()  # 解析JSON响应
+
+        if response_data['code'] == '0' and response_data['detailCode'] == '0':
+            # 检查 'current' 键是否存在于响应数据中
+            if 'current' in response_data['data']:
+                # 提取实验课程的信息
+                lab_info = response_data['data']['current']
+                return lab_info
+            else:
+                print("没有找到实验课程信息。")
+                return None
+        else:
+            print("获取实验课程信息失败")
+            return None
 
     @staticmethod
     def get_tenant_code(school_name: str) -> str:
