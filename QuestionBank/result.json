@@ -3222,7 +3222,7 @@
             {
                 "content": "12",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
@@ -14757,14 +14757,14 @@
             {
                 "content": "内部行政行为",
                 "sequence": 1,
-                "selected": 1,
+                "selected": 2,
                 "isCorrect": 2,
                 "attachmentList": []
             },
             {
                 "content": "外部行政行为",
                 "sequence": 2,
-                "selected": 1,
+                "selected": 2,
                 "isCorrect": 2,
                 "attachmentList": []
             },
@@ -26680,28 +26680,28 @@
             {
                 "content": "用湿毛巾捂住口鼻",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "切忌喊叫",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "低姿态快速爬行",
                 "sequence": 3,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "有序逃生",
                 "sequence": 4,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
@@ -27386,8 +27386,25 @@
     "100毫升血液中，酒精含量达到多少毫克以上会被认定为醉驾？": {
         "optionList": [
             {
+                "content": "80",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "80"
+                "attachmentList": []
+            },
+            {
+                "content": "60",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "100",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -27780,8 +27797,18 @@
     "“套现”是违法行为吗？": {
         "optionList": [
             {
+                "content": "是",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "是"
+                "attachmentList": []
+            },
+            {
+                "content": "不是",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -29198,8 +29225,32 @@
     "二十世纪五十年代，哪个国家被称为无毒国？": {
         "optionList": [
             {
+                "content": "中国",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "中国"
+                "attachmentList": []
+            },
+            {
+                "content": "美国",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "日本",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "荷兰",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -30028,8 +30079,18 @@
     "信任心理型诈骗一般指的是利用好友关系来进行欺诈。": {
         "optionList": [
             {
+                "content": "正确",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "正确"
+                "attachmentList": []
+            },
+            {
+                "content": "错误",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -30723,8 +30784,32 @@
     "厌学的原因通常有：": {
         "optionList": [
             {
+                "content": "其他三个选项皆是。",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "其他三个选项皆是。"
+                "attachmentList": []
+            },
+            {
+                "content": "从小被逼迫学习但不知道为谁而学。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "因为讨厌某些人，逆反而讨厌学习。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "怎么学都学不好，自暴自弃。",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -31198,8 +31283,18 @@
     "在一个陌生的地方，连一个能说话的人都没有，这时微信里有人说自己是本地人想加你为好友，你会怎么做呢？": {
         "optionList": [
             {
+                "content": "果断拒绝。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "果断拒绝。"
+                "attachmentList": []
+            },
+            {
+                "content": "赶紧加上，还可以通过他了解一下实习的地方呢。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -32167,8 +32262,18 @@
     "如果你讨厌的上司给你发送了色情短信，您应该怎么办？": {
         "optionList": [
             {
+                "content": "置之不理、严重时报警",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "置之不理、严重时报警"
+                "attachmentList": []
+            },
+            {
+                "content": "为了前途，假意迎合",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -32248,8 +32353,18 @@
     "如果在密闭房间有结核病病人打了个喷嚏，房间里的其他人一定会被传染上的。——这句话：": {
         "optionList": [
             {
+                "content": "错误。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "错误。"
+                "attachmentList": []
+            },
+            {
+                "content": "正确。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -33658,8 +33773,18 @@
     "感到专业不是真爱，可在保证本专业课程及格的前提下，通过旁听或自学的方式，花些时间在真正喜欢的专业上。": {
         "optionList": [
             {
+                "content": "对。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "对。"
+                "attachmentList": []
+            },
+            {
+                "content": "错。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -35908,8 +36033,25 @@
     "第二次鼠疫大流行对人类文明产生的影响有（）。": {
         "optionList": [
             {
+                "content": "公共卫生事业的开端",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "公共卫生事业的开端"
+                "attachmentList": []
+            },
+            {
+                "content": "加速东罗马帝国衰退",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "传染病科学防治措施的开端",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -36573,8 +36715,18 @@
     "踢球时一个同学被铲倒了，过去询问，同学说“有点疼”，站不起来，从外面看不出腿有什么变形：": {
         "optionList": [
             {
+                "content": "每个人疼痛承受能力不同，还是去医院检查一下。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "每个人疼痛承受能力不同，还是去医院检查一下。"
+                "attachmentList": []
+            },
+            {
+                "content": "既然不是特别疼应该没什么关系，扶到旁边休息一下。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -37250,8 +37402,32 @@
     "饮酒驾驶机动车辆的处罚为（）。": {
         "optionList": [
             {
+                "content": "罚款1000元—2000元、记12分并暂扣驾照6个月。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "罚款1000元—2000元、记12分并暂扣驾照6个月。"
+                "attachmentList": []
+            },
+            {
+                "content": "罚款5000元，记12分，处以15日以下拘留，并且5年内不得重新获得驾照。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "吊销驾照，5年内不得重新获取驾照，经过判决后处以拘役，并处罚金。",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "吊销驾照，10年内不得重新获取驾照，终生不得驾驶营运车辆，经过判决后处以拘役，并处罚金。",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -37533,8 +37709,18 @@
     "（）已经成为中国死亡原因排序第五位的原因。": {
         "optionList": [
             {
+                "content": "自杀",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "自杀"
+                "attachmentList": []
+            },
+            {
+                "content": "车祸",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -39874,20 +40060,32 @@
     "以下案例哪些体现了家长与孩子缺乏沟通？": {
         "optionList": [
             {
+                "content": "孩子与室友矛盾不断扩大，最终大打出手",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "孩子与室友矛盾不断扩大，最终大打出手"
+                "attachmentList": []
             },
             {
+                "content": "孩子沉迷网络游戏不顾学业最终被退学",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "孩子沉迷网络游戏不顾学业最终被退学"
+                "attachmentList": []
             },
             {
+                "content": "孩子陷入校园贷骗局中",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "孩子陷入校园贷骗局中"
+                "attachmentList": []
             },
             {
+                "content": "孩子患上抑郁症，家长毫不知情",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "孩子患上抑郁症，家长毫不知情"
+                "attachmentList": []
             }
         ]
     },
@@ -41118,20 +41316,32 @@
     "参与刷单可能带来什么后果？": {
         "optionList": [
             {
+                "content": "银行卡被盗刷。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "银行卡被盗刷。"
+                "attachmentList": []
             },
             {
+                "content": "身份证信息泄露。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "身份证信息泄露。"
+                "attachmentList": []
             },
             {
+                "content": "突然背上贷款、高利贷。",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "突然背上贷款、高利贷。"
+                "attachmentList": []
             },
             {
+                "content": "钱财被骗走。",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "钱财被骗走。"
+                "attachmentList": []
             }
         ]
     },
@@ -43096,16 +43306,25 @@
     "孩子考上大学，家长应该教导他们做好哪些准备？": {
         "optionList": [
             {
+                "content": "尽早教会孩子生活技能",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "尽早教会孩子生活技能"
+                "attachmentList": []
             },
             {
+                "content": "让孩子学会基本的为人处世之道",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "让孩子学会基本的为人处世之道"
+                "attachmentList": []
             },
             {
+                "content": "帮助孩子树立正确的金钱观、消费观",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "帮助孩子树立正确的金钱观、消费观"
+                "attachmentList": []
             }
         ]
     },
@@ -43261,20 +43480,32 @@
     "宪法精神主要分为（）。": {
         "optionList": [
             {
+                "content": "坚持社会主义本质特征的精神",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "坚持社会主义本质特征的精神"
+                "attachmentList": []
             },
             {
+                "content": "民族团结和国家统一的精神",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "民族团结和国家统一的精神"
+                "attachmentList": []
             },
             {
+                "content": "改革开放的精神",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "改革开放的精神"
+                "attachmentList": []
             },
             {
+                "content": "实事求是，从实际出发的精神",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "实事求是，从实际出发的精神"
+                "attachmentList": []
             }
         ]
     },
@@ -43394,20 +43625,32 @@
     "对于酒驾的刑罚，分为（）。": {
         "optionList": [
             {
+                "content": "饮酒驾驶机动车",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "饮酒驾驶机动车"
+                "attachmentList": []
             },
             {
+                "content": "饮酒驾驶运营机动车",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "饮酒驾驶运营机动车"
+                "attachmentList": []
             },
             {
+                "content": "醉酒驾驶机动车",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "醉酒驾驶机动车"
+                "attachmentList": []
             },
             {
+                "content": "醉酒驾驶营运机动车",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "醉酒驾驶营运机动车"
+                "attachmentList": []
             }
         ]
     },
@@ -44373,16 +44616,25 @@
     "拦路抢劫的应对措施有哪些？": {
         "optionList": [
             {
+                "content": "记住外貌 事后及时报警",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "记住外貌 事后及时报警"
+                "attachmentList": []
             },
             {
+                "content": "保持冷静",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "保持冷静"
+                "attachmentList": []
             },
             {
+                "content": "把钱包丢到一边、伺机逃跑",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "把钱包丢到一边、伺机逃跑"
+                "attachmentList": []
             }
         ]
     },
@@ -45086,20 +45338,32 @@
     "毒品为什么会严重损害个人身心健康？": {
         "optionList": [
             {
+                "content": "毒品直接影响人体的身心活动机能，因而使心理和生理健康遭到破坏。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "毒品直接影响人体的身心活动机能，因而使心理和生理健康遭到破坏。"
+                "attachmentList": []
             },
             {
+                "content": "凡是吸毒成瘾后必然会产生身体和心理的依赖性，一旦停药就出现戒断症状。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "凡是吸毒成瘾后必然会产生身体和心理的依赖性，一旦停药就出现戒断症状。"
+                "attachmentList": []
             },
             {
+                "content": "毒瘾会使吸毒者生活的唯一目标就是不择手段获取毒品。",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "毒瘾会使吸毒者生活的唯一目标就是不择手段获取毒品。"
+                "attachmentList": []
             },
             {
+                "content": "吸毒者身心受损，无法正常生活、工作，同时人格沦丧，害人害己。",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "吸毒者身心受损，无法正常生活、工作，同时人格沦丧，害人害己。"
+                "attachmentList": []
             }
         ]
     },
@@ -45337,16 +45601,25 @@
     "消防锨的主要作用有哪些？": {
         "optionList": [
             {
+                "content": "清除障碍物",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "清除障碍物"
+                "attachmentList": []
             },
             {
+                "content": "铲洒消防沙",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "铲洒消防沙"
+                "attachmentList": []
             },
             {
+                "content": "灾后清理现场",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "灾后清理现场"
+                "attachmentList": []
             }
         ]
     },
@@ -45653,16 +45926,25 @@
     "独居女性在家，如何做好安全防范？": {
         "optionList": [
             {
+                "content": "门口放男士鞋，在阳台上晾挂男士衣服",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "门口放男士鞋，在阳台上晾挂男士衣服"
+                "attachmentList": []
             },
             {
+                "content": "有人敲门，不要随意开门",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "有人敲门，不要随意开门"
+                "attachmentList": []
             },
             {
+                "content": "快递地址不要太详细，最好是放在快递柜",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "快递地址不要太详细，最好是放在快递柜"
+                "attachmentList": []
             }
         ]
     },
@@ -47302,20 +47584,32 @@
                 "content": "冒险心理"
             },
             {
+                "content": "逆反心理",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "逆反心理"
+                "attachmentList": []
             },
             {
+                "content": "报复心理",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "报复心理"
+                "attachmentList": []
             },
             {
+                "content": "绝望心理",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "绝望心理"
+                "attachmentList": []
             },
             {
+                "content": "性臣服心理",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "性臣服心理"
+                "attachmentList": []
             }
         ]
     },
@@ -47692,28 +47986,28 @@
             {
                 "content": "故意从高处抛下",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "暴风雨天气被刮落",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "不小心碰落",
                 "sequence": 3,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "施工管理不善",
                 "sequence": 4,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
@@ -51739,6 +52033,345 @@
             },
             {
                 "content": "职业病诊疗等劳动者健康资料",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "支付宝挂失的方法有（）。": {
+        "optionList": [
+            {
+                "content": "拨打官方客服热线挂失",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "登录网页版挂失",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "手机登录挂失",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "醉驾会入刑，这会带来哪些影响？": {
+        "optionList": [
+            {
+                "content": "影响公务员考试",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "影响参军入伍",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "不影响入党",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "不影响就业",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "青少年为什么容易被毒品所诱惑呢？": {
+        "optionList": [
+            {
+                "content": "青少年正处于生理、心理发展时期，生理、心理防线薄弱，并有较强的好奇心，不易抵制毒品侵袭。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "青少年缺乏辨别是非能力，容易上当受骗。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "青少年缺乏对吸毒危害性的认识。",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "青少年学业压力大，需要寻求刺激解压。",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "以下想法错误的是？": {
+        "optionList": [
+            {
+                "content": "只尝试一口毒品，不会上瘾。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "人生短短几十载，就是要什么都试过才有意义，尝一口毒品看看是不是像说的那么爽。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "大麻被称为软性毒品，在国外都是合法的，可以尝试。",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "自己意志力强于常人，不会上瘾，可以尝试毒品。",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "旁边的女孩摇头晃脑看起来好嗨，我也想尝尝她刚才吃的小药丸。",
+                "sequence": 5,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "在给婴儿做人工呼吸时，需用嘴包含住婴儿的口鼻。": {
+        "optionList": [
+            {
+                "content": "对",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "错",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "维护经济安全，我们需注意哪些方面？": {
+        "optionList": [
+            {
+                "content": "树立经济安全意识",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "具备维护经济安全能力",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "对婴儿实施海姆立克的正确操作有？": {
+        "optionList": [
+            {
+                "content": "找到宝宝背部，双侧肩胛骨下缘连线的中心点，以手掌根部，快速叩击五次，直至异物咳出。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "如仍未咳出，将宝宝翻转，找到两乳头连线的中心位置，以食指和中指再次快速按压五次。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "一组拍击按压后，检查宝宝的嘴巴，是否有异物吐出来",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "如果情况没有好转，继续重复动作，并开始进行心肺复苏 ，直至急救人员的到来。",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "关于艾滋病，下列说法正确的是：": {
+        "optionList": [
+            {
+                "content": "在我国，艾滋病的治疗是免费的。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "在我国，目前感染艾滋病的人群主要是吸毒人群。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "如何确定患儿是否有意识？": {
+        "optionList": [
+            {
+                "content": "拍打患儿双肩，同时喊宝宝名字",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "若拍肩无效，需要采取刺激脚底的方式，轻拍宝宝足底，挠脚心",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "下面哪些是自负的表现？": {
+        "optionList": [
+            {
+                "content": "不接受他人的建议和批评，更缺乏自我批评",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "总认为自己对而别人错，把自己的意志强加在别人身上",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "总是摆出一副“我很厉害，我什么都知道”的样子",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "应对公车地铁色狼的正确方法有？": {
+        "optionList": [
+            {
+                "content": "立刻喝止",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "寻求帮助",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "留存证据",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "共同抵制",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "门外有人敲门，一定要先确定对方身份，再考虑要不要开门.": {
+        "optionList": [
+            {
+                "content": "正确",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "错误",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "以下哪些行为触犯法律？": {
+        "optionList": [
+            {
+                "content": "聚会时你知道可能是毒品，但好奇尝试了一口。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "在酒吧，你买了邻座人推荐你的一种让人嗨的“小糖豆”。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "你的同学来找你玩时吸食“白面儿”，你劝阻无效，只好视而不见。",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "content": "你在旅游回国时接受了别人拜托你帮他带回来的一大包行李，结果没想到内有毒品。",
                 "sequence": 4,
                 "selected": 2,
                 "isCorrect": 1,
