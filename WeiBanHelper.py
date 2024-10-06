@@ -78,8 +78,12 @@ class WeibanHelper:
             print("登录失败，可能是学校名称输入错误。\n")
             print(f"返回的错误信息: {login_data}\n")
 
-        project_id = self.project_list[project_index]["userProjectId"]
-        self.init(tenant_code, login_data["userId"], login_data["token"], project_id)
+        if self.project_list is None and self.lab_info is not None:
+            self.init(tenant_code, login_data["userId"], login_data["token"], self.lab_info["userProjectId"])
+            self.project_list = []
+        elif self.project_list is not None:
+            project_id = self.project_list[project_index]["userProjectId"]
+            self.init(tenant_code, login_data["userId"], login_data["token"], project_id)
 
     def init(self, code, id, token, projectId):
         self.tenantCode = code
@@ -167,7 +171,7 @@ class WeibanHelper:
                 try:
                     response_json = response.json()
                 except json.JSONDecodeError as e:
-                    print(f"[JSON 解析错误] 错误信息: {e}") #，响应内容: {response.text}
+                    print(f"[JSON 解析错误] 错误信息: {e}")  # ，响应内容: {response.text}
                     retry_count += 1
                     time.sleep(5)  # 等待5秒后重试
                     continue
@@ -219,7 +223,7 @@ class WeibanHelper:
             for i in course_list:
                 print(f"{index} / {num}")
                 self.start(i)
-                time.sleep(random.randint(15, 20)) #刷课时间区间
+                time.sleep(random.randint(15, 20))  # 刷课时间区间
                 self.retry_request(self.finish, i, finishIdList[i])
                 index += 1
             print(f"chooseType={chooseType} 的课程刷课完成")
@@ -556,6 +560,7 @@ class WeibanHelper:
         from datetime import datetime
         # 获取当前系统时间
         current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
         def get_mid_text(text, start, end):
             """
             从文本中提取位于 start 和 end 之间的子字符串。
@@ -728,7 +733,7 @@ class WeibanHelper:
         return json.loads(text)['data']['methodToken']
 
     @staticmethod
-    def get_project_id(user_id, tenant_code, token: str) -> str:
+    def get_project_id(user_id, tenant_code, token: str):
         url = "https://weiban.mycourse.cn/pharos/index/listMyProject.do"
         headers = {
             "X-Token": token,
@@ -740,7 +745,7 @@ class WeibanHelper:
         data = json.loads(text)["data"]
         if len(data) <= 0:
             print("已完成全部")
-            exit(1)
+            # exit(1)
         else:
             return data
 

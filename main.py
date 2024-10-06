@@ -83,6 +83,7 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
 
     # 检查是否有实验课信息，并打印
     lab_index = None
+    project_index = 0
     if hasattr(Instance, 'lab_info') and Instance.lab_info is not None:
         lab_index = len(Instance.project_list)
         print(lab_index, "   - ", Instance.lab_info['projectName'])
