@@ -9,7 +9,7 @@ import re
 import requests
 
 
-import QuestionBank.QuestionBank as QuestionBank
+from QuestionBank import QuestionBank
 import WeiBanHelper
 
 
