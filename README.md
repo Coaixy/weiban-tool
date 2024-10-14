@@ -9,7 +9,7 @@
 ## 使用方法
 
 ### 前提条件
-安装有Python3.11及以上版本 可以通过官网: https://www.python.org/downloads/ 下载安装
+安装有Python3.11-3.12版本 可以通过官网: https://www.python.org/downloads/ 下载安装
 也可以通过群文件的安装包进行安装 (勾选path选项)
 
 电脑的Vc支持库需要完整 (遇到不完整情况可以去群文件安装)
