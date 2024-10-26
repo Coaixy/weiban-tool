@@ -9729,7 +9729,7 @@
             {
                 "content": "立刻打开车门逃跑。",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
@@ -36949,8 +36949,18 @@
     "遇到实习单位要收保证金，应该怎么办？": {
         "optionList": [
             {
+                "content": "还是不要去收钱的单位了。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "还是不要去收钱的单位了。"
+                "attachmentList": []
+            },
+            {
+                "content": "押金一定会归还的，所以给就行了，不用担心。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -37434,8 +37444,18 @@
     "马上就要开始实习了，你会马上就上手开始工作吗？": {
         "optionList": [
             {
+                "content": "不会！我会先学习一些这里的安全规定及其他规定，在不违反的情况下开始实习工作。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "不会！我会先学习一些这里的安全规定及其他规定，在不违反的情况下开始实习工作。"
+                "attachmentList": []
+            },
+            {
+                "content": "会！终于要把学到的东西付诸到实践中了，我都迫不及待了。",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
             }
         ]
     },
@@ -39182,12 +39202,18 @@
     "与当地居民接触时应该注意什么呢？": {
         "optionList": [
             {
+                "content": "谦和有礼貌。",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "谦和有礼貌。"
+                "attachmentList": []
             },
             {
+                "content": "尊重当地居民的风俗习惯。",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "尊重当地居民的风俗习惯。"
+                "attachmentList": []
             }
         ]
     },
@@ -47290,20 +47316,32 @@
     "间谍渗透策反的手法一般有（）。": {
         "optionList": [
             {
+                "content": "金钱收买",
+                "sequence": 1,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "金钱收买"
+                "attachmentList": []
             },
             {
+                "content": "美色诱惑",
+                "sequence": 2,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "美色诱惑"
+                "attachmentList": []
             },
             {
+                "content": "感情拉拢",
+                "sequence": 3,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "感情拉拢"
+                "attachmentList": []
             },
             {
+                "content": "威逼胁诱",
+                "sequence": 4,
+                "selected": 1,
                 "isCorrect": 1,
-                "content": "威逼胁诱"
+                "attachmentList": []
             }
         ]
     },
@@ -48443,21 +48481,21 @@
             {
                 "content": "坚守常识",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "学法守法",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "端正三观",
                 "sequence": 3,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
@@ -48839,7 +48877,7 @@
             {
                 "content": "统一装束和标志。",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
@@ -48860,14 +48898,14 @@
             {
                 "content": "分工明确、组织严密。",
                 "sequence": 4,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "武器精良、杀伤力大。",
                 "sequence": 5,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
@@ -52352,27 +52390,45 @@
             {
                 "content": "聚会时你知道可能是毒品，但好奇尝试了一口。",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "在酒吧，你买了邻座人推荐你的一种让人嗨的“小糖豆”。",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "你的同学来找你玩时吸食“白面儿”，你劝阻无效，只好视而不见。",
                 "sequence": 3,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
             {
                 "content": "你在旅游回国时接受了别人拜托你帮他带回来的一大包行李，结果没想到内有毒品。",
                 "sequence": 4,
+                "selected": 1,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "找实习的单位的时候应该怎么找？": {
+        "optionList": [
+            {
+                "content": "外面那么多招工的单位呢，只要觉得合适就可以去呀。",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "content": "最好到正规的人才市场或网站寻找，或者是学校推荐。",
+                "sequence": 2,
                 "selected": 2,
                 "isCorrect": 1,
                 "attachmentList": []
