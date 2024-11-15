@@ -66,11 +66,7 @@ python main.py
 
 有问题请及时反馈
 
-一群：722909899
-
-二群：443195213
-
-<img src="https://github.com/Coaixy/weiban-tool/blob/master/QRCODE.JPG" width="400" height="600"  alt=""/>
+群号：443195213
 
 ## Star History
 
