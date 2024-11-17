@@ -40,6 +40,7 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
     """)
     if len(sys.argv) == 2 and sys.argv[1] == "help":
         print_help_info()
+        exit(0)
     # 基础信息
     account = ""
     password = ""
