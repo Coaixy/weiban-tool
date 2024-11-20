@@ -506,6 +506,7 @@ class WeibanHelper:
             # 提取题目列表
             question_list = paper_data['questionList']
             match_count = 0
+            ai_count = 0
             answerIds = None
 
             for question in question_list:
@@ -544,7 +545,7 @@ class WeibanHelper:
                     problemInput = f"{question_title}\n{option_list}"
                     answerIds, content = ai_response(problemInput, question_type)
                     print(f"{question_type_name}，AI获取的答案: {content}")
-                    match_count += 1
+                    ai_count += 1
 
                 # 记录答案
                 record_data = {
@@ -561,7 +562,8 @@ class WeibanHelper:
                                 headers=self.headers, data=record_data)
 
             # 输出匹配度
-            print("答案匹配度: ", match_count, " / ", len(question_list))
+            print("答案匹配度: ", match_count+ai_count, " / ", len(question_list))
+            print("，其中 AI 作答有", ai_count, "题")
             print(f" - 当前时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
             if len(question_list) - match_count > self.exam_threshold:
