@@ -17,6 +17,8 @@ from urllib3.util.retry import Retry
 
 import encrypted
 
+from openai import OpenAI
+import configparser
 
 class WeibanHelper:
     tenantCode = 0
@@ -388,6 +390,46 @@ class WeibanHelper:
             now = time.time()
             content = retry_request_2("GET", get_verify_code_url + str(now), headers=self.headers).content
             return self.ocr.classification(content), now
+        
+        def ai_response(input, type):
+            client = OpenAI(base_url = config['AI']['API_ENDPOINT'],api_key = config['AI']['API_KEY'])
+
+            if type == 1:
+                completion = client.chat.completions.create(
+                    model = config['AI']['MODEL'],
+                    messages=[
+                        {
+                            "role": "system", 
+                            "content": "本题为单选题，你只能选择一个选项，请根据题目和选项回答问题，以json格式输出正确的选项对应的id（即正确选项'id'键对应的值）和内容（即正确选项'content'键对应的值），示例回答：{\"id\":\"0196739f-f8b7-4d5e-b8c7-6a31eaf631eb\",\"content\":\"回答一\"}除此之外不要输出任何多余的内容。"
+                        },
+                        {
+                            "role": "user",
+                            "content": input
+                        }
+                    ]
+                )
+            if type == 2:
+                completion = client.chat.completions.create(
+                    model = config['AI']['MODEL'],
+                    messages=[
+                        {
+                            "role": "system", 
+                            "content": "本题为多选题，你必须选择两个或以上选项，请根据题目和选项回答问题，以json格式输出正确的选项对应的id（即正确选项'id'键对应的值）和内容（即正确选项'content'键对应的值），回答只应该包含两个键，你需要使用逗号连接多个值，示例回答：{\"id\":\"0196739f-f8b7-4d5e-b8c7-6a31eaf631eb,b434e65e-8aa8-4b36-9fa9-224273efb6b0\",\"content\":\"回答一，回答二\"}除此之外不要输出任何多余的内容。"
+                        },
+                        {
+                            "role": "user",
+                            "content": input
+                        }
+                    ]
+                )
+
+            response = completion.choices[0].message.content
+            data = json.loads(response)
+
+            id_value = data['id']
+            content_value = data['content']
+
+            return id_value, content_value
 
         # 获取当前系统时间
         current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -464,9 +506,12 @@ class WeibanHelper:
             # 提取题目列表
             question_list = paper_data['questionList']
             match_count = 0
+            answerIds = None
 
             for question in question_list:
                 question_title = question['title']
+                question_type = question['type'] # 1是单选，2是多选
+                question_type_name = question['typeLabel']
                 option_list = question['optionList']
                 submit_answer_id_list = []
 
@@ -475,6 +520,8 @@ class WeibanHelper:
 
                 print(f"题目: {question_title}")
 
+                config = configparser.ConfigParser()
+                config.read('ai.conf')
                 # 检查题目标题是否匹配
                 if answer_list:
                     found_match = False
@@ -490,12 +537,18 @@ class WeibanHelper:
                         print("<===答案匹配成功===>\n")
                     else:
                         print("<——————————!!!题目匹配但选项未找到匹配项!!!——————————>\n")
+                elif not config['AI'].get('API_ENDPOINT') or not config['AI'].get('API_KEY') or not config['AI'].get('MODEL'):
+                    print("<——————————!!!未匹配到答案，可配置ai.conf文件通过大模型答题!!!——————————>\n")
                 else:
-                    print("<——————————!!!未匹配到答案，题库暂未收录此题!!!——————————>\n")
+                    print("<——————————未匹配到答案，将使用AI获取答案——————————>\n")
+                    problemInput = f"{question_title}\n{option_list}"
+                    answerIds, content = ai_response(problemInput, question_type)
+                    print(f"{question_type_name}，AI获取的答案: {content}")
+                    match_count += 1
 
                 # 记录答案
                 record_data = {
-                    "answerIds": ",".join(submit_answer_id_list),
+                    "answerIds": answerIds if answerIds is not None else ",".join(submit_answer_id_list),
                     "questionId": question['id'],
                     "tenantCode": self.tenantCode,
                     "userId": self.userId,
