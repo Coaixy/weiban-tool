@@ -1,12 +1,9 @@
 # @Author : Coaixy
 # @repo : https://www.github.com/coaixy/weiban-tool
-import json
 import os
 import sys
-import uuid
 import re
 
-import requests
 
 
 from QuestionBank import QuestionBank
