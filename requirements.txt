@@ -2,7 +2,5 @@ requests
 DateTime
 Pillow
 pycryptodomex
-fastapi
-uvicorn
 ddddocr
 openai
