@@ -40,13 +40,9 @@ class WeibanHelper:
     def __init__(self, account, password, school_name, auto_verify=False, project_index=0):
         self.ocr = ddddocr.DdddOcr(show_ad=False)
         tenant_code = self.get_tenant_code(school_name=school_name)
-        img_file_uuid = ""
         verify_time = time.time()
         self.session = self.create_session()
 
-        login_data = {}
-        # 验证码处理
-        verify_code = ''
         if not auto_verify:
             img_file_uuid = self.get_verify_code(get_time=verify_time, download=True)
             Image.open(f"code/{img_file_uuid}.jpg").show()
