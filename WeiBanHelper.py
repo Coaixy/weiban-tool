@@ -503,9 +503,9 @@ class WeibanHelper:
             question_list = paper_data['questionList']
             match_count = 0
             ai_count = 0
-            answerIds = None
 
             for question in question_list:
+                answerIds = None
                 question_title = question['title']
                 question_type = question['type'] # 1是单选，2是多选
                 question_type_name = question['typeLabel']
