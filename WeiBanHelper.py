@@ -563,10 +563,10 @@ class WeibanHelper:
             print(f" - 当前时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
             if len(question_list) - match_count > self.exam_threshold:
-                print(f"题库匹配度过低, '{exam_plan_name}' 暂未提交,请重新考试")
+                print(f"题库匹配度过低, '{exam_plan_name}' 暂未提交,请再次打开程序别修改设置")
                 return
 
-            print("请耐心等待考试完成（等待时长为你填写的考试时间）\n")
+            print("请耐心等待考试完成（等待时长为你填写的考试时间 默人300秒）\n")
 
             # 提交考试
             submit_data = {
@@ -826,6 +826,10 @@ class WeibanHelper:
         else:
             print("获取实验课程信息失败")
             return None
+
+    # Todo(状态输出用于Web对接)
+    # def generate_finish(self):
+    #
 
     @staticmethod
     def get_tenant_code(school_name: str) -> str:

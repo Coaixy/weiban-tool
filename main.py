@@ -4,8 +4,6 @@ import os
 import sys
 import re
 
-
-
 from QuestionBank import QuestionBank
 import WeiBanHelper
 
@@ -90,16 +88,25 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
     if len(arguments) == 0:
         total_courses = len(Instance.project_list) + (1 if lab_index is not None else 0)
         if total_courses == 1:
-            project_index = int(input("已经识别到唯一项目, 请直接输入“0”开始执行: "))
+            # project_index = int(input("已经识别到唯一项目, 请直接输入“0”开始执行: "))
+            project_index = 0
         else:
             project_index = int(input("请输入项目编号: "))
             if project_index < 0 or project_index >= total_courses:
                 print("输入的项目编号超出范围，请重新输入")
                 exit(1)
 
-        auto_exam = int(input("是否自动考试: 0: 不自动考试, >0 : 考试时间[总时长](单位秒)"))
+        auto_exam = input("请自定义考试时长(输入的考试时间 默认值 300 如果输入0 则代表不需要程序进行考试): ")
+        if auto_exam == "":
+            auto_exam = 300
+        else:
+            auto_exam = int(auto_exam)
         if auto_exam >= 1:
-            exam_threshold = int(input("允许错的题目数（如填0是一题不错，填1是可以错一题）: "))
+            exam_threshold = input("允许错的题数(将影响能否提交考试数据 默认值 5 ): ")
+            if exam_threshold == "":
+                exam_threshold = 5
+            else:
+                exam_threshold = int(exam_threshold)
 
     if lab_index is not None and project_index == lab_index:
         Instance.userProjectId = Instance.lab_info['userProjectId']
@@ -146,5 +153,3 @@ _/    _/    _/  _/_/_/_/  _/  _/_/_/    _/    _/  _/    _/  _/_/_/_/_/  _/    _/
         Instance.finish_exam_time = auto_exam
         Instance.exam_threshold = exam_threshold
         Instance.autoExam()
-
-
