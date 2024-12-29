@@ -563,7 +563,7 @@ class WeibanHelper:
             print(f" - 当前时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
             if len(question_list) - match_count > self.exam_threshold:
-                print(f"题库匹配度过低, '{exam_plan_name}' 暂未提交,请再次打开程序别修改设置")
+                print(f"题库匹配度过低, '{exam_plan_name}' 暂未提交,请再次打开程序并修改设置")
                 return
 
             print("请耐心等待考试完成（等待时长为你填写的考试时间 默人300秒）\n")
