@@ -562,7 +562,7 @@ class WeibanHelper:
             print("，其中 AI 作答有", ai_count, "题")
             print(f" - 当前时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
-            if len(question_list) - match_count > self.exam_threshold:
+            if len(question_list) - match_count - ai_count > self.exam_threshold:
                 print(f"题库匹配度过低, '{exam_plan_name}' 暂未提交,请再次打开程序并修改设置")
                 return
 
