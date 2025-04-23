@@ -6,7 +6,7 @@
                 "questionId": "0aeb3b55-e70e-4427-bb26-4767840e5df8",
                 "content": "拔掉保险销 → 对准火源底部 → 压下把手",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
@@ -55,7 +55,7 @@
                 "questionId": "3e304a66-1ede-46e4-bfac-e260c6395a60",
                 "content": "想到课中讲的“止损线”，停下来，立刻寻求辅导员或警察的帮助",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
@@ -95,7 +95,7 @@
                 "questionId": "a4cd004c-ec5a-4bd4-a0cb-24aed7af2600",
                 "content": "以上情况都需要系安全带",
                 "sequence": 4,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
@@ -108,7 +108,7 @@
                 "questionId": "01874f38-166f-49e8-9095-548abe562895",
                 "content": "固定辅料",
                 "sequence": 1,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
@@ -117,7 +117,7 @@
                 "questionId": "01874f38-166f-49e8-9095-548abe562895",
                 "content": "止血",
                 "sequence": 2,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             },
@@ -126,7 +126,7 @@
                 "questionId": "01874f38-166f-49e8-9095-548abe562895",
                 "content": "包扎",
                 "sequence": 3,
-                "selected": 2,
+                "selected": 1,
                 "isCorrect": 1,
                 "attachmentList": []
             }
