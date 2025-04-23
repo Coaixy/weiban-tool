@@ -1,4 +1,137 @@
 {
+    "干粉灭火器的使用步骤中，以下哪个顺序是正确的？": {
+        "optionList": [
+            {
+                "id": "b07bbf69-06be-4725-8ee7-edab43a21cb0",
+                "questionId": "0aeb3b55-e70e-4427-bb26-4767840e5df8",
+                "content": "拔掉保险销 → 对准火源底部 → 压下把手",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "id": "cbb8ae27-61a7-4df2-9bea-4abc6c5f110f",
+                "questionId": "0aeb3b55-e70e-4427-bb26-4767840e5df8",
+                "content": "压下把手 → 对准火源底部 → 拔掉保险销",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "id": "22e28776-8c3b-4614-9c14-3fdd73562b6e",
+                "questionId": "0aeb3b55-e70e-4427-bb26-4767840e5df8",
+                "content": "对准火源底部 → 拔掉保险销 → 压下把手",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "id": "ed55affc-b2d2-498b-b4b4-5099b903e6ca",
+                "questionId": "0aeb3b55-e70e-4427-bb26-4767840e5df8",
+                "content": "压下把手 → 拔掉保险销 → 对准火源底部",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            }
+        ]
+    },
+    "当在网络上遇到需要进行现金交易，并要求不断增加数额时，你应该：": {
+        "optionList": [
+            {
+                "id": "47347847-9a0c-42d0-ab77-2200017d5832",
+                "questionId": "3e304a66-1ede-46e4-bfac-e260c6395a60",
+                "content": "按照指示进行转账交易",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "id": "5fec031f-db83-4d54-8c8c-f18633607164",
+                "questionId": "3e304a66-1ede-46e4-bfac-e260c6395a60",
+                "content": "想到课中讲的“止损线”，停下来，立刻寻求辅导员或警察的帮助",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "以下哪种情况下不需要系安全带？": {
+        "optionList": [
+            {
+                "id": "e6c4373f-a2e3-4fe7-90f0-e3cdc73e7b8c",
+                "questionId": "a4cd004c-ec5a-4bd4-a0cb-24aed7af2600",
+                "content": "车速低于20公里/小时",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "id": "81810306-8064-4a07-9bc2-047762bffe01",
+                "questionId": "a4cd004c-ec5a-4bd4-a0cb-24aed7af2600",
+                "content": "在停车场内短距离移动",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "id": "398252aa-1447-48d6-b4f5-c5f8d818d6bf",
+                "questionId": "a4cd004c-ec5a-4bd4-a0cb-24aed7af2600",
+                "content": "乘坐出租车时",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 2,
+                "attachmentList": []
+            },
+            {
+                "id": "5711d62f-d331-45df-a88b-5f4129a5972d",
+                "questionId": "a4cd004c-ec5a-4bd4-a0cb-24aed7af2600",
+                "content": "以上情况都需要系安全带",
+                "sequence": 4,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
+    "尼龙网套绷带的用途是（）。": {
+        "optionList": [
+            {
+                "id": "17e0673d-7c35-47af-b784-51fc0a9fe4b9",
+                "questionId": "01874f38-166f-49e8-9095-548abe562895",
+                "content": "固定辅料",
+                "sequence": 1,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "id": "34fe1cb0-c52b-4871-a2b0-e81b68239cca",
+                "questionId": "01874f38-166f-49e8-9095-548abe562895",
+                "content": "止血",
+                "sequence": 2,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            },
+            {
+                "id": "1d695f8e-aaab-460c-af66-300d8025c177",
+                "questionId": "01874f38-166f-49e8-9095-548abe562895",
+                "content": "包扎",
+                "sequence": 3,
+                "selected": 2,
+                "isCorrect": 1,
+                "attachmentList": []
+            }
+        ]
+    },
     "如果购物网站的客服要加你微信沟通退款，你应该？": {
         "optionList": [
             {
